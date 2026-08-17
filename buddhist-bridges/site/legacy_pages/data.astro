@@ -1,0 +1,140 @@
+---
+import Base from '../layouts/Base.astro';
+import core from '../data/core.json';
+import sources from '../data/sources.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const c = core.counts;
+const relCounts = {};
+for (const s of sources.sources) relCounts[s.reliability] = (relCounts[s.reliability] || 0) + 1;
+const typeCounts = {};
+for (const s of sources.sources) typeCounts[s.type] = (typeCounts[s.type] || 0) + 1;
+const jsonld = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Dataset',
+  name: 'Buddhist Bridges: India–Korea Buddhist Mediators Dataset (V3.0)',
+  description: 'Curated, source-graded dataset of documented mediators of India–Korea Buddhist exchange, 300–2026 CE: 76 people (43 carried), 41 travels, 30 texts, 31 institutions, 19 events, 187 graded sources, with per-record confidence, status, and date-precision fields.',
+  creator: { '@type': 'Person', name: 'Mohd Bilal Khan' },
+  license: 'https://creativecommons.org/licenses/by/4.0/',
+  version: '3.0',
+  datePublished: '2026-08-17',
+});
+---
+<Base title="Data & Method" current="data" description="Methodology, source registry, uncertainty conventions, limitations, downloads and citation for the Buddhist Bridges dataset (V3.0, frozen).">
+  <script type="application/ld+json" set:html={jsonld}></script>
+  <style>
+    .dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.8rem; margin: 1.2rem 0; font-family: var(--sans); }
+    .cite {
+      background: var(--codebg); border-radius: 8px; padding: 1rem 1.2rem;
+      font: 0.85rem/1.6 var(--mono); position: relative; overflow-x: auto;
+    }
+    .glossary dt { font-weight: 600; margin-top: 0.9rem; }
+    .glossary dd { margin: 0.1rem 0 0; color: var(--muted); }
+  </style>
+  <div class="wrap" style="padding-top: 3rem;">
+    <p class="eyebrow">Reference</p>
+    <h1>Data &amp; method</h1>
+    <p class="lede">
+      Everything on this site is built from one frozen, checksummed dataset. This page explains
+      how it was made, what it can and cannot support, and how to cite or rebuild it.
+    </p>
+
+    <h2>The dataset</h2>
+    <p>
+      <strong>Buddhist Bridges V3.0</strong> (frozen 2026-08-17) records documented mediators of
+      Buddhist exchange between India and Korea, 4th century CE–2026: {c.people_total} people
+      ({c.people_carried} carried in scope after classification), {c.travels} travels, {c.texts}
+      texts, {c.institutions} institutions, {c.events} events, and {c.sources} sources — every
+      source graded (AUTHORITATIVE / ACADEMIC / INSTITUTIONAL / POPULAR) and dated.
+    </p>
+    <p>
+      The governing rule of collection: <em>no relationship is recorded as influential without
+      documentary evidence — association with both countries is not influence.</em> Candidates
+      that failed the evidence bar are preserved as documented negatives, not deleted.
+    </p>
+
+    <h2>How records are qualified</h2>
+    <dl class="glossary">
+      <dt>Confidence — HIGH / MEDIUM / LOW / SPECULATIVE</dt>
+      <dd>Grades the source basis of a record, per person, travel, relationship, and text.
+      Confidence tracks how close the sources are to the event, not historical importance:
+      the ancient cohort is mostly MEDIUM (hagiographic sources), the modern cohort mostly HIGH
+      (contemporary documentation).</dd>
+      <dt>Status — VERIFIED / PARTIAL / UNRESOLVED / LEGENDARY</dt>
+      <dd>Flags record completeness. Legendary material (Heo Hwang-ok, King Suro) is retained,
+      labelled, and excluded from analysis by default.</dd>
+      <dt>Date precision — YEAR / MONTH / DAY / CENTURY / APPROX / UNKNOWN</dt>
+      <dd>Prevents invented precision. Records with no safe date are listed off-axis on the
+      timeline, never assigned a position.</dd>
+      <dt>Scope — KEEP / ADAPT / CONTEXT / EXCLUDE</dt>
+      <dd>The Buddhist-relevance classification of every V2 record; "carried" = KEEP + ADAPT.
+      The excluded rows remain in the dataset and are inspectable.</dd>
+      <dt>Single-source flag</dt>
+      <dd>Eight carried people and eight events rest on one source each; they are hatched or
+      badged in every visualization on this site.</dd>
+    </dl>
+
+    <h2>Known limitations</h2>
+    <ul>
+      <li><strong>The Joseon void (B3) is a finding under criteria, not a proof of zero contact.</strong>
+      Eleven candidate rows were examined and excluded; the one live lead (Yi Kyu-gyŏng's India
+      entries) is an open research question.</li>
+      <li><strong>Source-density asymmetry.</strong> The modern era is news-documented
+      ({typeCounts['NEWS'] ?? 0} of {c.sources} sources are press); the ancient core rests on a
+      small primary/archival base. Cross-era intensity comparisons are qualified everywhere by
+      the record-density ribbon.</li>
+      <li><strong>Korean-language source dominance.</strong> Korean Buddhist press is
+      over-represented; Indian-side corroboration is a stated priority for the next collection
+      round.</li>
+      <li><strong>No women appear before 1990.</strong> The register documents this absence; it
+      cannot distinguish absence-from-record from absence-in-history.</li>
+      <li><strong>The carried set under-represents the translation layer.</strong> The colonial
+      translators of Tagore are excluded-scope figures (their connection is textual, not
+      Buddhist-India); the textual layer must be read through the texts table.</li>
+      <li><strong>Descriptive analysis only.</strong> With 43 carried people, no inferential
+      statistics or community detection are used anywhere.</li>
+    </ul>
+
+    <h2>Reproducibility</h2>
+    <p>
+      The dataset lives as plain-text Python modules compiled deterministically into CSVs
+      (<code>build_dataset.py</code>, 0 errors / 0 warnings), audited
+      (<code>audit_v3.py</code>), and frozen with SHA-256 checksums. This site consumes only a
+      JSON export tier (<code>analysis/export_web.py</code>) that verifies the frozen manifest
+      before every build — the site cannot silently change the data, and the data cannot
+      silently change the site.
+    </p>
+
+    <h2>Downloads</h2>
+    <div class="dl">
+      <a class="door" href={`${base}/data/people.json`} download><p class="door-title">people.json</p><p>The 43 carried mediators with register fields and resolved sources</p></a>
+      <a class="door" href={`${base}/data/story.json`} download><p class="door-title">story.json</p><p>Cohorts, directions, mechanisms, journeys, events</p></a>
+      <a class="door" href={`${base}/data/timeline.json`} download><p class="door-title">timeline.json</p><p>All 182 dated marks with uncertainty fields</p></a>
+      <a class="door" href={`${base}/data/sources.json`} download><p class="door-title">sources.json</p><p>The complete graded source registry ({c.sources})</p></a>
+    </div>
+    <p class="small">
+      The full frozen CSV release (13 files + SHA-256 manifest) and build scripts will be
+      deposited with a DOI on Zenodo; until the deposit is live, the JSON exports above are the
+      citable web release. Data: CC-BY-4.0 · Code: MIT.
+    </p>
+
+    <h2>Source registry at a glance</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Reliability</th><th class="num">Sources</th></tr></thead>
+      <tbody>
+        {Object.entries(relCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => (
+          <tr><td>{k}</td><td class="num">{v}</td></tr>
+        ))}
+      </tbody>
+    </table></div>
+
+    <h2 id="cite">Cite this project</h2>
+    <div class="cite" id="citation">Khan, Mohd Bilal (2026). <em>Buddhist Bridges: Mapping India–Korea Networks of People, Places,
+Texts, and Ideas</em> (dataset V3.0, frozen 2026-08-17). Digital humanities project.
+https://[site-url] — data CC-BY-4.0, code MIT. DOI: pending Zenodo deposit.</div>
+    <p class="small" style="margin-top: 0.6rem;">
+      A machine-readable <code>CITATION.cff</code> ships with the repository; the DOI line will
+      be updated at deposit time.
+    </p>
+  </div>
+</Base>

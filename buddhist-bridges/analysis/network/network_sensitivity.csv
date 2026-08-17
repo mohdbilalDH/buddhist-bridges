@@ -1,0 +1,1303 @@
+network,metric,node_id,node_label,node_type,historical_band,value,note
+A_FULL_DOCUMENTED,node_count,,,,,104,active non-legendary node universe
+A_FULL_DOCUMENTED,incident_node_count,,,,,85,nodes touched by at least one edge
+A_FULL_DOCUMENTED,edge_count,,,,,70,unweighted diagnostic edge count
+A_FULL_DOCUMENTED,connected_component_count,,,,,38,undirected projection
+A_FULL_DOCUMENTED,isolated_node_count,,,,,19,undirected projection
+A_FULL_DOCUMENTED,node_type_count,,,EVENTS,,19,
+A_FULL_DOCUMENTED,node_type_count,,,INSTITUTIONS,,19,
+A_FULL_DOCUMENTED,node_type_count,,,PEOPLE,,53,
+A_FULL_DOCUMENTED,node_type_count,,,TEXTS,,13,
+A_FULL_DOCUMENTED,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0006,Abhijit Halder,PEOPLE,,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0006,Abhijit Halder,PEOPLE,,1.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,14.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,11.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,15.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,1.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,14.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,62.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,8.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,3.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,27.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,1.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,6.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,1.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,17.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,4,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,13.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0010,Dongguk University,INSTITUTIONS,B6,5,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,19.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0012,University of Delhi,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,54.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,5,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,73.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0024,Jungto Society,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,4,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,27.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,I-0031,Nalanda University,INSTITUTIONS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0001,Hyecho,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0003,Wŏnhyo,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0005,T'aehyŏn,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0009,Iryŏn,PEOPLE,B2,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0011,Gyeomik,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0012,Baedalta,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0013,Ariyabalma,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0014,Hyeeop,PEOPLE,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0023,Dhyānabhadra,PEOPLE,B2,6,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,34.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0024,Naong Hyegeun,PEOPLE,B2,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,3.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,4.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,8.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0034,Han Yong-un,PEOPLE,B4,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0034,Han Yong-un,PEOPLE,B4,4.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0052,Pŏpchŏng,PEOPLE,B5,4,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,6.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0053,Lokesh Chandra,PEOPLE,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0054,Jung Seung-suk,PEOPLE,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0055,U Myeong-ju,PEOPLE,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,3,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,36.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,1.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,6.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0071,Vinoba Bhave,PEOPLE,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0074,Muhak Chach'o,PEOPLE,B2,2,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0003,Samguk Yusa,TEXTS,B2,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0018,Muso-yu,TEXTS,B5,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+A_FULL_DOCUMENTED,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,1,undirected projection
+A_FULL_DOCUMENTED,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,node_count,,,,,104,active non-legendary node universe
+B_NON_INSTITUTIONAL,incident_node_count,,,,,33,nodes touched by at least one edge
+B_NON_INSTITUTIONAL,edge_count,,,,,21,unweighted diagnostic edge count
+B_NON_INSTITUTIONAL,connected_component_count,,,,,83,undirected projection
+B_NON_INSTITUTIONAL,isolated_node_count,,,,,71,undirected projection
+B_NON_INSTITUTIONAL,node_type_count,,,EVENTS,,19,
+B_NON_INSTITUTIONAL,node_type_count,,,INSTITUTIONS,,19,
+B_NON_INSTITUTIONAL,node_type_count,,,PEOPLE,,53,
+B_NON_INSTITUTIONAL,node_type_count,,,TEXTS,,13,
+B_NON_INSTITUTIONAL,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0006,Abhijit Halder,PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0006,Abhijit Halder,PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0010,Dongguk University,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0012,University of Delhi,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0024,Jungto Society,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,I-0031,Nalanda University,INSTITUTIONS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0001,Hyecho,PEOPLE,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0003,Wŏnhyo,PEOPLE,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0005,T'aehyŏn,PEOPLE,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0009,Iryŏn,PEOPLE,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0011,Gyeomik,PEOPLE,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0012,Baedalta,PEOPLE,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0013,Ariyabalma,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0014,Hyeeop,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0023,Dhyānabhadra,PEOPLE,B2,4,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,6.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0024,Naong Hyegeun,PEOPLE,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,2,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,4.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,3,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,8.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0034,Han Yong-un,PEOPLE,B4,2,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0034,Han Yong-un,PEOPLE,B4,4.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0052,Pŏpchŏng,PEOPLE,B5,3,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,3.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0053,Lokesh Chandra,PEOPLE,B6,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0054,Jung Seung-suk,PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0055,U Myeong-ju,PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0071,Vinoba Bhave,PEOPLE,B5,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0074,Muhak Chach'o,PEOPLE,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0003,Samguk Yusa,TEXTS,B2,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0018,Muso-yu,TEXTS,B5,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+B_NON_INSTITUTIONAL,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,1,undirected projection
+B_NON_INSTITUTIONAL,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,node_count,,,,,104,active non-legendary node universe
+C_PERSON_PERSON,incident_node_count,,,,,13,nodes touched by at least one edge
+C_PERSON_PERSON,edge_count,,,,,8,unweighted diagnostic edge count
+C_PERSON_PERSON,connected_component_count,,,,,96,undirected projection
+C_PERSON_PERSON,isolated_node_count,,,,,91,undirected projection
+C_PERSON_PERSON,node_type_count,,,EVENTS,,19,
+C_PERSON_PERSON,node_type_count,,,INSTITUTIONS,,19,
+C_PERSON_PERSON,node_type_count,,,PEOPLE,,53,
+C_PERSON_PERSON,node_type_count,,,TEXTS,,13,
+C_PERSON_PERSON,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0006,Abhijit Halder,PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0006,Abhijit Halder,PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0,undirected projection
+C_PERSON_PERSON,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0010,Dongguk University,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0012,University of Delhi,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0024,Jungto Society,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,I-0031,Nalanda University,INSTITUTIONS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0001,Hyecho,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0003,Wŏnhyo,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0005,T'aehyŏn,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0009,Iryŏn,PEOPLE,B2,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0011,Gyeomik,PEOPLE,B1,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0012,Baedalta,PEOPLE,B1,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0013,Ariyabalma,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0014,Hyeeop,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0023,Dhyānabhadra,PEOPLE,B2,4,undirected projection
+C_PERSON_PERSON,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,6.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0024,Naong Hyegeun,PEOPLE,B2,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0034,Han Yong-un,PEOPLE,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0034,Han Yong-un,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0052,Pŏpchŏng,PEOPLE,B5,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0053,Lokesh Chandra,PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0054,Jung Seung-suk,PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0055,U Myeong-ju,PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0071,Vinoba Bhave,PEOPLE,B5,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,0,undirected projection
+C_PERSON_PERSON,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0074,Muhak Chach'o,PEOPLE,B2,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,1,undirected projection
+C_PERSON_PERSON,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0003,Samguk Yusa,TEXTS,B2,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0018,Muso-yu,TEXTS,B5,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+C_PERSON_PERSON,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,0,undirected projection
+C_PERSON_PERSON,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,node_count,,,,,104,active non-legendary node universe
+D_PERSON_INSTITUTION,incident_node_count,,,,,20,nodes touched by at least one edge
+D_PERSON_INSTITUTION,edge_count,,,,,14,unweighted diagnostic edge count
+D_PERSON_INSTITUTION,connected_component_count,,,,,90,undirected projection
+D_PERSON_INSTITUTION,isolated_node_count,,,,,84,undirected projection
+D_PERSON_INSTITUTION,node_type_count,,,EVENTS,,19,
+D_PERSON_INSTITUTION,node_type_count,,,INSTITUTIONS,,19,
+D_PERSON_INSTITUTION,node_type_count,,,PEOPLE,,53,
+D_PERSON_INSTITUTION,node_type_count,,,TEXTS,,13,
+D_PERSON_INSTITUTION,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0006,Abhijit Halder,PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0006,Abhijit Halder,PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,3,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,7.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,2,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,4.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0010,Dongguk University,INSTITUTIONS,B6,4,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,6.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0012,University of Delhi,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0024,Jungto Society,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,I-0031,Nalanda University,INSTITUTIONS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0001,Hyecho,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0003,Wŏnhyo,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0005,T'aehyŏn,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0009,Iryŏn,PEOPLE,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0011,Gyeomik,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0012,Baedalta,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0013,Ariyabalma,PEOPLE,B1,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0014,Hyeeop,PEOPLE,B1,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0023,Dhyānabhadra,PEOPLE,B2,2,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,6.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0024,Naong Hyegeun,PEOPLE,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0034,Han Yong-un,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0034,Han Yong-un,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0052,Pŏpchŏng,PEOPLE,B5,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0053,Lokesh Chandra,PEOPLE,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0054,Jung Seung-suk,PEOPLE,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0055,U Myeong-ju,PEOPLE,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,2,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,1.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0071,Vinoba Bhave,PEOPLE,B5,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0074,Muhak Chach'o,PEOPLE,B2,1,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0003,Samguk Yusa,TEXTS,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0018,Muso-yu,TEXTS,B5,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+D_PERSON_INSTITUTION,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,0,undirected projection
+D_PERSON_INSTITUTION,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,node_count,,,,,104,active non-legendary node universe
+E_PERSON_TEXT,incident_node_count,,,,,22,nodes touched by at least one edge
+E_PERSON_TEXT,edge_count,,,,,11,unweighted diagnostic edge count
+E_PERSON_TEXT,connected_component_count,,,,,93,undirected projection
+E_PERSON_TEXT,isolated_node_count,,,,,82,undirected projection
+E_PERSON_TEXT,node_type_count,,,EVENTS,,19,
+E_PERSON_TEXT,node_type_count,,,INSTITUTIONS,,19,
+E_PERSON_TEXT,node_type_count,,,PEOPLE,,53,
+E_PERSON_TEXT,node_type_count,,,TEXTS,,13,
+E_PERSON_TEXT,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0006,Abhijit Halder,PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0006,Abhijit Halder,PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0,undirected projection
+E_PERSON_TEXT,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0010,Dongguk University,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0012,University of Delhi,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0024,Jungto Society,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,I-0031,Nalanda University,INSTITUTIONS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0001,Hyecho,PEOPLE,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0003,Wŏnhyo,PEOPLE,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0005,T'aehyŏn,PEOPLE,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0009,Iryŏn,PEOPLE,B2,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0011,Gyeomik,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0012,Baedalta,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0013,Ariyabalma,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0014,Hyeeop,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0023,Dhyānabhadra,PEOPLE,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0024,Naong Hyegeun,PEOPLE,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0034,Han Yong-un,PEOPLE,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0034,Han Yong-un,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0052,Pŏpchŏng,PEOPLE,B5,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0053,Lokesh Chandra,PEOPLE,B6,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0054,Jung Seung-suk,PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0055,U Myeong-ju,PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,1,undirected projection
+E_PERSON_TEXT,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0071,Vinoba Bhave,PEOPLE,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0074,Muhak Chach'o,PEOPLE,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0003,Samguk Yusa,TEXTS,B2,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0018,Muso-yu,TEXTS,B5,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+E_PERSON_TEXT,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+E_PERSON_TEXT,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+E_PERSON_TEXT,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,1,undirected projection
+E_PERSON_TEXT,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,node_count,,,,,104,active non-legendary node universe
+F_PERSON_EVENT,incident_node_count,,,,,22,nodes touched by at least one edge
+F_PERSON_EVENT,edge_count,,,,,13,unweighted diagnostic edge count
+F_PERSON_EVENT,connected_component_count,,,,,91,undirected projection
+F_PERSON_EVENT,isolated_node_count,,,,,82,undirected projection
+F_PERSON_EVENT,node_type_count,,,EVENTS,,19,
+F_PERSON_EVENT,node_type_count,,,INSTITUTIONS,,19,
+F_PERSON_EVENT,node_type_count,,,PEOPLE,,53,
+F_PERSON_EVENT,node_type_count,,,TEXTS,,13,
+F_PERSON_EVENT,degree,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0001,Jeongbeom sunim (정범 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0002,Munjong sunim (문종 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0002,Munjong sunim (문종 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0003,Jinwoo sunim (진우 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0004,Wonhaeng sunim (원행 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0005,Jung Won-ju (정원주),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0005,Jung Won-ju (정원주),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0006,Abhijit Halder,PEOPLE,,2,undirected projection
+F_PERSON_EVENT,betweenness,EP-0006,Abhijit Halder,PEOPLE,,2.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0007,Pomnyun sunim (법륜 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0008,Jugyeong sunim (주경 스님),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0009,Jang Jae-bok (장재복),PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0009,Jang Jae-bok (장재복),PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,1,undirected projection
+F_PERSON_EVENT,betweenness,EP-0010,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견)",PEOPLE,,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,2,undirected projection
+F_PERSON_EVENT,betweenness,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay),EVENTS,B6,2.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,2,undirected projection
+F_PERSON_EVENT,betweenness,EV-0003,2nd Global Buddhist Summit,EVENTS,B6,1.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0004,Jungto Society annual India pilgrimage program,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0005,Delhi University - BGICBS academic MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0008,Bunhwangsa India groundbreaking,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0009,Bunhwangsa India dedication (대웅보전 준공식),EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0010,Global Buddhist Summit 2023,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars),EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi),EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0013,BBS Seon Meditation Tour 4 India-Nepal,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,2,undirected projection
+F_PERSON_EVENT,betweenness,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy),EVENTS,B6,1.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소),EVENTS,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0016,Dongguk University - Nalanda University MOU,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,1,undirected projection
+F_PERSON_EVENT,betweenness,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa,EVENTS,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea,EVENTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0002,Nalanda Mahavihara,INSTITUTIONS,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0003,Hoeamsa,INSTITUTIONS,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0003,Hoeamsa,INSTITUTIONS,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0010,Dongguk University,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0010,Dongguk University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0012,University of Delhi,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0012,University of Delhi,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0013,Pune University (SPPU),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0014,Bodh Gaya International College of Buddhist Studies,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0015,Bunhwangsa India,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0016,Mahayeon Temple Food Culture Center,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0020,Songgwangsa lineage,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0021,Bongnyeongsa,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0022,Jogye Order of Korean Buddhism,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0023,Sangwol Society,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0023,Sangwol Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0024,Jungto Society,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0024,Jungto Society,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0025,Yeoraesunwon,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0026,International Buddhist Confederation (IBC),INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0027,Korea Buddhism Promotion Foundation,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0028,Buddhist Broadcasting System,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0030,International Buddhist Problems Research Institute,INSTITUTIONS,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,I-0031,Nalanda University,INSTITUTIONS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,I-0031,Nalanda University,INSTITUTIONS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0001,Hyecho,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0001,Hyecho,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0002,Woncheuk,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0002,Woncheuk,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0003,Wŏnhyo,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0003,Wŏnhyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0004,Kyŏnghŭng,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0004,Kyŏnghŭng,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0005,T'aehyŏn,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0005,T'aehyŏn,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0006,Marananta,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0006,Marananta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0009,Iryŏn,PEOPLE,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0009,Iryŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0010,Hyeil (Silla esoteric monk),PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0011,Gyeomik,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0011,Gyeomik,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0012,Baedalta,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0012,Baedalta,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0013,Ariyabalma,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0013,Ariyabalma,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0014,Hyeeop,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0014,Hyeeop,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0015,Hyŏnt'ae,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0015,Hyŏnt'ae,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0016,Hyŏngak,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0016,Hyŏngak,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0017,Gubon,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0017,Gubon,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0018,Hyeryun,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0018,Hyeryun,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0020,Ojin,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0020,Ojin,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0021,Wonpyo,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0021,Wonpyo,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0022,Hyŏnyu,PEOPLE,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0022,Hyŏnyu,PEOPLE,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0023,Dhyānabhadra,PEOPLE,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0023,Dhyānabhadra,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0024,Naong Hyegeun,PEOPLE,B2,1,undirected projection
+F_PERSON_EVENT,betweenness,P-0024,Naong Hyegeun,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0028,Yi Nŭng-hwa,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0029,Ch'oe Nam-sŏn,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0030,Rabindranath Tagore,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0030,Rabindranath Tagore,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0034,Han Yong-un,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0034,Han Yong-un,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0038,Mohandas Karamchand Gandhi,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0051,Ko Un,PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0051,Ko Un,PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0052,Pŏpchŏng,PEOPLE,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0052,Pŏpchŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0053,Lokesh Chandra,PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0053,Lokesh Chandra,PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0054,Jung Seung-suk,PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0054,Jung Seung-suk,PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0055,U Myeong-ju,PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0055,U Myeong-ju,PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0062,Buddhavara (Ven.),PEOPLE,B6,1,undirected projection
+F_PERSON_EVENT,betweenness,P-0062,Buddhavara (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0063,Hyoseok (Ven.),PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0063,Hyoseok (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0064,Wookwan (Ven.),PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0064,Wookwan (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0065,Gakseong (Ven.),PEOPLE,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0065,Gakseong (Ven.),PEOPLE,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0068,Sŏ Chŏng-ju,PEOPLE,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0071,Vinoba Bhave,PEOPLE,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0071,Vinoba Bhave,PEOPLE,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0072,Yi Yŏng-jae,PEOPLE,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0072,Yi Yŏng-jae,PEOPLE,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0073,Hwang Su-yŏng,PEOPLE,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0073,Hwang Su-yŏng,PEOPLE,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0074,Muhak Chach'o,PEOPLE,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0074,Muhak Chach'o,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0075,Baegun Gyeonghan,PEOPLE,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0075,Baegun Gyeonghan,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0076,Sitanshu Yashaschandra,PEOPLE,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,P-0077,Ch'ukwŏn Chijŏn,PEOPLE,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0001,Wang ocheonchukguk jeon,TEXTS,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0002,Haedong-so commentaries,TEXTS,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0002,Haedong-so commentaries,TEXTS,B1,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0003,Samguk Yusa,TEXTS,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0003,Samguk Yusa,TEXTS,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0007,Chosŏn Pulgyo T'ongsa,TEXTS,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0010,The Lamp of the East (1929 message),TEXTS,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0012,Nim-ŭi Ch'immuk,TEXTS,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0016,Chosŏn Pulgyo,TEXTS,B4,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0018,Muso-yu,TEXTS,B5,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0018,Muso-yu,TEXTS,B5,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0019,Wookwan's Korean Temple Food,TEXTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0020,Morning Calm and The Pensive Beyond,TEXTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0021,India and Korea Through the Ages,TEXTS,B6,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0021,India and Korea Through the Ages,TEXTS,B6,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0028,Samguk Sagi,TEXTS,B2,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0028,Samguk Sagi,TEXTS,B2,0.000000,undirected projection; descriptive only
+F_PERSON_EVENT,degree,TX-0029,Seong yusik non hakki,TEXTS,B1,0,undirected projection
+F_PERSON_EVENT,betweenness,TX-0029,Seong yusik non hakki,TEXTS,B1,0.000000,undirected projection; descriptive only

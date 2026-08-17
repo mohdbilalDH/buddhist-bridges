@@ -1,0 +1,224 @@
+---
+import Base from '../layouts/Base.astro';
+import DirectionChart from '../components/DirectionChart.astro';
+import MechanismChart from '../components/MechanismChart.astro';
+import Corridor from '../components/Corridor.astro';
+import JikongCircle from '../components/JikongCircle.astro';
+import Residents from '../components/Residents.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="The Argument" current="argument" description="Five bridges in five chapters: the documented history of India–Korea Buddhist exchange, 300–2026.">
+  <style>
+    .chapter { margin-top: 4rem; }
+    .chip {
+      display: inline-block; font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.08em;
+      text-transform: uppercase; color: var(--paper); padding: 0.15rem 0.55rem; border-radius: 4px;
+      margin-right: 0.5rem;
+    }
+    .refs { font: 0.72rem/1.5 var(--sans); color: var(--faint); }
+    .toc { font-family: var(--sans); font-size: 0.88rem; margin: 1.4rem 0 0; padding-left: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; }
+    .toc a { text-decoration: none; }
+  </style>
+
+  <div class="wrap" style="padding-top: 3rem;">
+    <p class="eyebrow">The argument in five chapters</p>
+    <h1>Five bridges, one silence</h1>
+    <p class="lede">
+      Follow the documented record from the Silla monks who walked to India to the
+      institutions that rebuilt the connection in our own time. Every claim below cites the
+      record IDs and sources behind it; every figure has its data table attached.
+    </p>
+    <ol class="toc">
+      <li><a href="#ch1">1 · Pilgrims</a></li>
+      <li><a href="#ch2">2 · The master from Magadha</a></li>
+      <li><a href="#ch3">3 · The long silence</a></li>
+      <li><a href="#ch4">4 · Paper bridges</a></li>
+      <li><a href="#ch5">5 · The institutional turn</a></li>
+      <li><a href="#residents">Coda · Four residents</a></li>
+    </ol>
+
+    <!-- ································ chapter 1 ·· -->
+    <section class="chapter" id="ch1">
+      <p><span class="chip" style="background: var(--b1); color: #2e2503;">B1 · 300–900</span></p>
+      <h2>Pilgrims: when Korea went to India</h2>
+      <p>
+        The first bridge was made of journeys. Eighteen carried mediators belong to the era
+        before 900 — all of them monastics: eleven pilgrims, six scholars, a translator. This is
+        the only period in sixteen centuries when movement between the two ends of Asia was
+        <strong>balanced</strong>: eight travelled toward India, eight carried Buddhism toward
+        Korea, and Hyecho did both.
+      </p>
+      <p>
+        Its best-documented life is Hyecho (혜초, 704–787), who sailed from China to India around
+        719 and returned overland through Kashmir, Persia and Central Asia — leaving the
+        <em>Wang ocheonchukguk jeon</em>, the only surviving eighth-century East Asian record of
+        India and Central Asia. The manuscript spent a millennium in the Dunhuang cave library,
+        was identified by Paul Pelliot in 1908, and was first shown in Korea only in December
+        2010 <span class="refs">(P-0001 · T-0001 · TX-0001 · EV-0019 · S-0048, S-0039)</span>.
+      </p>
+      <Corridor />
+      <div class="note">
+        <strong>Reading the evidence.</strong> Most B1 lives survive only through Yijing's
+        seventh-century memoir of monks who went west and through hagiographies compiled
+        centuries later. Nine of the eighteen have no dated activity at all — they are drawn from
+        floruits, and the timeline renders them as fuzzy spans, never as points. Several never
+        returned: the record of this bridge is in large part a record of monks who died on it.
+      </div>
+    </section>
+
+    <!-- ································ chapter 2 ·· -->
+    <section class="chapter" id="ch2">
+      <p><span class="chip" style="background: var(--b2);">B2 · 900–1392</span></p>
+      <h2>The master from Magadha</h2>
+      <p>
+        The second bridge is a single circle of people. Every carried B2 mediator is a Seon
+        figure, and the era's connective center is <strong>Dhyānabhadra</strong> (지공, d. 1363), a
+        monk from Magadha who reached Goryeo via Yuan China in 1326 — the era's only documented
+        India-born arrival, and its only physical journey. Around him the data records exactly
+        four teacher–disciple ties: Naong Hyegeun, Muhak Chach'o, Baegun Gyeonghan, and Ch'ukwŏn
+        Chijŏn — men who would go on to shape late-Goryeo Seon and advise the first Joseon king
+        <span class="refs">(P-0023 · R-0003, R-0019, R-0020, R-0022 · T-0013)</span>.
+      </p>
+      <JikongCircle />
+      <p>
+        The direction has already reversed. No Korean monk of this era is documented travelling
+        to India; India, in one person, came to Korea — and his influence then travelled through
+        lineage, not movement. When the dynasty fell in 1392, this circle was the whole living
+        bridge; it did not survive the century.
+      </p>
+    </section>
+
+    <!-- ································ chapter 3 ·· -->
+    <section class="chapter" id="ch3">
+      <p><span class="chip" style="background: var(--void); color: var(--ink);">B3 · 1392–1900</span></p>
+      <h2>The long silence</h2>
+      <p>
+        For the five hundred years of Joseon, the dataset carries <strong>zero records</strong> —
+        and that number is the most carefully established fact in it. Eleven candidate rows were
+        classified for this period and all eleven were excluded on evidence: the Buddhist state
+        gave way to a Neo-Confucian one, monastics lost access to the capital, and no documented
+        person, journey, text, or institution connects Korean Buddhism to India across the entire
+        era under this project's inclusion criteria.
+      </p>
+      <p>
+        The silence must be read precisely. It is a documented absence under stated criteria —
+        not proof that no contact occurred, and not missing data. The one genuine research lead,
+        Yi Kyu-gyŏng's nineteenth-century encyclopedia entries on India, remains an open question
+        for a future collection round, and is recorded as such rather than promoted into a
+        record. Between the enshrinement of Dhyānabhadra's relics in 1370 and the next documented
+        event in 1981 lie <strong>611 years</strong> <span class="refs">(EV-0017 · EV-0015 ·
+        coverage analysis §6)</span>.
+      </p>
+      <div class="note">
+        <strong>Why show an empty chapter?</strong> Because the interruption is the argument.
+        A continuous "Buddhist bridge" narrative has to skate over these five centuries; the
+        documented record does not permit it. Transmission survived — but in the next chapter it
+        travels by print and lineage, not by anyone's feet.
+      </div>
+    </section>
+
+    <!-- ································ chapter 4 ·· -->
+    <section class="chapter" id="ch4">
+      <p><span class="chip" style="background: var(--b4);">B4 · 1900–1945</span></p>
+      <h2>Paper bridges</h2>
+      <p>
+        When the connection re-emerges under colonial rule, it has changed material. Of the six
+        carried mediators of 1900–1945, four are not Buddhists at all, and almost nobody
+        travels: the era's two attempted pilgrimages both end unrealized. The young monk
+        Yi Yŏng-jae vowed the journey to India and died in 1927, at twenty-seven, without
+        completing it; Rabindranath Tagore's planned 1937 visit to Korea never took place
+        <span class="refs">(P-0072 · P-0030 · S-0075, S-0013)</span>.
+      </p>
+      <DirectionChart />
+      <p>
+        What crossed instead was text. Tagore is the era's hub: translated into Korean by Kim Ŏk,
+        Chu Yo-han, Jeong Ji-yong and others, met in Tokyo by Ch'oe Nam-sŏn's circle, and author
+        of the six-line 1929 message to the <em>Dong-a Ilbo</em> that became famous as "The Lamp
+        of the East." The record here is exact: the six-line message is authentic; the fifteen-line
+        poem widely reproduced under that title is a later composite, and the dataset documents
+        the fabrication rather than repeating it <span class="refs">(P-0030 · R-0006–R-0010 ·
+        TX-0007)</span>. Buddhism, when it appears, appears the same way — Han Yong-un reading
+        Indian thought into <em>Buddhist reform</em>, not sailing for Bodh Gaya.
+      </p>
+      <div class="note">
+        <strong>Who is missing.</strong> The translators who actually carried Tagore into Korean
+        are outside the carried set — their connection is to a text, not to Buddhist India — and
+        no woman appears anywhere in the carried record before 1990. Both absences are documented
+        properties of the dataset, discussed in <a href={`${base}/data/`}>Data &amp; Method</a>.
+      </div>
+    </section>
+
+    <!-- ································ chapter 5 ·· -->
+    <section class="chapter" id="ch5">
+      <p>
+        <span class="chip" style="background: var(--b5);">B5 · 1945–1990</span>
+        <span class="chip" style="background: var(--b6);">B6 · 1990–2026</span>
+      </p>
+      <h2>The institutional turn</h2>
+      <p>
+        The postwar thread is thin — five mediators in forty-five years, led by the monk-poet
+        Pŏpchŏng's engagement with Gandhi's thought and the archaeologist Hwang Su-yŏng's 1962
+        journey to Nalanda <span class="refs">(P-0052 · T-0042)</span>. Then, from the 1990s, the
+        bridge is rebuilt a fifth time — and for the first time its builders are
+        <strong>institutions</strong>: the Jogye Order, Dongguk and Delhi universities, the
+        International Buddhist Confederation, temple foundations at Bodh Gaya, MOUs, summits,
+        relic returns, and organized mass pilgrimage.
+      </p>
+      <MechanismChart />
+      <p>
+        The record's nineteen events all fall after 1981, and they cluster hard in the last
+        decade: the 2023 Sangwol walking pilgrimage — 108 Korean Buddhists, 1,167 km on foot
+        from Sarnath toward Lumbini — the 2024 return of Hoeamsa relics from Boston, closing a
+        circle opened in 1370, and a calendar of summits and pilgrimages running into 2027
+        <span class="refs">(EV-0001 · EV-0018 · EV-0003, EV-0004, EV-0012)</span>. Movement is
+        back — seven of the eight B6 mediators travelled — and so, for the first time since
+        Hyecho, is bidirectionality. The era also admits the record's first women: the
+        bhikkhunis Hyoseok and Wookwan, both trained in Indian universities
+        <span class="refs">(P-0063 · P-0064)</span>.
+      </p>
+      <div class="note">
+        <strong>An honesty check before the conclusion.</strong> B6 is the record's
+        best-documented era because it is the news era: 51 of 187 sources are press reports,
+        and they concentrate here, while the whole ancient layer rests on a small core of
+        primary and archival texts. The dataset therefore treats modern density as a property
+        of documentation, not proof of greater historical weight — the
+        <a href={`${base}/timeline/`}>timeline</a> keeps a source-density ribbon in view for
+        exactly this reason.
+      </div>
+    </section>
+
+    <!-- ································ coda ·· -->
+    <section class="chapter" id="residents">
+      <p class="eyebrow">Coda</p>
+      <h2>Sixteen centuries, four residents</h2>
+      <p>
+        One human role recurs in every era of contact and exists in no other: the mediator who
+        stays. Marananta, who brought Buddhism to Baekje in 384; Baedalta, with whom Gyeomik
+        translated the Vinaya; Dhyānabhadra, who died at Hoeamsa in 1363; and Ven. Buddhavara,
+        resident at Bodh Gaya today. Four people in sixteen hundred years — and none at all in
+        the five centuries of silence. If the five bridges have a single continuous thread,
+        it is this one, and it is made of residence, not passage.
+      </p>
+      <Residents />
+      <p style="margin-top: 2rem;">
+        <strong>The argument, restated.</strong> There was never one bridge. Each era built its
+        own — from bodies, from lineage, from paper, from institutions — in its own direction,
+        and each ended. What the documented record shows is not continuity but
+        <em>reconstruction</em>: five generations that, mostly unaware of each other, kept
+        deciding the crossing was worth building again.
+      </p>
+      <div class="doors">
+        <a class="door" href={`${base}/timeline/`}>
+          <p class="door-title">Explore the timeline</p>
+          <p>All 182 dated marks, with uncertainty rendered honestly and the presets that answer
+          this chapter's questions.</p>
+        </a>
+        <a class="door" href={`${base}/people/`}>
+          <p class="door-title">Meet the 43 mediators</p>
+          <p>The full prosopographical register — every person, every source.</p>
+        </a>
+      </div>
+    </section>
+  </div>
+</Base>

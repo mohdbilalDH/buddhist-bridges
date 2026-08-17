@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+import CohortStrip from '../components/CohortStrip.astro';
+import core from '../data/core.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const c = core.counts;
+---
+<Base current="home">
+  <div class="wrap-wide" style="padding-top: 3rem;">
+    <div class="wrap" style="padding-left: 0; margin-left: 0;">
+      <p class="eyebrow">A digital history of India–Korea Buddhist exchange</p>
+      <h1>Buddhist Bridges</h1>
+      <p class="lede">
+        Sixteen centuries of Buddhist exchange between India and Korea —
+        {c.people_carried} documented mediators, five generations, one five-hundred-year silence.
+      </p>
+    </div>
+
+    <CohortStrip />
+
+    <div class="wrap" style="padding-left: 0; margin-left: 0;">
+      <h2 style="margin-top: 2rem;">There was never one bridge</h2>
+      <p>
+        The Buddhist connection between India and Korea is usually told as a single continuous
+        stream — an unbroken transmission from the land of the Buddha to the peninsula. The
+        documented record says otherwise. It was built <strong>five times, by five different kinds
+        of mediator, in alternating directions</strong>: Silla monks walking west to India before
+        900; an Indian master and his Korean disciples in Goryeo; colonial intellectuals whose
+        bridges were made of paper, not journeys; a thin postwar thread; and, since the 1990s,
+        an institutional web of orders, universities, relic returns, and pilgrimages in both
+        directions. Between the second bridge and the third lies Joseon&rsquo;s five-hundred-year
+        documented silence — not missing data, but a finding.
+      </p>
+      <p>
+        <strong>Why it matters:</strong> the record periodizes a relationship usually told as myth
+        or modern diplomacy, and shows a religious connection surviving five centuries of closed
+        borders through texts and lineage rather than travel — until institutions, in our own
+        era, rebuilt the bridge of bodies.
+      </p>
+
+      <div class="doors">
+        <a class="door" href={`${base}/argument/`}>
+          <p class="door-title">Follow the argument</p>
+          <p>The five bridges in five chapters — with the people, journeys, texts, and
+          institutions that carried each one, and the evidence behind every claim.</p>
+        </a>
+        <a class="door" href={`${base}/timeline/`}>
+          <p class="door-title">Explore the evidence</p>
+          <p>The full interactive timeline, the prosopographical register of all
+          {c.people_carried} mediators, period network views, and the complete source registry.</p>
+        </a>
+      </div>
+
+      <p class="provenance">
+        {c.people_carried} mediators · {c.events} events · {c.institutions} institutions ·
+        {c.texts} texts · {c.sources} graded sources · every claim cited to a record ID and a
+        resolvable source · dataset frozen and checksummed (V3.0, 2026-08-17) ·
+        <a href={`${base}/data/`}>data &amp; method</a>
+      </p>
+    </div>
+  </div>
+</Base>

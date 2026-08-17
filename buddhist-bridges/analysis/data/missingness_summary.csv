@@ -1,0 +1,12 @@
+field,label,missing_or_unknown,of_43,basis,provenance,notes
+birth_year,No birth year,20,20/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+death_year,No death year,24,24/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+floruit,No floruit (no birth year and no derived floruit),0,0/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+movement,"Movement ""-"" (no physical movement)",18,18/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+direction,Direction UNCERTAIN,1,1/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+tradition,Tradition UNKNOWN,1,1/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+institution,Institution UNMAPPED or NO_INSTITUTION,30,30/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+rels,No person-person relationships,26,26/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+ptx,No person-text links,31,31/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+events,No person-event links,41,41/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,
+dated_activity,No dated activity (empty life-course sequence),10,10/43,register.csv,Derived 2026-08-17 from frozen V3.0 + analysis/data derived tables by build_prosopography.py; descriptive only.,

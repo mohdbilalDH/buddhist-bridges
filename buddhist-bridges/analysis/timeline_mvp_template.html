@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Buddhist Bridges — Timeline MVP</title>
+<style>
+  :root {
+    --ink:#1c1c1c; --mut:#666; --line:#ddd;
+    --b1:#f6e7cf; --b2:#efe2c8; --b3:#e3e3e3; --b4:#dce8f2; --b5:#ddf0e0; --b6:#f2e2ee;
+    --people:#1f6fb2; --travels:#c07a1f; --texts:#7a5c1f; --institutions:#2f8f5f;
+    --events:#8f2f5f; --encounters:#5f5fbf; --negatives:#c22; --context:#999;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:13px/1.45 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:#fafaf7; }
+  header { padding:10px 14px 8px; background:#fff; border-bottom:1px solid var(--line); }
+  header h1 { margin:0; font-size:17px; }
+  header .meta { color:var(--mut); font-size:11.5px; margin-top:2px; }
+  #controls { padding:8px 14px; background:#fff; border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:4px 14px; align-items:flex-start; }
+  .cg { display:flex; flex-direction:column; gap:3px; }
+  .cg .ct { font-size:10px; text-transform:uppercase; letter-spacing:.5px; color:var(--mut); }
+  .chips { display:flex; flex-wrap:wrap; gap:3px; max-width:560px; }
+  .chip { font-size:11px; padding:1.5px 7px; border:1px solid #bbb; border-radius:10px; cursor:pointer; background:#fff; user-select:none; }
+  .chip.on { background:#2c5f8a; border-color:#2c5f8a; color:#fff; }
+  .chip.off { opacity:.45; }
+  .chip .n { opacity:.7; font-size:10px; margin-left:3px; }
+  #tools { padding:6px 14px; background:#f4f4ef; border-bottom:1px solid var(--line); display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  #tools button { font-size:11.5px; padding:2px 9px; border:1px solid #aaa; border-radius:4px; background:#fff; cursor:pointer; }
+  #tools button:hover { background:#eee; }
+  #search { font-size:12px; padding:2px 8px; width:200px; border:1px solid #aaa; border-radius:4px; }
+  .tog { font-size:11.5px; display:flex; align-items:center; gap:4px; cursor:pointer; user-select:none; }
+  #chartwrap { position:relative; padding:10px 6px 0; }
+  svg { display:block; margin:0 auto; background:#fff; border:1px solid var(--line); }
+  #tooltip { position:absolute; pointer-events:none; background:#fff; border:1px solid #999; border-radius:6px;
+             box-shadow:0 2px 10px rgba(0,0,0,.18); padding:7px 9px; max-width:430px; font-size:12px; z-index:20; display:none; }
+  #tooltip h4 { margin:0 0 3px; font-size:12.5px; }
+  #tooltip .kv { color:#333; }
+  .badge { display:inline-block; font-size:10px; padding:0 5px; border-radius:8px; margin-right:4px; }
+  .b-HIGH { background:#1e7d32; color:#fff; } .b-MEDIUM { background:#b26a00; color:#fff; }
+  .b-LOW { background:#b02a2a; color:#fff; } .b-SPECULATIVE { background:#555; color:#fff; }
+  .b-EXPLICIT { background:#eee; } .b-APPROX { background:#f6e2b0; } .b-FLORUIT { background:#e6d9f0; }
+  .b-ss { background:#000; color:#fff; } .b-leg { background:#7a1f6f; color:#fff; }
+  #modal { position:fixed; inset:0; background:rgba(0,0,0,.35); display:none; z-index:30; }
+  #modal .card { position:absolute; left:50%; top:6%; transform:translateX(-50%); width:min(720px,94vw); max-height:86vh;
+                 overflow:auto; background:#fff; border-radius:8px; padding:16px 20px; }
+  #modal h3 { margin:0 0 4px; } #modal .close { float:right; cursor:pointer; font-size:16px; color:#777; }
+  #modal table { border-collapse:collapse; width:100%; font-size:12px; }
+  #modal td { border-bottom:1px solid #eee; padding:3px 6px; vertical-align:top; }
+  #modal td.k { color:var(--mut); width:170px; font-weight:600; white-space:normal; }
+  #unplaced { margin:14px auto 26px; max-width:1150px; padding:0 8px; }
+  #unplaced h3 { font-size:13px; margin:0 0 6px; color:#444; }
+  #unplaced table { border-collapse:collapse; width:100%; font-size:11.5px; }
+  #unplaced td, #unplaced th { border:1px solid var(--line); padding:2px 7px; text-align:left; }
+  #unplaced th { background:#f0efe9; font-weight:600; }
+  #legend { margin:10px auto 4px; max-width:1150px; padding:0 8px; font-size:11.5px; color:#333; }
+  #legend h3 { font-size:12px; margin:0 0 4px; color:#444; }
+  #legend .row { display:flex; flex-wrap:wrap; gap:4px 18px; }
+  #legend .row > span { white-space:nowrap; }
+  .sw { display:inline-block; width:26px; height:10px; vertical-align:-1px; margin-right:4px; border:1px solid #888; border-radius:2px; }
+  .fuzzybox { display:inline-block; width:26px; height:10px; vertical-align:-1px; margin-right:4px; border-radius:3px;
+              background:repeating-linear-gradient(45deg,#ddd 0 3px,#f6f6f6 3px 6px); border:1px dashed #999; }
+  .lane-label { font-size:10.5px; fill:#555; font-weight:600; }
+  .axis-t { font-size:10px; fill:#555; }
+  .band-l { font-size:11px; font-weight:700; fill:#555; }
+  .gap-note { font-size:10.5px; fill:#8a5b00; font-style:italic; }
+  .m-tip { font-size:9px; fill:#555; }
+  .mark { cursor:pointer; }
+  .mark:hover { filter:brightness(.85); }
+  .fuzzy { stroke-dasharray:3 2; }
+  .ss-hatch { pointer-events:none; }
+  .flash { animation:fl 1.2s ease-out; }
+  @keyframes fl { 0%{opacity:.2} 30%{opacity:1} 100%{opacity:.2} }
+  @media (max-width:900px){ #controls{flex-direction:column} }
+</style>
+</head>
+<body>
+<header>
+  <h1>Buddhist Bridges — India–Korea Buddhist Connections · Interactive Timeline (MVP)</h1>
+  <div class="meta" id="meta"></div>
+</header>
+
+<div id="tools">
+  <button id="zfull">Zoom: full (300–2027)</button>
+  <button id="zcentury">Zoom: century</button>
+  <button id="zdecade">Zoom: decade</button>
+  <input id="search" type="text" placeholder="Search name or ID… (Enter)">
+  <button id="expSvg">Export SVG</button>
+  <button id="expPng">Export PNG</button>
+  <button id="expCsv">Export CSV (visible)</button>
+  <label class="tog"><input type="checkbox" id="corr"> ≥2 sources (corroboration view)</label>
+  <label class="tog"><input type="checkbox" id="legTog"> Show legendary</label>
+</div>
+
+<div id="controls"></div>
+
+<div id="chartwrap">
+  <div id="tooltip"></div>
+  <svg id="chart" width="1180" height="640" role="img" aria-label="Historical timeline of India-Korea Buddhist connections"></svg>
+</div>
+
+<div id="legend"></div>
+<div id="unplaced"></div>
+<div id="modal"><div class="card" id="cardBody"></div></div>
+
+<script>
+"use strict";
+const DATA = /*__TIMELINE_DATA__*/;
+const AX = DATA.meta.axis;
+const LANES = [
+  {id:"people", label:"PEOPLE · lifelines & dated activity"},
+  {id:"travels", label:"TRAVELS · journeys"},
+  {id:"texts", label:"TEXTS · composition & translation"},
+  {id:"institutions", label:"INSTITUTIONS · founding & activity (APPROX)"},
+  {id:"events", label:"EVENTS · meetings, relics, exhibitions"},
+  {id:"encounters", label:"ENCOUNTERS · person-to-person"},
+  {id:"negatives", label:"NEGATIVES · documented non-events"},
+];
+// Reserve space above the lanes for the two density ribbons and gap annotations.
+const LANE_H = 58, LABEL_W = 250, RIB_H = 26, BAND_H = 22, AX_H = 26, PAD_T = 140, PAD_B = 10;
+const MARK_COLOR = {people:"var(--people)",travels:"var(--travels)",texts:"var(--texts)",institutions:"var(--institutions)",events:"var(--events)",encounters:"var(--encounters)",negatives:"var(--negatives)"};
+const DIR_GLYPH = {"INDIA_TO_KOREA":"→","KOREA_TO_INDIA":"←","BIDIRECTIONAL":"⇄","UNCERTAIN":"?"};
+
+const svg = document.getElementById("chart");
+const NS = "http://www.w3.org/2000/svg";
+let W = 1180, H = 640;
+function el(name, attrs, parent){
+  const e = document.createElementNS(NS, name);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+
+/* ---------------- state ---------------- */
+const state = {
+  view: {center: 1170, span: AX.end - AX.start},   // year center + span
+  bands: new Set(DATA.bands.map(b=>b.id)),
+  types: new Set(["people","travels","texts","institutions","events","encounters","negatives"]),
+  dirs: new Set(), confs: new Set(), trads: new Set(), conns: new Set(),
+  scope: new Set(["CARRIED"]), corr: false, legendary: false,
+  markById: {}, hover: null,
+};
+DATA.marks.forEach(m => state.markById[m.id] = m);
+
+/* ---------------- filters UI ---------------- */
+const FILTERS = [
+  {key:"bands", label:"Period", values: DATA.bands.map(b=>({id:b.id,label:b.id}))},
+  {key:"types", label:"Type", values:[
+    {id:"people",label:"People"},{id:"travels",label:"Travels"},{id:"texts",label:"Texts"},
+    {id:"institutions",label:"Institutions"},{id:"events",label:"Events"},{id:"encounters",label:"Encounters"},
+    {id:"negatives",label:"Negatives"}]},
+  {key:"dirs", label:"Direction", values:[
+    {id:"INDIA_TO_KOREA",label:"I→K"},{id:"KOREA_TO_INDIA",label:"K→I"},
+    {id:"BIDIRECTIONAL",label:"⇄"},{id:"UNCERTAIN",label:"?"}]},
+  {key:"confs", label:"Confidence", values:[{id:"HIGH",label:"HIGH"},{id:"MEDIUM",label:"MEDIUM"},{id:"LOW",label:"LOW"},{id:"SPECULATIVE",label:"SPECULATIVE"}]},
+  {key:"trads", label:"Tradition", values:[
+    {id:"SEON_CHAN",label:"Seon/Chan"},{id:"ESOTERIC",label:"Esoteric"},{id:"YOGACARA",label:"Yogācāra"},{id:"VINAYA",label:"Vinaya"},
+    {id:"HWA_EOM",label:"Hwaŏm"},{id:"PURE_LAND",label:"Pure Land"},{id:"GENERAL_BUDDHISM",label:"General"},{id:"LAY_BUDDHIST",label:"Lay"},{id:"NON_BUDDHIST",label:"Non-Buddhist"},{id:"THERAVADA_ORIENTED",label:"Theravāda"},{id:"UNKNOWN",label:"Unknown"}]},
+  {key:"conns", label:"Connection", values:[
+    {id:"PHYSICAL_MOVEMENT",label:"Movement"},{id:"TEXTUAL_TRANSMISSION",label:"Textual"},{id:"INSTITUTIONAL",label:"Institutional"},
+     {id:"PERSON_ENCOUNTER",label:"Encounter"},{id:"INDIRECT_INFLUENCE",label:"Indirect"},{id:"EVENT",label:"Event"},{id:"NEGATIVE",label:"Negative"},{id:"LEGENDARY",label:"Legendary"}]},
+];
+const controlsDiv = document.getElementById("controls");
+const chipEls = {};
+FILTERS.forEach(f => {
+  const cg = document.createElement("div"); cg.className = "cg";
+  const t = document.createElement("div"); t.className = "ct"; t.textContent = f.label;
+  const chips = document.createElement("div"); chips.className = "chips";
+  f.values.forEach(v => {
+    const c = document.createElement("span"); c.className = "chip";
+    c.dataset.group = f.key; c.dataset.id = v.id;
+    c.innerHTML = `<span class="l">${v.label}</span><span class="n"></span>`;
+    c.addEventListener("click", () => {
+      const s = state[f.key];
+      if (s.has(v.id)) s.delete(v.id); else s.add(v.id);
+      render();
+    });
+    chips.appendChild(c); chipEls[f.key + "::" + v.id] = c;
+  });
+  cg.appendChild(t); cg.appendChild(chips); controlsDiv.appendChild(cg);
+});
+// scope chips
+{
+  const cg = document.createElement("div"); cg.className = "cg";
+  const t = document.createElement("div"); t.className = "ct"; t.textContent = "Scope";
+  const chips = document.createElement("div"); chips.className = "chips";
+  [["CARRIED","Carried"],["CONTEXT","+Context"],["EXCLUDE","+Excluded"]].forEach(([id,lab]) => {
+    const c = document.createElement("span"); c.className = "chip"; c.dataset.group="scope"; c.dataset.id = id;
+    c.innerHTML = `<span class="l">${lab}</span>`;
+    c.addEventListener("click", () => {
+      const s = state.scope;
+      if (s.has(id)) s.delete(id); else s.add(id);
+      if (id !== "CARRIED" && !state.scope.has("CARRIED")) state.scope.add("CARRIED");
+      render();
+    });
+    chips.appendChild(c); chipEls["scope::" + id] = c;
+  });
+  cg.appendChild(t); cg.appendChild(chips); controlsDiv.appendChild(cg);
+}
+document.getElementById("corr").addEventListener("change", e => { state.corr = e.target.checked; render(); });
+document.getElementById("legTog").addEventListener("change", e => { state.legendary = e.target.checked; render(); });
+
+function chipCounts(){
+  const cnt = {};
+  DATA.marks.forEach(m => {
+    ["bands","types","dirs","confs","trads","conns"].forEach(g => {
+      const key = g==="bands" ? (m.band || "") : g==="types" ? m.lane :
+                  g==="dirs" ? (m.direction||"") : g==="confs" ? m.confidence :
+                  g==="trads" ? (m.tradition||"") : (m.connection_types||"").split(";");
+      (Array.isArray(key)?key:[key]).forEach(k => { if (!k) return; const id = g+"::"+k; cnt[id] = (cnt[id]||0)+1; });
+    });
+  });
+  FILTERS.forEach(f => f.values.forEach(v => {
+    const e = chipEls[f.key+"::"+v.id];
+    if (e) { const n = cnt[f.key+"::"+v.id]||0; e.querySelector(".n").textContent = n? "("+n+")":""; }
+  }));
+}
+
+/* ---------------- visibility ---------------- */
+function visible(m){
+  if (m.legendary && !state.legendary) return false;
+  if (!state.types.has(m.lane)) return false;
+  if (!state.bands.has(m.band) && m.band) return false;
+  if (!state.scope.has(m.scope)) return false;
+  if (state.dirs.size && m.direction && !state.dirs.has(m.direction)) return false;
+  if (state.confs.size && !state.confs.has(m.confidence)) return false;
+  if (state.trads.size && m.tradition && !state.trads.has(m.tradition)) return false;
+  if (state.conns.size) {
+    const cs = (m.connection_types||"").split(";").map(s=>s.trim()).filter(Boolean);
+    if (cs.length && !cs.some(c => state.conns.has(c))) return false;
+  }
+  if (state.corr) {
+    // corroboration view: schema limits source_ids to people/events — everything else is excluded
+    if (!(m.lane==="people" || m.lane==="events")) return false;
+    if (m.source_count < 2) return false;
+  }
+  return true;
+}
+
+/* ---------------- scales ---------------- */
+let x = y => 0;
+function setScale(){
+  const span = Math.max(20, state.view.span);
+  const x0 = state.view.center - span/2, x1 = state.view.center + span/2;
+  x = y => LABEL_W + (y - x0) / (x1 - x0) * (W - LABEL_W - 16);
+}
+
+/* ---------------- render ---------------- */
+function render(){
+  setScale();
+  chipCounts();
+  const vis = DATA.marks.filter(visible);
+  renderChart(vis);
+  renderUnplaced();
+  document.getElementById("meta").textContent =
+    `${DATA.meta.basis} · ${DATA.marks.length} records in dataset · ${vis.length} visible · frozen baseline: ${DATA.meta.frozen_baseline}`;
+}
+
+function ribbonBars(ribData, y0, color, max){
+  let g = el("g", {}, svg);
+  el("text", {x:4, y:y0-6, class:"m-tip"}, g).textContent = color==="#8a4f9f" ? "SOURCE-LINKED EVIDENCE DENSITY (distinct source_ids on dated carried people/events; not activity or importance)" : "RECORD DENSITY (carried records with explicit dates / decade)";
+  const min = Math.min(...Object.keys(ribData).map(Number)), maxK = Math.max(...Object.keys(ribData).map(Number));
+  for (let d = min; d <= maxK; d += 10){
+    const c = ribData[d] || 0;
+    const h = Math.max(c?2:0, c/max * (RIB_H-3));
+    el("rect", {x:x(d), y:y0+RIB_H-h, width:Math.max(2,x(d+10)-x(d)-1), height:h, fill:color, opacity:.75}, g)
+      .appendChild(el("title", {}, g)).textContent = `${d}s: ${c}`;
+  }
+}
+
+function renderChart(vis){
+  while (svg.firstChild) svg.removeChild(svg.firstChild);
+  W = svg.clientWidth || 1180;
+  H = PAD_T + LANES.length*LANE_H + AX_H + PAD_B;
+  svg.setAttribute("width", W); svg.setAttribute("height", H);
+  setScale();
+
+  const yLane = i => PAD_T + i*LANE_H;
+
+  /* band shading */
+  DATA.bands.forEach(b => {
+    const r = el("rect", {x:x(b.start), y:24, width:x(b.end)-x(b.start), height:H-44, fill:mapBand(b.id), opacity:.5}, svg);
+    if (b.id === "B3") r.setAttribute("style", "fill:url(#b3hatch);opacity:1");
+    const lb = el("text", {x:x((b.start+b.end)/2), y:38, class:"band-l", "text-anchor":"middle"}, svg);
+    lb.textContent = `${b.id}  ${b.start}–${b.end}`;
+  });
+  DATA.meta.gaps.forEach(g => {
+    const y = 56;
+    el("text", {x:x((g.start+g.end)/2), y:y+10, class:"gap-note", "text-anchor":"middle"}, svg).textContent = g.label;
+  });
+
+  /* ribbons */
+  ribbonBars(DATA.ribbons.record_density, 70, "#4a7f9f", Math.max(...Object.values(DATA.ribbons.record_density)));
+  ribbonBars(DATA.ribbons.source_density, 70+RIB_H+6, "#8a4f9f", Math.max(...Object.values(DATA.ribbons.source_density)));
+
+  /* lanes */
+  LANES.forEach((L, i) => {
+    const y0 = yLane(i);
+    el("line", {x1:LABEL_W, y1:y0, x2:W-8, y2:y0, stroke:"#eee"}, svg);
+    el("text", {x:8, y:y0+16, class:"lane-label"}, svg).textContent = L.label;
+    const mid = y0 + LANE_H/2;
+    vis.filter(m => m.lane === L.id).forEach(m => drawMark(m, mid, y0));
+  });
+
+  /* axis */
+  const y0 = yLane(LANES.length);
+  el("line", {x1:LABEL_W, y1:y0, x2:W-8, y2:y0, stroke:"#333"}, svg);
+  const span = state.view.span, step = span > 1500 ? 200 : span > 400 ? 100 : span > 120 ? 25 : 10;
+  const x0 = state.view.center - span/2;
+  for (let yr = Math.ceil(x0/step)*step; yr <= state.view.center + span/2; yr += step){
+    el("line", {x1:x(yr), y1:y0, x2:x(yr), y2:y0+4, stroke:"#333"}, svg);
+    el("text", {x:x(yr), y:y0+16, class:"axis-t", "text-anchor":"middle"}, svg).textContent = yr;
+  }
+  el("text", {x:W-10, y:y0+16, class:"axis-t", "text-anchor":"end"}, svg).textContent = "years CE →";
+
+  /* defs */
+  const defs = el("defs", {}, svg);
+  const p1 = el("pattern", {id:"hatchSS", width:5, height:5, patternUnits:"userSpaceOnUse", patternTransform:"rotate(45)"}, defs);
+  el("rect", {width:5, height:5, fill:"#fff", opacity:.4}, p1);
+  el("line", {x1:0, y1:0, x2:0, y2:5, stroke:"#b02a2a", "stroke-width":1.4}, p1);
+  const p2 = el("pattern", {id:"b3hatch", width:10, height:10, patternUnits:"userSpaceOnUse", patternTransform:"rotate(45)"}, defs);
+  el("rect", {width:10, height:10, fill:"#e8e8e8"}, p2);
+  el("line", {x1:0, y1:0, x2:0, y2:10, stroke:"#bbb", "stroke-width":2}, p2);
+}
+
+function mapBand(b){
+  return {B1:"var(--b1)",B2:"var(--b2)",B3:"var(--b3)",B4:"var(--b4)",B5:"var(--b5)",B6:"var(--b6)"}[b] || "#fff";
+}
+
+/* ---------------- mark drawing ---------------- */
+function drawMark(m, mid, y0){
+  const col = MARK_COLOR[m.lane] || "#777";
+  const g = el("g", {class:"mark"}, svg);
+  const ss = m.single_source;
+  const dash = m.confidence === "MEDIUM" ? {stroke:"3 2"} : m.confidence === "LOW" ? {stroke:"1.5 2", opacity:.55} : {};
+  const x1 = x(m.start), x2 = x(Math.max(m.end, m.start + (m.end===m.start?0:1)));
+
+  if (m.kind === "lifeline"){
+    const fuzzy = m.precision === "FLORUIT";
+    const rect = el("rect", Object.assign({
+      x:x1, y:mid-7, width:Math.max(2, x2-x1), height:14, rx:fuzzy?6:3,
+      fill:col, opacity:fuzzy?.5:1, stroke:col,
+    }, fuzzy?{strokeDasharray:"4 3"}:{}), g);
+    if (ss){ el("rect", {x:x1, y:mid-7, width:Math.max(2,x2-x1), height:14, fill:"url(#hatchSS)", class:"ss-hatch"}, g); }
+    if (fuzzy) el("text", {x:x1+2, y:mid+3, class:"m-tip", fill:"#000"}, g).textContent = "?";
+    m.ticks.forEach(t => el("circle", {cx:x(t.year), cy:mid, r:2.4, fill:"#fff", stroke:"#000", "stroke-width":.8}, g));
+    if (m.direction && DIR_GLYPH[m.direction]) el("text", {x:x1, y:mid-10, class:"m-tip", fill:col, "text-anchor":"middle"}, g).textContent = DIR_GLYPH[m.direction];
+    if (ss) ssBadge(g, x2, mid, m.sources);
+    el("text", {x:x1+2, y:mid-10, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 26);
+  }
+  else if (m.kind === "travel"){
+    const cx = x1, cy = mid;
+    el("rect", {x:cx-4, y:cy-4, width:8, height:8, transform:`rotate(45 ${cx} ${cy})`, fill:col, stroke:col}, g);
+    if (m.end > m.start) el("line", {x1:x1, y1:cy, x2:x2, y2:cy, stroke:col, "stroke-width":2}, g);
+    if (m.precision !== "YEAR"){
+      el("ellipse", {cx:cx, cy:cy, rx:9, ry:9, fill:"none", stroke:"#b26a00", "stroke-dasharray":"2 2", opacity:.7}, g);
+      el("text", {x:cx+6, y:cy-6, class:"m-tip", fill:"#b26a00"}, g).textContent = "?";
+    }
+    if (m.direction && DIR_GLYPH[m.direction]) el("text", {x:cx, y:cy-10, class:"m-tip", fill:col, "text-anchor":"middle"}, g).textContent = DIR_GLYPH[m.direction];
+    el("text", {x:cx+8, y:cy+3, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 30);
+  }
+  else if (m.kind === "text"){
+    const cx = x1, cy = mid;
+    el("polygon", {points:`${cx},${cy-6} ${cx+7},${cy} ${cx},${cy+6}`, fill:col, stroke:col}, g);
+    el("text", {x:cx+10, y:cy+3, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 34);
+  }
+  else if (m.kind === "translation"){
+    const cx = x1, cy = mid + 12;
+    el("polygon", {points:`${cx-3},${cy-4} ${cx+4},${cy} ${cx-3},${cy+4}`, fill:col, opacity:.8}, g);
+    el("text", {x:cx+7, y:cy+3, class:"m-tip", fill:"#444"}, g).textContent = trunc(m.label, 30);
+  }
+  else if (m.kind === "institution"){
+    el("rect", {x:x1-4, y:mid-4, width:8, height:8, fill:col, stroke:col}, g);
+    el("rect", {x:x1, y:mid-2, width:Math.max(2,x2-x1), height:4, fill:col, opacity:.35, strokeDasharray:"4 3", stroke:col}, g);
+    el("text", {x:x1+8, y:mid+3, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 34);
+  }
+  else if (m.kind === "event"){
+    const cx = x1, cy = mid, r = 6;
+    el("circle", Object.assign({cx, cy, r, fill:col, stroke:col}, dash), g);
+    if (m.end > m.start) el("line", {x1:x1, y1:cy, x2:x2, y2:cy, stroke:col, "stroke-width":2.5, opacity:.6}, g);
+    if (m.status === "UNRESOLVED") el("circle", {cx, cy, r:r+2, fill:"none", stroke:"#8f2f5f", "stroke-dasharray":"2 2"}, g);
+    if (ss){ el("circle", {cx, cy, r:r, fill:"url(#hatchSS)"}, g); ssBadge(g, cx+r, cy-r, m.sources); }
+    el("text", {x:cx+10, y:cy+3, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 34);
+  }
+  else if (m.kind === "encounter"){
+    el("line", {x1:x1, y1:mid-12, x2:x1, y2:mid+12, stroke:col, "stroke-width":2.5}, g);
+    el("circle", {cx:x1, cy:mid-12, r:3, fill:col}, g);
+    el("circle", {cx:x1, cy:mid+12, r:3, fill:col}, g);
+    el("line", {x1:x1, y1:mid, x2:x1, y2:mid, stroke:col}, g);
+    el("text", {x:x1+8, y:mid+3, class:"m-tip", fill:"#222"}, g).textContent = trunc(m.label, 34);
+  }
+  else if (m.kind === "negative"){
+    const cx = x1, cy = mid, s = 7;
+    el("line", {x1:cx-s, y1:cy-s, x2:cx+s, y2:cy+s, stroke:"var(--negatives)", "stroke-width":2.5}, g);
+    el("line", {x1:cx-s, y1:cy+s, x2:cx+s, y2:cy-s, stroke:"var(--negatives)", "stroke-width":2.5}, g);
+    el("text", {x:cx+10, y:cy+3, class:"m-tip", fill:"#a33"}, g).textContent = trunc(m.label, 40);
+  }
+
+  // dim context/exclude marks
+  if (m.scope !== "CARRIED") g.setAttribute("opacity", .45);
+  // tooltip + click
+  g.addEventListener("mousemove", e => showTip(e, m, g));
+  g.addEventListener("mouseleave", () => hideTip());
+  g.addEventListener("click", () => openCard(m));
+}
+
+function ssBadge(g, bx, by, sources){
+  el("circle", {cx:bx, cy:by-9, r:7, fill:"#000"}, g);
+  el("text", {x:bx, y:by-5.5, fill:"#fff", "font-size":8.5, "text-anchor":"middle"}, g).textContent = "1";
+  el("title", {}, g).textContent = "Single-source record — hatching marks records resting on exactly one documented source";
+}
+function trunc(s, n){ s = s || ""; return s.length > n ? s.slice(0, n-1) + "…" : s; }
+
+/* ---------------- tooltip & card ---------------- */
+const tip = document.getElementById("tooltip");
+function showTip(e, m, g){
+  const prec = m.precision === "EXPLICIT" ? "explicit dates" : m.precision === "FLORUIT" ? "floruit estimate (APPROX)" :
+               m.precision === "YEAR" ? "explicit year" : m.precision;
+  let h = `<h4>${esc(m.label)} ${m.legendary ? '<span class="badge b-leg">legendary</span>' : ""}${m.single_source ? '<span class="badge b-ss">single-source</span>' : ""}</h4>`;
+  h += `<div class="kv"><span class="badge b-${m.confidence}">${m.confidence}</span><span class="badge b-${m.status}">${m.status}</span>` +
+       `<span class="badge b-${m.precision}">${prec}</span>` +
+       (m.band ? `<span class="badge" style="background:#eee">${m.band}</span>` : "") +
+       (m.direction ? `<span class="badge" style="background:#eee">${m.direction} ${DIR_GLYPH[m.direction]||""}</span>` : "") +
+       (m.tradition ? `<span class="badge" style="background:#eee">${m.tradition}</span>` : "") + "</div>";
+  h += `<div><b>${m.start}</b>${m.end && m.end !== m.start ? " – <b>" + m.end + "</b>" : ""}${m.precision !== "YEAR" && m.precision !== "EXPLICIT" ? " (approx.)" : ""}</div>`;
+  if (m.sources && m.sources.length) h += `<div><b>Sources:</b> ${m.sources.map(s=>esc(DATA.sources[s] || s)).join("; ")} <span style="color:#888">(${m.source_count})</span></div>`;
+  if (m.card && (m.card.evidence || m.card.rationale || m.card.detail))
+    h += `<div style="margin-top:3px;color:#555">${esc((m.card.evidence || m.card.detail || m.card.rationale || "").slice(0, 260))}</div>`;
+  h += `<div style="color:#999;margin-top:2px">click for full record</div>`;
+  tip.innerHTML = h;
+  tip.style.display = "block";
+  const wrap = document.getElementById("chartwrap").getBoundingClientRect();
+  let tx = e.clientX - wrap.left + 14, ty = e.clientY - wrap.top + 12;
+  if (tx + 440 > wrap.width) tx = e.clientX - wrap.left - 450;
+  tip.style.left = tx + "px"; tip.style.top = ty + "px";
+}
+function hideTip(){ tip.style.display = "none"; }
+
+function openCard(m){
+  const c = m.card || {};
+  const rows = [];
+  for (const k in c) rows.push(`<tr><td class="k">${esc(k.replace(/_/g," "))}</td><td>${esc(String(c[k]))}</td></tr>`);
+  const modal = document.getElementById("modal");
+  document.getElementById("cardBody").innerHTML =
+    `<span class="close">✕</span><h3>${esc(m.label)} <span style="font-weight:normal;color:#888">${esc(m.id)}</span></h3>` +
+    `<div style="margin-bottom:6px">` +
+    `<span class="badge b-${m.confidence}">${m.confidence}</span><span class="badge b-${m.status}">${m.status}</span>` +
+    `<span class="badge b-${m.precision}">${m.precision}</span>${m.single_source?'<span class="badge b-ss">single-source</span>':""}${m.legendary?'<span class="badge b-leg">legendary</span>':""}` +
+    (m.sources.length ? `<span style="color:#888"> · sources: ${m.sources.map(s=>esc(DATA.sources[s]||s)).join("; ")}</span>` : "") + `</div>` +
+    `<table>${rows.join("")}</table>`;
+  modal.style.display = "block";
+  modal.querySelector(".close").addEventListener("click", () => modal.style.display = "none");
+}
+document.getElementById("modal").addEventListener("click", e => { if (e.target.id === "modal") e.target.style.display = "none"; });
+function esc(s){ return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+/* ---------------- unplaced panel ---------------- */
+function renderUnplaced(){
+  const div = document.getElementById("unplaced");
+  const rows = DATA.unplaced.filter(u => state.legendary || !u.legendary);
+  div.innerHTML = `<h3>Records without a date — <span style="font-weight:normal">never placed on the axis (no invented dates)</span></h3>` +
+    (rows.length ? `<table><tr><th>ID</th><th>Label</th><th>Reason</th><th>Scope</th><th>Note</th></tr>` +
+      rows.map(u => `<tr><td>${esc(u.id)}</td><td>${esc(u.label)}${u.legendary?' <span class="badge b-leg">legendary</span>':""}</td><td>${esc(u.reason)}</td><td>${esc(u.scope)}</td><td>${esc(u.note||"")}</td></tr>`).join("") + `</table>`
+      : `<p style="color:#888">none</p>`);
+}
+
+/* ---------------- zoom / pan ---------------- */
+document.getElementById("zfull").addEventListener("click", () => { state.view = {center: (AX.start+AX.end)/2, span: AX.end-AX.start}; render(); });
+document.getElementById("zcentury").addEventListener("click", () => { state.view.span = Math.min(state.view.span*0.12, 100); render(); });
+document.getElementById("zdecade").addEventListener("click", () => { state.view.span = Math.min(state.view.span*0.06, 40); render(); });
+let panning = null;
+svg.addEventListener("mousedown", e => { panning = {x: e.clientX, center: state.view.center}; });
+window.addEventListener("mousemove", e => {
+  if (!panning) return;
+  const span = state.view.span;
+  const pxPerYr = (W - LABEL_W - 16) / span;
+  state.view.center = panning.center - (e.clientX - panning.x) / pxPerYr;
+  render();
+});
+window.addEventListener("mouseup", () => panning = null);
+
+/* ---------------- search ---------------- */
+document.getElementById("search").addEventListener("keydown", e => {
+  if (e.key !== "Enter") return;
+  const q = e.target.value.trim().toLowerCase();
+  if (!q) return;
+  const hits = DATA.marks.filter(m => (m.label+" "+m.id+" "+m.sub).toLowerCase().includes(q));
+  if (!hits.length) { alert("no match"); return; }
+  const m = hits[0];
+  state.view = {center: (m.start+m.end)/2, span: Math.max(60, (m.end-m.start)*4)};
+  render();
+  const g = svg.querySelectorAll(".mark");
+  g.forEach(elg => { if (elg.querySelector("title") && elg.querySelector("title").textContent.includes(m.id)) { elg.classList.add("flash"); } });
+  openCard(m);
+});
+
+/* ---------------- export ---------------- */
+function download(name, content, mime){
+  const b = new Blob([content], {type: mime});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(b); a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+document.getElementById("expSvg").addEventListener("click", () => {
+  const s = new XMLSerializer().serializeToString(svg);
+  download("timeline_mvp.svg", '<?xml version="1.0"?>\n' + s, "image/svg+xml");
+});
+document.getElementById("expPng").addEventListener("click", () => {
+  const s = new XMLSerializer().serializeToString(svg);
+  const img = new Image();
+  const url = URL.createObjectURL(new Blob([s], {type:"image/svg+xml"}));
+  img.onload = () => {
+    const c = document.createElement("canvas");
+    c.width = svg.clientWidth*2; c.height = svg.clientHeight*2;
+    c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+    download("timeline_mvp.png", c.toDataURL("image/png"), "image/png");
+    URL.revokeObjectURL(url);
+  };
+  img.src = url;
+});
+document.getElementById("expCsv").addEventListener("click", () => {
+  const vis = DATA.marks.filter(visible);
+  const head = ["id","lane","kind","label","start","end","precision","confidence","status","band","direction","tradition","scope","single_source","source_count"];
+  const rows = vis.map(m => head.map(h => m[h]===undefined?"":`"${String(m[h]).replace(/"/g,'""')}"`).join(","));
+  download("timeline_visible.csv", [head.join(","), ...rows].join("\n"), "text/csv");
+});
+
+/* ---------------- legend ---------------- */
+document.getElementById("legend").innerHTML = `
+<h3>Legend — every mark encodes evidence status</h3><div class="row">
+<span><span class="sw" style="background:#1f6fb2"></span>People: solid lifeline = explicit birth–death; <span class="fuzzybox"></span>fuzzy + ? = floruit estimate (APPROX); dots = dated activity</span>
+<span><span class="sw" style="background:#c07a1f"></span>Travels: ◆ + →/←/⇄/?</span>
+<span><span class="sw" style="background:#7a5c1f"></span>Texts: ▲ composition; ▼ translation (PTX)</span>
+  <span><span class="sw" style="background:#2f8f5f"></span>Institutions: ■ founding; soft span = band-based approximation, <b>not a documented continuous lifespan</b></span>
+<span><span class="sw" style="background:#8f2f5f"></span>Events: ● point/span; dashed ring = UNRESOLVED</span>
+<span><span class="sw" style="background:#5f5fbf"></span>Encounters: vertical pair = dated person-to-person contact</span>
+<span><span style="color:#c22">✕</span> documented negative</span>
+<span>Confidence: solid = HIGH · dashed = MEDIUM · dotted/ghost = LOW</span>
+<span><span style="background:repeating-linear-gradient(45deg,#fff 0 2px,#b02a2a 2px 4px);display:inline-block;width:26px;height:10px;vertical-align:-1px"></span> hatching + 1 badge = single-source record</span>
+<span>◈ legendary material (off by default; none placed — undated)</span>
+  <span>Shaded bands B1–B6; hatched B3 = <b>no carried records under the current inclusion criteria</b>, not evidence of no Buddhism</span>
+  <span>Top ribbons: record density (blue) & source-linked/documented evidence density (purple) per decade — neither measures overall Buddhist activity or historical importance</span>
+<span>Grey hatching on lifelines marks single-source people; ⚠ <b>source count is evidence metadata, not importance</b></span>
+</div>`;
+
+render();
+</script>
+</body>
+</html>

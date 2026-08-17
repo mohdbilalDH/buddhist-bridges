@@ -1,0 +1,40 @@
+﻿place_id,place_name,name_variants,modern_country,historical_region,lat,lon,place_type,notes
+PL-0001,Korea (Silla),Silla; 신라; 新羅,Korea,Silla kingdom (57 BCE-935 CE),,,KINGDOM,"Hyecho, Woncheuk, Wonhyo, etc."
+PL-0002,Korea (Baekje),Baekje; 백제; 百濟,Korea,Baekje kingdom (18 BCE-660 CE),,,KINGDOM,"Marananta, Gyeomik, Baedalta"
+PL-0003,Korea (Gaya/Gimhae),Gaya; Geumgwan Gaya; 김해,Korea,Gaya confederacy,35.228,128.889,KINGDOM,"Heo Hwang-ok, King Suro legend; Heo clan tombs"
+PL-0004,Korea (Goguryeo),Goguryeo; 고구려; 高句麗,Korea,Goguryeo kingdom (37 BCE-668 CE),,,KINGDOM,Hyŏnyu
+PL-0005,Korea (Goryeo),Goryeo; 고려; 高麗,Korea,Goryeo dynasty (918-1392),,,KINGDOM,"Iryŏn, Dhyānabhadra, Naong"
+PL-0006,Korea (Joseon),Joseon; 조선; 朝鮮,Korea,Joseon dynasty (1392-1897),,,KINGDOM,"Yi Su-gwang, Ch'oe Han-gi, Yi Kyu-gyŏng"
+PL-0007,India (Ayodhya),Ayuta (아유타) per legend; 阿踰陀,India,"Ayodhya, Uttar Pradesh",26.795,82.198,CITY,Legendary origin of Heo Hwang-ok (debated)
+PL-0008,India (Gandhara),Gandhara; 간다라,Pakistan/India,Ancient Gandhara region,,,REGION,Visited by Hyecho
+PL-0009,India (Nalanda),Nalanda Mahavihara; 날란다,India,Bihar; great Buddhist university,25.137,85.443,MONASTERY,"Ariyabalma, Hyeeop studied/died there; Dhyānabhadra ordained there"
+PL-0010,India (Bodh Gaya),Bodhgaya; Bodhi temple; 大覺寺,India,Bihar; site of Buddha's enlightenment,24.696,84.991,SITE,Hyeeop dwelt there; Hyŏngak died there; Buddhavara's Bunhwangsa India
+PL-0011,India (Kashmir),Kashmir; 카슈미르,India,Jammu & Kashmir,34.083,74.797,REGION,Visited by Hyecho
+PL-0012,India (Central India / Sangana),Sangana Great Vinaya Monastery; 常伽那大律寺,India,Central India (ancient),,,MONASTERY,Gyeomik studied Sanskrit there 5 years
+PL-0013,India (Delhi),Delhi; 델리; दिल्ली,India,Delhi,28.614,77.209,CITY,Delhi University; JNU; modern scholarship hub
+PL-0014,India (Pune),Pune; 뿌나; पुणे,India,Maharashtra,18.52,73.856,CITY,Pune University (Hyoseok MA)
+PL-0015,"China (Tang, Chang'an)",Chang'an; 長安; Ximing Monastery,China,Tang capital (now Xi'an),34.259,108.942,CITY,Woncheuk's Ximing Monastery; Wonpyo via Tang
+PL-0016,China (Guangzhou),Guangzhou; Canton; 廣州,China,Tang-era port,23.129,113.264,PORT,Hyecho's departure port
+PL-0017,China (Yuan),Yuan China; Dadu (Beijing),China,Yuan dynasty (1271-1368),39.904,116.407,REGION,Dhyānabhadra's base; Naong met him there
+PL-0018,Central Asia (Kucha),Kucha; 龜茲,China (Xinjiang),Serindia,41.725,82.95,CITY,Where Hyecho's travelogue account ends (Nov 727)
+PL-0019,Central Asia (Serindia/Western Regions),西域; Xiyu,Central Asia,Silk Road regions,,,REGION,Marananta's probable origin; Hyecho's return route
+PL-0020,Persia (Nishapur),Nishapur; نیشابور,Iran,Sasanian/Abbasid Persia,36.214,58.796,CITY,Westernmost point of Hyecho's journey
+PL-0021,Tibet,Tibet; 吐蕃,China (Tibet),Tibetan Empire,29.65,91.1,REGION,Ojin died there
+PL-0022,Sri Lanka,Ceylon; 錫蘭山,Sri Lanka,,7.873,80.771,COUNTRY,Hyŏnyu ordained there; mentioned in Jibong yuseol
+PL-0023,Japan (Tokyo/Yokohama),Tokyo; 東京,Japan,,35.676,139.65,CITY,"Tagore-Korean encounters 1916, 1929"
+PL-0024,Korea (Seoul),Seoul; 서울; 漢城,Korea,South Korea,37.566,126.978,CITY,UNTCOK 1948; Lokesh Chandra 2016; embassy seat
+PL-0025,Korea (Busan),Busan; 부산,Korea,South Korea,35.18,129.075,PORT,A.G. Rangaraj / 60th PFA arrival 20 Nov 1950
+PL-0026,Korea (Panmunjom/Imjingak),Panmunjom; 판문점,Korea,DMZ,37.956,126.677,CITY,Korean War armistice site; Thimayya memorial bust
+PL-0027,India (New Delhi),New Delhi; 뉴델리; नई दिल्ली,India,Delhi,28.614,77.209,CITY,Kim Woo-choong 1994; ROK embassy; JNU
+PL-0028,India (Meerut),Meerut; मेरठ,India,Uttar Pradesh,28.984,77.706,CITY,Lee Jeong-ho PhD university
+PL-0029,Korea (Gyeongju),Gyeongju; 경주; 慶州,Korea,Silla capital (modern Gyeongsangbuk-do),35.856,129.225,CITY,Silla Buddhist culture; Yongjangsa (T'aehyŏn)
+PL-0030,China (Hangzhou/Jin),Eastern Jin territory,China,Eastern Jin dynasty (317-420),30.274,120.155,REGION,Marananta's departure point (via Jin China)
+PL-0031,India (unspecified),India; 인도,India,,,,REGION,Generic destination for Yijing-recorded monks whose exact site is unknown
+PL-0032,India (Sarnath),Sarnath; 사르나트; सारनाथ,India,Uttar Pradesh (Varanasi),25.381,83.021,SITE,2023 Sangwol pilgrimage endpoint; 2022 Jogye delegation; first sermon site
+PL-0033,India (Kushinagar),Kushinagar; 쿠시나가르,India,Uttar Pradesh,26.741,83.889,SITE,Buddha's parinirvana site; 2023 Sangwol route; 2014 Jogye itinerary
+PL-0034,Nepal (Lumbini),Lumbini; 룸비니,Nepal,Lumbini Province,27.469,83.276,SITE,Buddha's birthplace; 2023 Sangwol route via Nepal; 2014 Jogye itinerary
+PL-0035,India (Vaishali),Vaishali; 바이샬리,India,Bihar,25.989,85.126,SITE,2023 Sangwol route
+PL-0036,India (Shravasti),Shravasti; 슈라바스티,India,Uttar Pradesh,27.516,82.052,SITE,2023 Sangwol pilgrimage endpoint (Sarnath->Shravasti)
+PL-0037,India (Rajgir / Vulture Peak),Rajgir; 라지기르; Griddhakuta,India,Bihar,25.03,85.418,SITE,2023 Sangwol route; near Nalanda
+PL-0038,Nepal (Kapilavastu),Kapilavastu; 카필라바스투,Nepal,Lumbini Province,27.508,82.996,REGION,Buddha's childhood home; 2023 Sangwol route
+PL-0039,India (Dharamsala),Dharamsala; 다람살라; McLeod Ganj,India,Himachal Pradesh,32.219,76.324,CITY,2026 KBPF pilgrimage destination (Tibetan Buddhist center)

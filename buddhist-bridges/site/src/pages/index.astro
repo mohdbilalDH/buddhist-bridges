@@ -1,0 +1,15 @@
+---
+// Preview convenience: the site root forwards to the project page.
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content={`0; url=${base}/projects/buddhist-bridges/`} />
+  <title>Buddhist Bridges</title>
+</head>
+<body>
+  <p><a href={`${base}/projects/buddhist-bridges/`}>Buddhist Bridges — Five Bridges, One Silence</a></p>
+</body>
+</html>

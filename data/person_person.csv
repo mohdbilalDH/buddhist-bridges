@@ -1,0 +1,23 @@
+﻿relationship_id,person_a_id,person_b_id,relationship_kind,relationship_type,evidence,confidence,notes
+R-0001,P-0007,P-0008,FAMILY,UNCERTAIN,Garakguk-gi marriage legend,SPECULATIVE,Legendary marriage of Heo Hwang-ok and King Suro
+R-0002,P-0011,P-0012,MET_IN_PERSON,DIRECT,Gyeomik's return voyage with Baedalta (531),MEDIUM,Baedalta accompanied Gyeomik to Baekje
+R-0003,P-0023,P-0024,TEACHER_STUDENT,DIRECT,KCI scholarship (Ko Young-seop); Jikong's precepts and exhortation,MEDIUM,Naong received precepts at 7; met Jikong again in Yuan China at 38
+R-0004,P-0030,P-0029,MET_IN_PERSON,DIRECT,Tokyo 1916 Imperial University lecture meeting,HIGH,First documented Korean-intellectual contact with Tagore
+R-0005,P-0030,P-0031,MET_IN_PERSON,DIRECT,Two meetings at Yokohama 1916; Song of the Defeated request,MEDIUM,Chin Hak-mun requested and received the poem
+R-0006,P-0030,P-0032,TRANSLATOR_OF,MEDIATED,Gitanjali full translation (March 1923),HIGH,Kim Ŏk translated Tagore into Korean
+R-0007,P-0030,P-0033,TRANSLATOR_OF,MEDIATED,9 Gitanjali poems in Hwimun (Jan 1923),MEDIUM,Earliest documented Korean Tagore translation
+R-0008,P-0030,P-0036,TRANSLATOR_OF,MEDIATED,4-line rendering of the 1929 message in Dong-a Ilbo,HIGH,
+R-0009,P-0030,P-0034,INFLUENCED,INDIRECT,KCI comparative studies; Han's 1926 essay on Tagore,HIGH,Influence with critical distance
+R-0010,P-0030,P-0035,INFLUENCED,INDIRECT,Yi Kwang-su's 1925 Gardener review,HIGH,Literary reception
+R-0011,P-0038,P-0037,INFLUENCED,MEDIATED,mkgandhi.org; Indian Express 2021; Pak Hong-kyu scholarship,MEDIUM,Ham Sok-hon = 'the Korean Gandhi'
+R-0012,P-0038,P-0052,INFLUENCED,MEDIATED,Gandhi quote opens Muso-yu; Bulkwang 2024,MEDIUM,Via texts and via Vinoba Bhave
+R-0013,P-0052,P-0071,MET_IN_PERSON,DIRECT,1971 ashram visit; Bulkwang 2024,MEDIUM,Pŏpchŏng met Vinoba Bhave in India
+R-0014,P-0039,P-0040,COLLEAGUE,DIRECT,Nehru Archive cables 1953,HIGH,UN Korea policy partnership
+R-0015,P-0043,P-0044,COLLEAGUE,DIRECT,NNRC/ICF operations 1953-54,HIGH,Thimayya chaired NNRC; Thorat commanded ICF
+R-0016,P-0043,P-0045,COLLEAGUE,DIRECT,Korean Medals NNRC records,MEDIUM,Chakravarty was Alternate Chairman
+R-0017,P-0061,P-0058,COLLEAGUE,DIRECT,JNU CKS profiles,HIGH,Both served at JNU Centre for Korean Studies
+R-0018,P-0006,P-0009,DOCUMENTED,MEDIATED,Samguk Yusa records Marananta's arrival,MEDIUM,Iryŏn compiled the record of Marananta
+R-0019,P-0023,P-0074,TEACHER_STUDENT,DIRECT,Per tradition (Jahyeon 2017 monograph; Hyunbul 2017-01-26): Muhak received Jikong's teaching in Yuan China; later Naong's disciple,MEDIUM,Per tradition; Muhak served as T'aejo's royal preceptor and co-led Hoeamsa
+R-0020,P-0023,P-0075,TEACHER_STUDENT,DIRECT,Per tradition (Jahyeon 2017 monograph; Hyunbul 2017-01-26): Baegun received Jikong's inka in Yuan China,MEDIUM,Per tradition; Baegun is the Jikjisimcheyojeol author
+R-0021,P-0068,P-0076,MET_IN_PERSON,DIRECT,"Dongguk University newspaper interview article (동대신문, reposted 2010-08-11)",MEDIUM,Sŏ Chŏng-ju met Indian poet Sitanshu Yashaschandra at Dongguk University; discussed Korean-Indian poetry
+R-0022,P-0023,P-0077,TEACHER_STUDENT,DIRECT,Per tradition (Jahyeon 2017 monograph; Hyunbul 2017-01-26; Atlas News 2025-12-31): Ch'ukwŏn was one of Jikong's representative disciples,MEDIUM,Per tradition; titled National Preceptor Chŏngji (정지국사)

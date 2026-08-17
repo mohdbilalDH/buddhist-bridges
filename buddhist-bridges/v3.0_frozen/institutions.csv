@@ -1,0 +1,32 @@
+﻿institution_id,name,name_variants,location_place_id,founded_year,institution_type,india_relevance,korea_relevance,notes
+I-0001,Geumgwan Gaya,금관가야; 金官伽倻,PL-0003,42,OTHER,Legendary origin of Heo Hwang-ok (Ayodhya connection),Legendary founding state; Gimhae Kim/Heo clans,Recorded in Garakguk-gi via Samguk Yusa
+I-0002,Nalanda Mahavihara,날란다 사원,PL-0009,427,MONASTERY,"Destination of Silla monks (Ariyabalma, Hyeeop); ordination site of Dhyānabhadra",Source of Indian monastic learning for Koreans,Flourished 5th-13th c.
+I-0003,Hoeamsa,회암사; 檜巖寺,PL-0005,1328,MONASTERY,Founded by Indian master Dhyānabhadra (reportedly modeled on Nalanda),Major Goryeo Seon temple,
+I-0004,Visva-Bharati,Santiniketan; 샨티니케탄,PL-0027,1921,UNIVERSITY,Tagore's university,Source of Tagore's Korean reception,
+I-0005,Neutral Nations Repatriation Commission,NNRC; 중립국송환위원회,PL-0026,1953,GOVERNMENT,Chaired by India (Thimayya); Indian participation,Resolved Korean War POW impasse,
+I-0006,Custodian Force (India),ICF; 인도중립국감시단,PL-0026,1953,MILITARY,India's first overseas peacekeeping operation,POW custody/repatriation 1953-54,Led by Lt Gen S.P.P. Thorat
+I-0007,60th Indian Parachute Field Ambulance,60 PFA,PL-0025,1950,MILITARY,Indian Army medical unit under UN flag,First Indian military unit in Korea (arrived Busan 20 Nov 1950),Commanded by Lt Col A.G. Rangaraj
+I-0008,"Centre for Korean Studies, JNU",JNU CKS; 자와할랄네루대학교 한국학센터,PL-0013,2000,UNIVERSITY,India's main Korean studies center,"Trains Indian Koreanists; Neerja Samajdar, Kaushal Kumar, Ravikesh, Vyjayanti Raghavan",
+I-0009,Academy of Korean Studies,한국학중앙연구원; AKS,PL-0024,1978,UNIVERSITY,Hosts Indian Koreanist Pankaj Mohan,Korea's national Korean studies institute,
+I-0010,Dongguk University,동국대학교,PL-0024,1906,UNIVERSITY,Indian philosophy program (Jung Seung-suk),Buddhist university,
+I-0011,Hankuk University of Foreign Studies,한국외국어대학교; HUFS,PL-0024,1954,UNIVERSITY,Hindi department (Lee Jeong-ho),Korea's foreign-language university,
+I-0012,University of Delhi,델리대학교,PL-0013,1922,UNIVERSITY,"Hosted Korean students U Myeong-ju, Wookwan, Gakseong, Hyoseok (PhD)",Main Indian university for Korean Buddhist studies students,
+I-0013,Pune University (SPPU),뿌나대학,PL-0014,1949,UNIVERSITY,Hyoseok's MA (cultural anthropology),,
+I-0014,Bodh Gaya International College of Buddhist Studies,붓다가야 국제승가대학,PL-0010,2010,MONASTERY,"Korean-led Buddhist college in India (Buddhavara, Chancellor)",Korean Buddhist institutional presence in India,MOU with Delhi University 2026
+I-0015,Bunhwangsa India,인도 분황사,PL-0010,2000,MONASTERY,Korean Jogye temple at Bodh Gaya (abbot Buddhavara),Korean temple network in India,
+I-0016,Mahayeon Temple Food Culture Center,마하연사찰음식문화원,PL-0024,2000,OTHER,Founded by India-trained Wookwan,Korean temple food authority,
+I-0017,Daewoo Group,대우그룹,PL-0027,1967,COMPANY,DCM-Daewoo JV (1994) - first major Korean auto investment in India,Second-largest Korean chaebol until 1999,Kim Woo-choong
+I-0018,Samsung Electronics India,삼성전자 인도법인,PL-0027,1995,COMPANY,Samsung India Electronics (Aug 1995); Noida plant,Largest Korean investment in India,Lee Kun-hee era
+I-0019,"Embassy of India, Seoul",주한 인도 대사관,PL-0024,1974,EMBASSY,India's diplomatic mission in Korea,Bilateral relations since 1973,
+I-0020,Songgwangsa lineage,송광사,PL-0024,1197,MONASTERY,Pŏpchŏng's monastic lineage,Korean Seon lineage,
+I-0021,Bongnyeongsa,봉녕사,PL-0024,,MONASTERY,Monastic college where Hyoseok and Wookwan trained,Bhikkhuni education center,
+I-0022,Jogye Order of Korean Buddhism,대한불교조계종,PL-0024,1941,MONASTERY,Host of 2023 Sangwol walking pilgrimage in India (PIB-documented); Bunhwangsa India (2020-22); official delegation Sarnath->Bodh Gaya May 2022 led by 총무원장 Wonhaeng,Korea's largest Buddhist order,"Head temple Jogyesa, Seoul"
+I-0023,Sangwol Society,상월결사,PL-0024,,MONASTERY,"Organizer of the 1167-km / 43-day India-Nepal walking pilgrimage (2023, 108+ monastics)",Korean monastic confraternity for the walking-pilgrimage tradition,PIB PRID=1896682
+I-0024,Jungto Society,정토회,PL-0024,1988,OTHER,"Annual India pilgrimage program (35th early 2026; 36th 14-30 Jan 2027, 500 persons); Bodh Gaya region focus",Korean Buddhist social-engagement movement (founder Pomnyun Sunim),jungto.org/india
+I-0025,Yeoraesunwon,여래선원,PL-0010,2000,MONASTERY,Korean-run temple at Bodh Gaya; 10 years of alms-supported operation by 2011; abbot Wonman sunim; 달마학교 (Dharma School) for children; visited by 2014 Jogye pilgrimage,Korean monastic presence in India,Beopbo 2011-06-30
+I-0026,International Buddhist Confederation (IBC),국제불교협의회,PL-0027,2013,OTHER,Host of GBS 2023 and 2nd GBS 2026 (New Delhi); co-organizer ICYBS 2025; Buddha statue gift to Jogye lay association at Bexpo 2026,India's umbrella Buddhist body engaging Korean orders,ibcworld.org
+I-0027,Korea Buddhism Promotion Foundation,대한불교진흥원; KBPF,PL-0024,,NGO,"Organizer of 2026 India pilgrimage (3-11 Oct 2026, Dharamsala/Ajanta-Ellora/Sanchi, 8N9D)","Korean Buddhist foundation (Daewon Academy, 월간불교문화)",kbpf.org notice idx=172150129
+I-0028,Buddhist Broadcasting System,불교방송; BBS,PL-0024,1990,MEDIA,"Organizer of 세계 선명상 투어 4탄 India-Nepal pilgrimage (26 Dec 2025 - 4 Jan 2026, led by 선업 스님)",Korea's Buddhist broadcaster; overseas pilgrimage programs,bbs.or.kr
+I-0029,"Embassy of the Republic of Korea, New Delhi",주인도 대한민국 대사관,PL-0027,1973,EMBASSY,ROK diplomatic mission in India (upgraded from the 1962 New Delhi consulate after the 10 Dec 1973 recognition),Co-hosted the Korea-India 50th anniversary Buddhist cultural exchange with the Jogye Order (2023-03-21); ambassador Jang Jae-bok hosted the temple-food dinner,ibulgyo_jogye50th_2023
+I-0030,International Buddhist Problems Research Institute,국제불교문제연구소,PL-0024,,OTHER,"Dispatched the 6-member Korean Buddhist delegation to India (Dec 1981): toured sacred sites, met PM Indira Gandhi, donated a Haeinsa Tripitaka Koreana facsimile to Nalanda",Korean Buddhist research institute active in international Buddhist exchange,Director (소장): Kim Gwang-tae (김광태); seat not documented in cited sources - assumed Korea (PL-0024) per Dong-A 1982
+I-0031,Nalanda University,날란다 대학교; नालंदा विश्वविद्यालय,PL-0009,2014,UNIVERSITY,Modern international university in the Nalanda district (Rajgir area); signed an academic MOU with Dongguk University 2023-02-24 (VC Sunaina Singh),Dongguk University partner for joint education/research,Established 2014 by Bihar legislation (EAS initiative); distinct from the ancient Nalanda Mahavihara (I-0002)

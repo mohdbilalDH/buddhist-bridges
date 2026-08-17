@@ -1,0 +1,42 @@
+﻿travel_id,person_id,origin_place_id,destination_place_id,intermediate_place_ids,travel_start_year,travel_end_year,travel_dates_precision,purpose,route_description,evidence,confidence,notes
+T-0001,P-0001,PL-0016,PL-0018,PL-0008;PL-0011;PL-0020;PL-0019,719,727,APPROX,PILGRIMAGE,Guangzhou (sea) -> Five Indias -> Persia (Nishapur) -> overland via Pamir/Central Asia -> Kucha (Nov 727),Wang ocheonchukguk jeon; scholarly reconstructions (dates conflict 719-727 vs 723-727),HIGH,Dates conflict across sources; recorded in his own travelogue
+T-0002,P-0006,PL-0030,PL-0002,,384,384,YEAR,MISSIONARY,From Eastern Jin territory to Baekje by sea (384 CE),Samguk Sagi; Samguk Yusa,MEDIUM,No detailed itinerary preserved
+T-0003,P-0011,PL-0002,PL-0012,PL-0030,526,531,YEAR,PILGRIMAGE,"Baekje -> (sea) -> Central India (Sangana monastery, 5 yrs Sanskrit study) -> (sea) -> Baekje 531",Korean Buddhist tradition (Samguk Yusa & later compilations),MEDIUM,Returned with Indian monk Baedalta
+T-0004,P-0012,PL-0012,PL-0002,,531,531,YEAR,MISSIONARY,"India -> Baekje by sea, 531 (with Gyeomik)",Same tradition as Gyeomik,MEDIUM,
+T-0005,P-0013,PL-0001,PL-0009,PL-0015,,,UNKNOWN,PILGRIMAGE,Silla -> Chang'an -> Nalanda; died at Nalanda aged 70+,Yijing's Da Tang Xiyu qiufa gaoseng zhuan,MEDIUM,Dates not recorded
+T-0006,P-0014,PL-0001,PL-0010,PL-0015;PL-0009,,,UNKNOWN,PILGRIMAGE,"Silla -> India (Bodhgaya, Nalanda); died in India",Yijing's record,MEDIUM,
+T-0007,P-0015,PL-0001,PL-0015,PL-0009,,,UNKNOWN,PILGRIMAGE,Silla -> India -> Tang; died in China,Yijing's record,MEDIUM,
+T-0008,P-0016,PL-0001,PL-0010,,,,UNKNOWN,PILGRIMAGE,Silla -> India with Xuanzhao (Zhenguan era); died at Bodhgaya in 40s,Yijing's record,MEDIUM,
+T-0009,P-0017,PL-0001,PL-0009,,,,UNKNOWN,PILGRIMAGE,Silla -> India,Yijing's record,MEDIUM,
+T-0010,P-0020,PL-0001,PL-0021,PL-0015,789,789,APPROX,PILGRIMAGE,Silla -> Tang -> Central India -> Tibet (death),KCI scholarship (Ko Young-seop); EncyKorea 밀교,MEDIUM,Went to Tang with Hyeil (c. 789)
+T-0011,P-0021,PL-0001,PL-0015,,742,765,APPROX,PILGRIMAGE,Silla -> Tang -> India -> Tang (death in China),KCI scholarship (Ko Young-seop),MEDIUM,King Gyeongdeok era
+T-0012,P-0022,PL-0004,PL-0022,,,,UNKNOWN,PILGRIMAGE,Goguryeo -> (via China) -> Sri Lanka; ordained there,KCI scholarship (Ko Young-seop),MEDIUM,Followed Chinese monk Sengche
+T-0013,P-0023,PL-0009,PL-0005,PL-0021;PL-0017,1326,1363,YEAR,MISSIONARY,Magadha -> (Tibet) -> Yuan China -> Goryeo (1326) -> Yuan China; died 1363,Hagiographical + scholastic records,MEDIUM,Founded Hoeamsa 1328; relics sent to Goryeo
+T-0014,P-0030,PL-0027,PL-0023,,1916,1929,YEAR,OTHER,India -> Japan (5 visits 1916-1929); Tokyo/Yokohama meetings with Koreans; Korea lecture planned June 1929 cancelled,Hong Eun-taek; kyosu.net; koreatimes,HIGH,NEVER travelled to Korea (physically_traveled=NO)
+T-0015,P-0031,PL-0001,PL-0023,,1916,1916,YEAR,STUDY,Korea -> Japan (Tokyo/Yokohama 1916),kyosu.net; koreatimes,MEDIUM,Met Tagore at Yokohama
+T-0016,P-0029,PL-0001,PL-0023,,1916,1916,YEAR,STUDY,Korea -> Japan (Tokyo 1916),budreview; EncyKorea,HIGH,Met Tagore at Imperial University lecture
+T-0017,P-0042,PL-0027,PL-0024,,1947,1948,YEAR,DIPLOMATIC,"India -> Korea (UNTCOK chairman, election supervision 1947-48)",NYT 1948; UN Digital Library,HIGH,Led to founding of the Republic of Korea
+T-0018,P-0043,PL-0027,PL-0026,,1953,1954,YEAR,WAR,India -> Korea 27 Jul 1953 (armistice day) as NNRC Chairman,Korean Medals; Embassy of India,HIGH,
+T-0019,P-0044,PL-0027,PL-0026,,1953,1954,YEAR,WAR,India -> Korea 1953-54 (ICF Commander),Official ICF history; Korean Medals,HIGH,
+T-0020,P-0045,PL-0027,PL-0026,,1953,1954,YEAR,DIPLOMATIC,India -> Korea 1953-54 (NNRC Alternate Chairman),Korean Medals,MEDIUM,
+T-0021,P-0046,PL-0027,PL-0025,,1950,,YEAR,WAR,"India -> Busan, Korea 20 Nov 1950 (60th Indian Parachute Field Ambulance)",Korean Medals,MEDIUM,
+T-0022,P-0047,PL-0027,PL-0024,,1974,1977,YEAR,DIPLOMATIC,India -> Seoul 1974-1977 (first Indian ambassador to ROK),Kashmir Life; Wikipedia ambassador list,MEDIUM,
+T-0023,P-0048,PL-0024,PL-0027,,1974,1976,YEAR,DIPLOMATIC,Seoul -> New Delhi 1974-1976 (first ROK ambassador to India),NamuWiki,MEDIUM,
+T-0024,P-0049,PL-0024,PL-0027,,1994,1994,YEAR,BUSINESS,"Seoul -> New Delhi (7 Jun 1994, DCM-Daewoo Racer launch)",Times of India photo archive,HIGH,
+T-0025,P-0051,PL-0024,PL-0027,,1990,1990,DECADE,OTHER,Korea -> India (1990s travels; Kritya Poetry Festival 2021),Poetry Foundation; Korea Herald,HIGH,Dates of specific visits not documented
+T-0026,P-0052,PL-0024,PL-0027,,1971,1971,YEAR,PILGRIMAGE,Korea -> India (1971; visited Vinoba Bhave's ashram; Sarnath/Bodh Gaya),Bulkwang 2024,HIGH,
+T-0027,P-0053,PL-0027,PL-0024,,2016,2016,YEAR,ACADEMIC,"India -> Seoul (Sept 2016, Lotus Sutra exhibition)",TOTETU paper,HIGH,
+T-0028,P-0055,PL-0024,PL-0013,,2001,,YEAR,ACADEMIC,"Korea -> Delhi (MA/PhD, Buddhist Studies; later Korean lecturer at Delhi University)",GGBn article,HIGH,c. 2001 onward
+T-0029,P-0056,PL-0024,PL-0013,,,,UNKNOWN,STUDY,"Korea -> India (Central Institute of Hindi, JNU, Meerut)",Kyobo author profile,HIGH,
+T-0030,P-0057,PL-0027,PL-0024,,,,UNKNOWN,ACADEMIC,"India -> Korea (career at AKS, Seongnam)",AKS CEFIA wiki; Tezpur lecture,HIGH,
+T-0031,P-0058,PL-0027,PL-0024,,2002,,YEAR,STUDY,"India -> Seoul (SNU PhD, Korean Government Scholarship 2002)",JNU faculty profile,HIGH,
+T-0032,P-0061,PL-0027,PL-0024,,,,UNKNOWN,STUDY,India -> Korea (SNU MA Korean History; multiple engagements incl. 2015),Vyjayanti Raghavan website,HIGH,
+T-0033,P-0062,PL-0024,PL-0010,,,,UNKNOWN,MISSIONARY,Korea <-> India (Bodh Gaya residence; Bunhwangsa India; Delhi Univ MOU 2026),BTN 2026; Beopbo 2026,MEDIUM,
+T-0034,P-0063,PL-0024,PL-0014,,,,UNKNOWN,STUDY,Korea -> India (Pune MA -> Delhi PhD),Hyunbul News 2021,HIGH,
+T-0035,P-0064,PL-0024,PL-0013,,,,UNKNOWN,STUDY,"Korea -> India (Delhi University, 5+ years)",Bulgyo Shinmun 2022,HIGH,
+T-0036,P-0065,PL-0024,PL-0013,,1992,1998,YEAR,STUDY,"Korea -> India (Delhi University religious studies, 6 years; 4,500 km pilgrimage)",BTN; BBS obituaries,HIGH,
+T-0037,P-0067,PL-0027,PL-0024,,1986,1986,YEAR,OTHER,"India -> Korea (international writers/poets gathering, 1986)",ATUNIS profile,MEDIUM,
+T-0038,P-0072,PL-0024,PL-0022,,1925,1927,YEAR,PILGRIMAGE,Korea -> Ceylon (Sri Lanka) 1925-11-09 departure from Yokohama; intended India pilgrimage; died in Ceylon 1927-10-12,Ibulgyo 2021; Dong-A Ilbo 1927,HIGH,First modern-era Korean Buddhist pilgrimage attempt; never reached India proper
+T-0039,P-0018,PL-0001,PL-0031,,,,UNKNOWN,PILGRIMAGE,Silla -> India (per Yijing's enumeration),Yijing's Da Tang Xiyu qiufa gaoseng zhuan,MEDIUM,Exact destination not recorded by Yijing
+T-0041,P-0059,PL-0027,PL-0024,,,,UNKNOWN,ACADEMIC,India -> Korea (Korea Foundation and AKS fellowships),JNU faculty profile (fellowship record),MEDIUM,Dates not specified in profile
+T-0042,P-0073,PL-0024,PL-0031,PL-0009,1962,1963,YEAR,PILGRIMAGE,"Seoul -> India (Ganges basin; Central, South, West India; Pakistan - Peshawar) on an itinerary matching Hyecho's Wang ocheonchukguk jeon route; visited Nalanda; returned Seoul 1963-05-09",Kyonghyang Shinmun 1963-05-11; Hyunbul News 2023-02-27,HIGH,5-month survey of Buddhist remains by Dongguk professor; destination place generic India (PL-0031) as no single endpoint; purpose scholarly survey (踏査) of Buddhist sites

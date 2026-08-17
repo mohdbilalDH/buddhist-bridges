@@ -1,0 +1,18 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The datasets in this repository — the source data modules (data_*.py), the
+compiled CSVs in data/, the frozen release in buddhist-bridges/v3.0_frozen/,
+the derived tables in buddhist-bridges/analysis/data/, and the JSON exports in
+buddhist-bridges/outputs/web/ — are licensed under the Creative Commons
+Attribution 4.0 International licence.
+
+You are free to share and adapt this material for any purpose, provided you
+give appropriate credit. Suggested attribution:
+
+  Khan, Mohd Bilal (2026). Buddhist Bridges: India–Korea Buddhist Mediators
+  Dataset (V3.0). CC-BY-4.0.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Source materials cited within records remain under their own rights; the
+licence covers the compilation, structure, and annotations.

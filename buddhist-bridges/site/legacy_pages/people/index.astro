@@ -1,0 +1,80 @@
+---
+import Base from '../../layouts/Base.astro';
+import people from '../../data/people.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const bands = [
+  ['B1', '300–900 · Silla pilgrims go west'],
+  ['B2', '900–1392 · The master from Magadha'],
+  ['B4', '1900–1945 · Paper bridges'],
+  ['B5', '1945–1990 · Thin threads'],
+  ['B6', '1990–2026 · The institutional turn'],
+];
+const byBand = (b) => people.people.filter((p) => p.band === b);
+const life = (p) => {
+  if (p.birth && p.death) return `${p.birth}–${p.death}`;
+  if (p.birth) return `b. ${p.birth}`;
+  if (p.floruit[0]) return `fl. ${p.floruit[0]}–${p.floruit[1]} ?`;
+  return 'undated';
+};
+const TYPO = {
+  PILGRIM_VISITOR: 'pilgrim', TEXTUAL_MEDIATOR: 'textual mediator', STUDENT: 'student',
+  RESIDENT_WORKER: 'resident', ENCOUNTER_FIGURE: 'encounter', INDIRECT_INFLUENCER: 'indirect influence',
+  PLANNED_PILGRIM: 'planned pilgrim',
+};
+---
+<Base title="People" current="people" description="The prosopographical register: all 43 documented mediators of India–Korea Buddhist exchange, each with graded sources.">
+  <style>
+    .cohort-head { display: flex; align-items: baseline; gap: 0.8rem; border-bottom: 2px solid var(--rule); padding-bottom: 0.4rem; margin-top: 3rem; }
+    .cohort-head .swatch { width: 14px; height: 14px; border-radius: 3px; flex: none; align-self: center; }
+    .cohort-head h2 { margin: 0; font-size: 1.25rem; }
+    .cohort-head .small { margin-left: auto; }
+    .pgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 0.7rem; margin-top: 1rem; }
+    .pcard {
+      display: block; border: 1px solid var(--rule); border-left-width: 4px; border-radius: 6px;
+      padding: 0.7rem 0.9rem; text-decoration: none; color: var(--ink); background: var(--card);
+      font-family: var(--sans);
+    }
+    .pcard:hover { border-color: var(--accent); }
+    .pcard .pname { font-family: var(--serif); font-weight: 600; font-size: 1.02rem; }
+    .pcard .phang { color: var(--muted); font-size: 0.85rem; margin-left: 0.3rem; }
+    .pcard .pmeta { font-size: 0.74rem; color: var(--muted); margin-top: 0.25rem; }
+  </style>
+  <div class="wrap-wide" style="padding-top: 3rem;">
+    <p class="eyebrow">Explore the evidence</p>
+    <h1>The mediators</h1>
+    <p class="lede" style="max-width: 46rem;">
+      All {people.people.length} people carried in the frozen dataset — the complete documented
+      prosopography of India–Korea Buddhist mediation. Names, dates and claims come from the
+      records themselves; a <em>?</em> marks a floruit-derived window, and single-source lives
+      are flagged.
+    </p>
+    {bands.map(([b, blab]) => (
+      <section aria-label={`Cohort ${b}`}>
+        <div class="cohort-head">
+          <span class="swatch" style={`background: var(--${b.toLowerCase()});`}></span>
+          <h2>{blab}</h2>
+          <span class="small">{byBand(b).length} people</span>
+        </div>
+        <div class="pgrid">
+          {byBand(b).map((p) => (
+            <a class="pcard" href={`${base}/people/${p.id}/`} style={`border-left-color: var(--${b.toLowerCase()});`}>
+              <span class="pname">{p.name}</span>
+              {p.hangul && <span class="phang">{p.hangul}</span>}
+              <div class="pmeta">
+                {life(p)} · {TYPO[p.typology] ?? p.typology.toLowerCase()} ·
+                <span class={`badge ${p.confidence.toLowerCase()}`} style="margin-left: 0.2rem;">{p.confidence}</span>
+                {p.single_source && <span class="badge">single source</span>}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+    <div class="note" style="margin-top: 3rem; max-width: 46rem;">
+      <strong>B3 (Joseon, 1392–1900) has no people here</strong> — eleven candidates were examined
+      and excluded on evidence. See <a href={`${base}/argument/#ch3`}>chapter 3 of the argument</a>
+      and the <a href={`${base}/data/`}>data documentation</a>.
+    </div>
+  </div>
+</Base>

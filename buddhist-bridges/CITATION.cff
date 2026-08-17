@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Buddhist Bridges: India–Korea Buddhist Mediators Dataset"
+message: "If you use this dataset, please cite it as below."
+type: dataset
+authors:
+  - family-names: Khan
+    given-names: Mohd Bilal
+license: CC-BY-4.0
+version: 3.0.0
+date-released: "2026-08-17"
+abstract: >
+  Curated, source-graded dataset of documented mediators of India–Korea Buddhist
+  exchange, 300–2026 CE: 76 people (43 carried after Buddhist-relevance
+  classification), 41 travels, 30 texts, 31 institutions, 19 events, and 187
+  graded sources, with per-record confidence, status, and date-precision fields,
+  documented negatives, and a SHA-256-checksummed frozen release (v3.0_frozen/).
+keywords:
+  - digital humanities
+  - Korean Buddhism
+  - India–Korea relations
+  - Buddhist transmission
+  - prosopography

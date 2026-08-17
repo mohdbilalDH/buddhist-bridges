@@ -1,0 +1,339 @@
+﻿table,record_id,label,buddhist_relevance,scope,period_band,connection_type,movement_status,exchange_types,rationale
+PEOPLE,P-0001,Hyecho,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,visited,RELIGIOUS;LITERARY;INTELLECTUAL,Core record: Silla pilgrim-monk; Wang ocheonchukguk jeon is the primary 8th-c. source on India
+PEOPLE,P-0002,Woncheuk,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,RELIGIOUS;INTELLECTUAL,Silla Yogacara master; India link via Indian doctrine studied in Chang'an (no travel)
+PEOPLE,P-0003,Wŏnhyo,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,RELIGIOUS;INTELLECTUAL,Silla philosopher; commentaries on Indian-origin texts (Awakening of Faith)
+PEOPLE,P-0004,Kyŏnghŭng,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,RELIGIOUS;INTELLECTUAL,Silla exegete of Indian sutra heritage (Pure Land / Golden Light commentaries)
+PEOPLE,P-0005,T'aehyŏn,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,RELIGIOUS;INTELLECTUAL,Silla Yogacara commentator (Cheng Weishi Lun lineage)
+PEOPLE,P-0006,Marananta,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT; INSTITUTIONAL,worked,RELIGIOUS,Earliest documented Buddhist arrival in Korea (384 CE); founder of Baekje Buddhism
+PEOPLE,P-0007,Heo Hwang-ok,CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),LEGENDARY,legendary,CULTURAL;RELIGIOUS,Legendary queen from 'Ayuta'; non-Buddhist cultural narrative (context row)
+PEOPLE,P-0008,Suro of Geumgwan Gaya,CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),LEGENDARY,-,CULTURAL,Legendary founder-king; non-Buddhist (context row)
+PEOPLE,P-0009,Iryŏn,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),TEXTUAL_TRANSMISSION,-,RELIGIOUS;LITERARY;INTELLECTUAL,Seon monk-historian; Samguk Yusa preserves the early Buddhist traditions
+PEOPLE,P-0010,Hyeil (Silla esoteric monk),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,RELIGIOUS,Esoteric master; Amoghavajra-lineage transmission to Silla
+PEOPLE,P-0011,Gyeomik,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,studied,RELIGIOUS;LINGUISTIC;INTELLECTUAL,Baekje Vinaya master; documented sea pilgrimage to Central India 526-531; 5 yrs Sanskrit at Sangana
+PEOPLE,P-0012,Baedalta,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,worked,RELIGIOUS,Indian Tripitaka master resident in Baekje (531); bearer of Sanskrit texts
+PEOPLE,P-0013,Ariyabalma,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,RELIGIOUS;INTELLECTUAL,Silla monk at Nalanda (Yijing record)
+PEOPLE,P-0014,Hyeeop,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS;INTELLECTUAL,Silla monk at Bodh Gaya/Nalanda (Yijing record)
+PEOPLE,P-0015,Hyŏnt'ae,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Silla pilgrim to India (Yijing record)
+PEOPLE,P-0016,Hyŏngak,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Silla monk who died at Bodh Gaya (Yijing record)
+PEOPLE,P-0017,Gubon,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Silla pilgrim to India (Yijing record)
+PEOPLE,P-0018,Hyeryun,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Silla monk in Yijing's India network (identification debated)
+PEOPLE,P-0020,Ojin,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,"Esoteric monk; reached Central India, died in Tibet"
+PEOPLE,P-0021,Wonpyo,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Unified Silla monk; India via Tang
+PEOPLE,P-0022,Hyŏnyu,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,RELIGIOUS,Goguryeo monk ordained in Sri Lanka (South Asian Buddhist world; not mainland India)
+PEOPLE,P-0023,Dhyānabhadra,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT; INSTITUTIONAL; PERSON_ENCOUNTER,worked,RELIGIOUS;INTELLECTUAL;CULTURAL,Flagship record: last great Indian monk in Korea; Nalanda -> Goryeo; founded Hoeamsa 1328; Naong's teacher
+PEOPLE,P-0024,Naong Hyegeun,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PERSON_ENCOUNTER,-,RELIGIOUS,Goryeo Seon master; personal transmission from Indian master Jikong
+PEOPLE,P-0025,Yi Su-gwang,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,INTELLECTUAL;CULTURAL,"Joseon encyclopedist; India via Ming geography, not Buddhist"
+PEOPLE,P-0026,Yi Kyu-gyŏng,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,INTELLECTUAL,India entries unverified; not Buddhist
+PEOPLE,P-0027,Ch'oe Han-gi,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,INTELLECTUAL;CULTURAL,Silhak world geography; not Buddhist
+PEOPLE,P-0028,Yi Nŭng-hwa,SECONDARY,ADAPT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,RELIGIOUS;INTELLECTUAL;ACADEMIC,"Father of Korean religious studies; Choson Pulgyo T'ongsa (1918) - scholar of Buddhism, not a practitioner"
+PEOPLE,P-0029,Ch'oe Nam-sŏn,SECONDARY,ADAPT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION; PERSON_ENCOUNTER,-,RELIGIOUS;INTELLECTUAL;CULTURAL,Wrote Choson Pulgyo (1930) arguing Buddhism reached Korea directly from India; nationalist framing; Tagore meeting 1916
+PEOPLE,P-0030,Rabindranath Tagore,MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE; PERSON_ENCOUNTER,planned,LITERARY;CULTURAL;POLITICAL,"Channel figure: Lamp of the East (1929) invoked Korea's Buddhist heritage; influenced Han Yong-un; Seoul visit planned 1929, never made"
+PEOPLE,P-0031,Chin Hak-mun,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PERSON_ENCOUNTER,-,LITERARY;POLITICAL,Tagore circle; literary meeting in Japan (context row)
+PEOPLE,P-0032,Kim Ŏk,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,LITERARY;LINGUISTIC,Tagore translator; literary (context row)
+PEOPLE,P-0033,Jeong Ji-yong,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,LITERARY;LINGUISTIC,Tagore translator; literary (context row)
+PEOPLE,P-0034,Han Yong-un,PRIMARY,KEEP,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE; TEXTUAL_TRANSMISSION,-,LITERARY;RELIGIOUS;POLITICAL,Buddhist monk-poet (PRIMARY identity); India link via Tagore's spiritual lyricism (literary-religious reception with critical distance)
+PEOPLE,P-0035,Yi Kwang-su,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,LITERARY;INTELLECTUAL,Novelist; Tagore review; 1930s Buddhist conversion not tied to India (context row)
+PEOPLE,P-0036,Chu Yo-han,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,LITERARY;LINGUISTIC,Tagore message translator; literary (context row)
+PEOPLE,P-0037,Ham Sok-hon,CONTEXTUAL,CONTEXT,B5 1945-1990,INDIRECT_INFLUENCE,-,POLITICAL;INTELLECTUAL;RELIGIOUS,Quaker 'Korean Gandhi'; Gandhi channel but non-Buddhist (context row)
+PEOPLE,P-0038,Mohandas Karamchand Gandhi,MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,POLITICAL;INTELLECTUAL,Channel figure: Gandhi's words open Popchong's Muso-yu; influence on Korea's independence movement
+PEOPLE,P-0039,Jawaharlal Nehru,NONE,EXCLUDE,B5 1945-1990,INDIRECT_INFLUENCE,-,DIPLOMATIC;POLITICAL;MILITARY,PM of India; diplomatic
+PEOPLE,P-0040,Vengalil Krishnan Krishna Menon,NONE,EXCLUDE,B5 1945-1990,INDIRECT_INFLUENCE,-,DIPLOMATIC;POLITICAL,Diplomat; UN Korea policy
+PEOPLE,P-0041,Kavalam Madhava Panikkar,NONE,EXCLUDE,B5 1945-1990,INDIRECT_INFLUENCE,-,DIPLOMATIC;POLITICAL,Ambassador; Korean War diplomacy
+PEOPLE,P-0042,Kumara Padmanabha Sivasankara Menon,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,UNTCOK chairman; electoral mission
+PEOPLE,P-0043,Kodandera Subayya Thimayya,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;DIPLOMATIC;HUMANITARIAN,NNRC chairman; military
+PEOPLE,P-0044,S. P. P. Thorat,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;DIPLOMATIC;HUMANITARIAN,ICF commander; military
+PEOPLE,P-0045,B. N. Chakravarty,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;MILITARY,NNRC alternate chairman; military-diplomatic
+PEOPLE,P-0046,A. G. Rangaraj,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;HUMANITARIAN,60 PFA commander; military-medical
+PEOPLE,P-0047,Syed Muzaffar Aga,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,First Indian ambassador to the ROK
+PEOPLE,P-0048,Park Chan-hyun,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,First ROK ambassador to India
+PEOPLE,P-0049,Kim Woo-choong,NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,visited,ECONOMIC,Daewoo chairman; economic
+PEOPLE,P-0050,Lee Kun-hee,NONE,EXCLUDE,B6 1990-2026,INDIRECT_INFLUENCE,-,ECONOMIC,Samsung chairman; corporate only (personal travel unverified)
+PEOPLE,P-0051,Ko Un,SECONDARY,ADAPT,B6 1990-2026,PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,visited,LITERARY;ACADEMIC,"Poet, ordained monk 1952-62; India travels 1990s/2019; Little Pilgrim (Buddha novel)"
+PEOPLE,P-0052,Pŏpchŏng,PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT; PERSON_ENCOUNTER,visited,RELIGIOUS;LITERARY;INTELLECTUAL,"Monk-essayist; 1971 India pilgrimage, met Vinoba Bhave; Muso-yu"
+PEOPLE,P-0053,Lokesh Chandra,PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,visited,ACADEMIC;CULTURAL;RELIGIOUS,Career Buddhist-studies Indologist; India-Korea interflow monograph; Seoul 2016
+PEOPLE,P-0054,Jung Seung-suk,SECONDARY,ADAPT,B6 1990-2026,TEXTUAL_TRANSMISSION,-,ACADEMIC;INTELLECTUAL,"Korean scholar of Indian/Buddhist philosophy (domestic academic tradition, not India-trained)"
+PEOPLE,P-0055,U Myeong-ju,PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,studied,ACADEMIC;LINGUISTIC;JOURNALISM,Lay Buddhist-studies scholar; Delhi University MA/PhD; Korean lecturer at DU
+PEOPLE,P-0056,Lee Jeong-ho,NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC;LITERARY,Hindi professor/translator; not Buddhist
+PEOPLE,P-0057,Pankaj Mohan,NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,worked,ACADEMIC;INTELLECTUAL,Korean-studies scholar; not Buddhist
+PEOPLE,P-0058,Neerja Samajdar,NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC,Korean-language pedagogue; not Buddhist
+PEOPLE,P-0059,Kaushal Kumar,CONTEXTUAL,CONTEXT,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC,Korean-studies scholar; co-editor of partly-Buddhist India-Korea survey (context row)
+PEOPLE,P-0060,Ravikesh,NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,ACADEMIC,Korean-studies scholar; not Buddhist
+PEOPLE,P-0061,Vyjayanti Raghavan,CONTEXTUAL,CONTEXT,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC;CULTURAL,"Korean studies; cultural-religious history, not Buddhist-specific (context row)"
+PEOPLE,P-0062,Buddhavara (Ven.),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,worked,RELIGIOUS;ACADEMIC;CULTURAL,Jogye monk; Bunhwangsa India abbot; BGICBS chancellor; Delhi University MOU 2026
+PEOPLE,P-0063,Hyoseok (Ven.),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,studied,ACADEMIC;RELIGIOUS;CULTURAL,Jogye bhikkhuni; Pune MA + Delhi PhD
+PEOPLE,P-0064,Wookwan (Ven.),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,studied,ACADEMIC;RELIGIOUS;CULTURAL;LINGUISTIC,Jogye bhikkhuni; Delhi University Buddhist studies (5+ years); temple-food master
+PEOPLE,P-0065,Gakseong (Ven.),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,studied,ACADEMIC;RELIGIOUS,"Jogye monk; Delhi University 1992-98; 4,500 km solo pilgrimage of Indian Buddhist sites"
+PEOPLE,P-0066,Divik Ramesh,NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,LITERARY;LINGUISTIC,Korean-poetry translator into Hindi; literary
+PEOPLE,P-0067,Dileep Jhaveri,NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,LITERARY;CULTURAL,Poet; 1986 Korea gathering; literary
+PEOPLE,P-0068,Sŏ Chŏng-ju,SECONDARY,ADAPT,B5 1945-1990,PERSON_ENCOUNTER,-,INTELLECTUAL,Documented meeting with Indian poet Sitanshu Yashaschandra at Dongguk University (literary exchange; compassion theme)
+PEOPLE,P-0069,Hwang Tong-gyu,NONE,EXCLUDE,B6 1990-2026,INDIRECT_INFLUENCE,-,NULL,No India link found; non-Buddhist
+PEOPLE,P-0070,Kim Chi-ha,NONE,EXCLUDE,B5 1945-1990,INDIRECT_INFLUENCE,-,NULL,No verifiable Gandhi/India influence; thought rooted in Donghak/Buddhism/Christianity (Hani 2026-07-03); popular Gandhi association unverified
+PEOPLE,P-0071,Vinoba Bhave,MEDIATOR,ADAPT,B5 1945-1990,PERSON_ENCOUNTER,-,RELIGIOUS;INTELLECTUAL,Gandhian leader; documented Indian counterpart in Popchong's 1971 encounter
+PEOPLE,P-0072,Yi Yŏng-jae,PRIMARY,KEEP,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT; TEXTUAL_TRANSMISSION,planned,RELIGIOUS;INTELLECTUAL,First modern-era Korean Buddhist pilgrimage attempt (1925-27); died in Ceylon en route; travelogues 도석기/남국기/석란의 불교
+PEOPLE,P-0073,Hwang Su-yŏng,PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT,visited,INTELLECTUAL,Hwang Su-yŏng: Dongguk professor; 1962-63 field survey of Indian Buddhist sites following Hyecho's route; visited Nalanda
+PEOPLE,P-0074,Muhak Chach'o,MEDIATOR,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,RELIGIOUS,Muhak Chach'o: Jikong's disciple per tradition; T'aejo's royal preceptor; co-led the Nalanda-modeled Hoeamsa; no India travel
+PEOPLE,P-0075,Baegun Gyeonghan,SECONDARY,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,RELIGIOUS;INTELLECTUAL,Baegun Gyeonghan: Jikji author; received Jikong's inka per tradition; no India travel
+PEOPLE,P-0076,Sitanshu Yashaschandra,SECONDARY,ADAPT,B5 1945-1990,PERSON_ENCOUNTER,-,INTELLECTUAL,Sitanshu Yashaschandra: Indian poet; documented counterpart in Sŏ Chŏng-ju's Dongguk encounter
+PEOPLE,P-0077,Ch'ukwŏn Chijŏn,SECONDARY,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,RELIGIOUS,Ch'ukwŏn Chijŏn: Jikong's disciple per tradition; National Preceptor Chŏngji (정지국사); no India travel
+PLACES,PL-0001,Korea (Silla),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Silla: home kingdom of the core ancient monks
+PLACES,PL-0002,Korea (Baekje),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,"Baekje: Marananta, Gyeomik, Baedalta"
+PLACES,PL-0003,Korea (Gaya/Gimhae),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),-,-,-,Recorded relevance is the Heo Hwang-ok legend (non-Buddhist; context row)
+PLACES,PL-0004,Korea (Goguryeo),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Goguryeo: Hyonyu
+PLACES,PL-0005,Korea (Goryeo),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),-,-,-,"Goryeo: Iryon, Dhyanabhadra, Naong, Hoeamsa"
+PLACES,PL-0006,Korea (Joseon),NONE,EXCLUDE,B3 Joseon (1392-1900),-,-,-,"Recorded relevance is non-Buddhist (Yi Su-gwang, Ch'oe Han-gi, Yi Kyu-gyong)"
+PLACES,PL-0007,India (Ayodhya),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),LEGENDARY,-,-,Legendary origin site of Heo Hwang-ok (debated; context row)
+PLACES,PL-0008,India (Gandhara),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Hyecho itinerary; Buddhist heartland (Gandhara)
+PLACES,PL-0009,India (Nalanda),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Nalanda: Silla monks' destination; Dhyanabhadra ordination
+PLACES,PL-0010,India (Bodh Gaya),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,"Bodh Gaya: enlightenment site; Hyeeop, Hyongak; Bunhwangsa India"
+PLACES,PL-0011,India (Kashmir),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Hyecho itinerary (Kashmir)
+PLACES,PL-0012,India (Central India / Sangana),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Sangana Great Vinaya Monastery: Gyeomik's 5-year study site
+PLACES,PL-0013,India (Delhi),PRIMARY,KEEP,B6 1990-2026,-,-,-,"Delhi: Delhi University Buddhist-studies hub (Wookwan, Gakseong, Hyoseok, U Myeong-ju)"
+PLACES,PL-0014,India (Pune),SECONDARY,ADAPT,B6 1990-2026,-,-,-,Pune: Pune University (Hyoseok MA); study venue on a monk's route
+PLACES,PL-0015,"China (Tang, Chang'an)",MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Chang'an: Woncheuk's Ximing Monastery; transit hub of Buddhist transmission
+PLACES,PL-0016,China (Guangzhou),MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Guangzhou: Hyecho's departure port
+PLACES,PL-0017,China (Yuan),MEDIATOR,ADAPT,B2 Silla/Goryeo (900-1392),-,-,-,Yuan Dadu: Dhyanabhadra's base; Naong meeting
+PLACES,PL-0018,Central Asia (Kucha),MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Kucha: Hyecho itinerary node
+PLACES,PL-0019,Central Asia (Serindia/Western Regions),MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Serindia/Western Regions: Marananta's probable origin; Hyecho route
+PLACES,PL-0020,Persia (Nishapur),MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Nishapur: Hyecho route node (westernmost point)
+PLACES,PL-0021,Tibet,MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Tibet: Ojin's death site; Dhyanabhadra transit
+PLACES,PL-0022,Sri Lanka,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Sri Lanka: Hyonyu ordination; Theravada South Asia
+PLACES,PL-0023,Japan (Tokyo/Yokohama),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),-,-,-,Tokyo/Yokohama: Tagore literary meetings (context row)
+PLACES,PL-0024,Korea (Seoul),PRIMARY,KEEP,B6 1990-2026,-,-,-,"Seoul: modern Buddhist hub (Jogye HQ, Dongguk, Bongwonsa)"
+PLACES,PL-0025,Korea (Busan),NONE,EXCLUDE,B5 1945-1990,-,-,-,Busan: 60 PFA arrival (military)
+PLACES,PL-0026,Korea (Panmunjom/Imjingak),NONE,EXCLUDE,B5 1945-1990,-,-,-,Panmunjom/Imjingak: armistice site; military memorials
+PLACES,PL-0027,India (New Delhi),PRIMARY,KEEP,B6 1990-2026,-,-,-,New Delhi: Buddhist studies + IBC + GBS 2026 hub
+PLACES,PL-0028,India (Meerut),NONE,EXCLUDE,B6 1990-2026,-,-,-,Meerut: Lee Jeong-ho PhD (Hindi literature)
+PLACES,PL-0029,Korea (Gyeongju),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Gyeongju: Silla Buddhist capital; Yongjangsa (T'aehyon)
+PLACES,PL-0030,China (Hangzhou/Jin),MEDIATOR,ADAPT,B1 Ancient/early-medieval (<900),-,-,-,Eastern Jin territory: Marananta's departure point
+PLACES,PL-0031,India (unspecified),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Generic India: destinations of Yijing-recorded monks
+PLACES,PL-0032,India (Sarnath),PRIMARY,KEEP,B6 1990-2026,-,-,-,Sarnath: 2023 Sangwol pilgrimage endpoint; 2022 Jogye delegation; first sermon site
+PLACES,PL-0033,India (Kushinagar),PRIMARY,KEEP,B6 1990-2026,-,-,-,Kushinagar: parinirvana site; 2023 Sangwol route; 2014 Jogye itinerary
+PLACES,PL-0034,Nepal (Lumbini),PRIMARY,KEEP,B6 1990-2026,-,-,-,Lumbini: Buddha's birthplace; 2023 Sangwol route via Nepal; 2014 Jogye itinerary
+PLACES,PL-0035,India (Vaishali),PRIMARY,KEEP,B6 1990-2026,-,-,-,Vaishali: 2023 Sangwol route
+PLACES,PL-0036,India (Shravasti),PRIMARY,KEEP,B6 1990-2026,-,-,-,Shravasti: 2023 Sangwol pilgrimage endpoint
+PLACES,PL-0037,India (Rajgir / Vulture Peak),PRIMARY,KEEP,B6 1990-2026,-,-,-,Rajgir/Vulture Peak: 2023 Sangwol route; near Nalanda
+PLACES,PL-0038,Nepal (Kapilavastu),PRIMARY,KEEP,B6 1990-2026,-,-,-,Kapilavastu: Buddha's childhood home; 2023 Sangwol route
+PLACES,PL-0039,India (Dharamsala),PRIMARY,KEEP,B6 1990-2026,-,-,-,Dharamsala: 2026 KBPF pilgrimage destination (Tibetan Buddhist center)
+TRAVELS,T-0001,Hyecho (727),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS;LITERARY;INTELLECTUAL,Hyecho's Five Indias pilgrimage (c. 719/723-727)
+TRAVELS,T-0002,Marananta (384),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,worked,RELIGIOUS,Marananta's 384 arrival in Baekje; founded Baekje Buddhism
+TRAVELS,T-0003,Gyeomik (531),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,RELIGIOUS;LINGUISTIC;INTELLECTUAL,"Gyeomik's sea pilgrimage 526-531 (Sangana, 5 yrs Sanskrit)"
+TRAVELS,T-0004,Baedalta (531),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,worked,RELIGIOUS,"Baedalta India -> Baekje by sea, 531"
+TRAVELS,T-0005,Ariyabalma (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,RELIGIOUS;INTELLECTUAL,Ariyabalma Silla -> Nalanda; died there
+TRAVELS,T-0006,Hyeeop (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS;INTELLECTUAL,Hyeeop Silla -> Bodh Gaya/Nalanda; died in India
+TRAVELS,T-0007,Hyŏnt'ae (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Hyont'ae Silla -> India -> Tang
+TRAVELS,T-0008,Hyŏngak (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Hyongak Silla -> Bodh Gaya with Xuanzhao; died there
+TRAVELS,T-0009,Gubon (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Gubon Silla -> India
+TRAVELS,T-0010,Ojin (789),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Ojin Silla -> Tang -> Central India -> Tibet
+TRAVELS,T-0011,Wonpyo (765),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Wonpyo Silla -> Tang -> India -> Tang
+TRAVELS,T-0012,Hyŏnyu (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,RELIGIOUS,Hyonyu Goguryeo -> Sri Lanka; ordained there
+TRAVELS,T-0013,Dhyānabhadra (1363),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT,worked,RELIGIOUS;INTELLECTUAL;CULTURAL,Dhyanabhadra Magadha -> Goryeo (1326); Hoeamsa founded 1328
+TRAVELS,T-0014,Rabindranath Tagore (1929),MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,visited,LITERARY;CULTURAL;POLITICAL,Tagore's Japan visits 1916-1929; mediator channel (Lamp of the East influence on Korean Buddhism)
+TRAVELS,T-0015,Chin Hak-mun (1916),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,visited,LITERARY;POLITICAL,Chin Hak-mun Korea -> Japan; literary meeting with Tagore (context row)
+TRAVELS,T-0016,Ch'oe Nam-sŏn (1916),SECONDARY,ADAPT,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,visited,RELIGIOUS;INTELLECTUAL;CULTURAL,Ch'oe Nam-son Tokyo 1916 Tagore meeting; part of his Buddhist-history channel
+TRAVELS,T-0017,Kumara Padmanabha Sivasankara Menon (1948),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,K.P.S. Menon UNTCOK mission 1947-48
+TRAVELS,T-0018,Kodandera Subayya Thimayya (1954),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;DIPLOMATIC;HUMANITARIAN,Thimayya NNRC chairmanship 1953-54
+TRAVELS,T-0019,S. P. P. Thorat (1954),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;DIPLOMATIC;HUMANITARIAN,Thorat ICF command 1953-54
+TRAVELS,T-0020,B. N. Chakravarty (1954),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;MILITARY,Chakravarty NNRC alternate chairmanship
+TRAVELS,T-0021,A. G. Rangaraj (1950),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,MILITARY;HUMANITARIAN,Rangaraj 60 PFA arrival Busan 1950
+TRAVELS,T-0022,Syed Muzaffar Aga (1977),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,Aga ambassadorship Seoul 1974-77
+TRAVELS,T-0023,Park Chan-hyun (1976),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,worked,DIPLOMATIC;POLITICAL,Park Chan-hyun ambassadorship New Delhi 1974-76
+TRAVELS,T-0024,Kim Woo-choong (1994),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,visited,ECONOMIC,Kim Woo-choong business trip 1994
+TRAVELS,T-0025,Ko Un (1990),SECONDARY,ADAPT,B6 1990-2026,PHYSICAL_MOVEMENT,visited,LITERARY;ACADEMIC,Ko Un's India travels (1990s; 2019 New Delhi); literary-academic
+TRAVELS,T-0026,Pŏpchŏng (1971),PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT,visited,RELIGIOUS;LITERARY;INTELLECTUAL,Popchong 1971 pilgrimage (Sarnath/Bodh Gaya; Vinoba Bhave ashram)
+TRAVELS,T-0027,Lokesh Chandra (2016),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,visited,ACADEMIC;CULTURAL;RELIGIOUS,Lokesh Chandra Seoul 2016 (Lotus Sutra exhibition)
+TRAVELS,T-0028,U Myeong-ju (2001),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC;JOURNALISM,U Myeong-ju Korea -> Delhi (MA/PhD Buddhist Studies; c. 2001)
+TRAVELS,T-0029,Lee Jeong-ho (dates unknown),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC;LITERARY,"Lee Jeong-ho Hindi studies (CHI, JNU, Meerut)"
+TRAVELS,T-0030,Pankaj Mohan (dates unknown),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,worked,ACADEMIC;INTELLECTUAL,Pankaj Mohan AKS career
+TRAVELS,T-0031,Neerja Samajdar (2002),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC,Neerja Samajdar SNU PhD (Korean language)
+TRAVELS,T-0032,Vyjayanti Raghavan (dates unknown),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;LINGUISTIC;CULTURAL,Vyjayanti Raghavan SNU MA (Korean history)
+TRAVELS,T-0033,Buddhavara (Ven.) (dates unknown),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,worked,RELIGIOUS;ACADEMIC;CULTURAL,Buddhavara Korea <-> Bodh Gaya residence; Bunhwangsa India; DU MOU 2026
+TRAVELS,T-0034,Hyoseok (Ven.) (dates unknown),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;RELIGIOUS;CULTURAL,Hyoseok Pune MA -> Delhi PhD
+TRAVELS,T-0035,Wookwan (Ven.) (dates unknown),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;RELIGIOUS;CULTURAL;LINGUISTIC,Wookwan Delhi University study (5+ years)
+TRAVELS,T-0036,Gakseong (Ven.) (1998),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,ACADEMIC;RELIGIOUS,"Gakseong Delhi University 1992-98 + 4,500 km pilgrimage"
+TRAVELS,T-0037,Dileep Jhaveri (1986),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,LITERARY;CULTURAL,Dileep Jhaveri 1986 poetry gathering in Korea
+TRAVELS,T-0038,Yi Yŏng-jae (1927),PRIMARY,KEEP,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,planned,RELIGIOUS;INTELLECTUAL,Yi Yŏng-jae Korea -> Ceylon 1925-27; intended India pilgrimage (first modern attempt)
+TRAVELS,T-0039,Hyeryun (dates unknown),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,RELIGIOUS,Hyeryun Silla -> India (Yijing enumeration)
+TRAVELS,T-0041,Kaushal Kumar (dates unknown),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,worked,ACADEMIC,Kaushal Kumar Korea fellowships (Korean studies)
+TRAVELS,T-0042,Hwang Su-yŏng (1963),PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT,visited,INTELLECTUAL,Hwang Su-yŏng Seoul -> India 1962-63 (Hyecho-route survey; Nalanda visit)
+TEXTS,TX-0001,Wang ocheonchukguk jeon,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Hyecho's travelogue; primary source on 8th-c. India
+TEXTS,TX-0002,Haedong-so commentaries,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Wonhyo's commentaries on Indian-origin texts
+TEXTS,TX-0003,Samguk Yusa,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),TEXTUAL_TRANSMISSION,-,-,Iryon's compendium; primary record of early Buddhist traditions
+TEXTS,TX-0004,Jibong yuseol,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,-,Joseon world-geography encyclopedia; not Buddhist
+TEXTS,TX-0005,Oju yŏnmun changjŏn san'go,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,-,India entries unverified; not Buddhist
+TEXTS,TX-0006,Jiguyŏn'gu,NONE,EXCLUDE,B3 Joseon (1392-1900),INDIRECT_INFLUENCE,-,-,Silhak world geography; not Buddhist
+TEXTS,TX-0007,Chosŏn Pulgyo T'ongsa,PRIMARY,KEEP,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,First comprehensive Korean Buddhist history (Indian origins)
+TEXTS,TX-0008,Gitanjali,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore poetry; literary source text (context row)
+TEXTS,TX-0009,The Gardener,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore poetry; literary (context row)
+TEXTS,TX-0010,The Lamp of the East (1929 message),MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore's 1929 message; explicitly invokes Korea's Buddhist heritage - mediator channel
+TEXTS,TX-0011,The Song of the Defeated,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore poem; literary (context row)
+TEXTS,TX-0012,Nim-ŭi Ch'immuk,PRIMARY,KEEP,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,"Korean Buddhist resistance poetry (Han Yong-un, a monk); Tagore-influenced"
+TEXTS,TX-0013,Gitanjali translation (Kim Ŏk),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore translation; literary (context row)
+TEXTS,TX-0014,Hwimun Gitanjali translation (Jeong Ji-yong),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore translation; literary (context row)
+TEXTS,TX-0015,Chu Yo-han's 4-line translation,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore translation; literary (context row)
+TEXTS,TX-0016,Chosŏn Pulgyo,PRIMARY,KEEP,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Ch'oe Nam-son's Buddhist history (direct India/Xiyu origin thesis)
+TEXTS,TX-0017,Mujŏng,NONE,EXCLUDE,B4 Modern/colonial (1900-1945),-,-,-,Modern novel; not India-related
+TEXTS,TX-0018,Muso-yu,PRIMARY,KEEP,B5 1945-1990,TEXTUAL_TRANSMISSION,-,-,Popchong's Buddhist essay collection (Gandhian opening)
+TEXTS,TX-0019,Wookwan's Korean Temple Food,PRIMARY,KEEP,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Wookwan's temple-food book (India-trained author)
+TEXTS,TX-0020,Morning Calm and The Pensive Beyond,PRIMARY,KEEP,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Lokesh Chandra's India-Korea interflow monograph (2019)
+TEXTS,TX-0021,India and Korea Through the Ages,SECONDARY,ADAPT,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,India-Korea historical/cultural survey; partly Buddhist chapters
+TEXTS,TX-0022,The day breaks O! India,NONE,EXCLUDE,B6 1990-2026,INDIRECT_INFLUENCE,-,-,Korean poetry in Hindi; literary
+TEXTS,TX-0023,Korean Poetry - Journey,NONE,EXCLUDE,B6 1990-2026,INDIRECT_INFLUENCE,-,-,Korean poetry in Hindi; literary
+TEXTS,TX-0024,Hindi-Korean Dictionary,NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Hindi-Korean dictionary; linguistic
+TEXTS,TX-0025,Tamas (Korean translation),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Hindi novel translation (Tamas); literary
+TEXTS,TX-0026,Mahatma Gandhi biography (Korean),CONTEXTUAL,CONTEXT,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,"Gandhi biography in Korean; mediator figure, non-Buddhist (context row)"
+TEXTS,TX-0027,"History of the Custodian Force (India) in Korea, 1953-54",NONE,EXCLUDE,B5 1945-1990,TEXTUAL_TRANSMISSION,-,-,ICF official history; military
+TEXTS,TX-0028,Samguk Sagi,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),TEXTUAL_TRANSMISSION,-,-,Samguk Sagi (1145) records Marananta's 384 arrival
+TEXTS,TX-0029,Seong yusik non hakki,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,T'aehyon's Yogacara commentary
+TEXTS,TX-0030,Chosŏn Pulgyo (Ch'oe Nam-sŏn 1930),NONE,EXCLUDE,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Duplicate of TX-0016; drop in V3
+INSTITUTIONS,I-0001,Geumgwan Gaya,CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),INSTITUTIONAL,-,-,Legendary state; Heo Hwang-ok narrative (context row)
+INSTITUTIONS,I-0002,Nalanda Mahavihara,PRIMARY,KEEP,B1 Ancient/early-medieval (<900),INSTITUTIONAL,-,-,Nalanda Mahavihara: Silla monks' destination; Dhyanabhadra ordination
+INSTITUTIONS,I-0003,Hoeamsa,PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),INSTITUTIONAL,-,-,Hoeamsa: founded by Indian master Dhyanabhadra (1328)
+INSTITUTIONS,I-0004,Visva-Bharati,CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INSTITUTIONAL,-,-,Tagore's university; literary-cultural (context row)
+INSTITUTIONS,I-0005,Neutral Nations Repatriation Commission,NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,-,-,Korean War repatriation commission
+INSTITUTIONS,I-0006,Custodian Force (India),NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,-,-,Indian peacekeeping force
+INSTITUTIONS,I-0007,60th Indian Parachute Field Ambulance,NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,-,-,Military medical unit
+INSTITUTIONS,I-0008,"Centre for Korean Studies, JNU",NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,JNU Korean studies centre (non-Buddhist)
+INSTITUTIONS,I-0009,Academy of Korean Studies,NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,AKS Korean studies (non-Buddhist)
+INSTITUTIONS,I-0010,Dongguk University,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Dongguk: Korea's Buddhist university; Indian philosophy program
+INSTITUTIONS,I-0011,Hankuk University of Foreign Studies,NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,HUFS Hindi department (non-Buddhist)
+INSTITUTIONS,I-0012,University of Delhi,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Delhi University: main Indian host of Korean Buddhist-studies students
+INSTITUTIONS,I-0013,Pune University (SPPU),SECONDARY,ADAPT,B6 1990-2026,INSTITUTIONAL,-,-,Pune University: Hyoseok's anthropology MA; study venue on a monk's route
+INSTITUTIONS,I-0014,Bodh Gaya International College of Buddhist Studies,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Bodh Gaya International College of Buddhist Studies (Korean-led; DU MOU 2026)
+INSTITUTIONS,I-0015,Bunhwangsa India,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Bunhwangsa India: Korean Jogye temple at Bodh Gaya (groundbreaking 2020-03-28; dedication 2022-05)
+INSTITUTIONS,I-0016,Mahayeon Temple Food Culture Center,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Mahayeon temple-food centre (India-trained founder)
+INSTITUTIONS,I-0017,Daewoo Group,NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,Daewoo Group; economic
+INSTITUTIONS,I-0018,Samsung Electronics India,NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,Samsung Electronics India; economic
+INSTITUTIONS,I-0019,"Embassy of India, Seoul",NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,-,-,Diplomatic mission
+INSTITUTIONS,I-0020,Songgwangsa lineage,PRIMARY,KEEP,B5 1945-1990,INSTITUTIONAL,-,-,Songgwangsa lineage (Popchong); relevance is B5 despite 1197 foundation
+INSTITUTIONS,I-0021,Bongnyeongsa,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bongnyeongsa bhikkhuni college (Hyoseok, Wookwan trained)"
+INSTITUTIONS,I-0022,Jogye Order of Korean Buddhism,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Jogye Order: host of 2023 Sangwol pilgrimage; Bunhwangsa India; 2022 official delegation
+INSTITUTIONS,I-0023,Sangwol Society,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Sangwol Society: organizer of the 2023 1,167-km walking pilgrimage"
+INSTITUTIONS,I-0024,Jungto Society,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Jungto Society: annual India pilgrimage program (36th 2027-01-14~30)
+INSTITUTIONS,I-0025,Yeoraesunwon,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Yeoraesunwon: Korean-run temple at Bodh Gaya (founded ~2000-01; Wonman abbot; Dharma School)
+INSTITUTIONS,I-0026,International Buddhist Confederation (IBC),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"IBC: host of GBS 2023/2026, ICYBS 2025; Bexpo 2026 exchange"
+INSTITUTIONS,I-0027,Korea Buddhism Promotion Foundation,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,KBPF (대한불교진흥원): organizer of 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi)
+INSTITUTIONS,I-0028,Buddhist Broadcasting System,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,BBS (불교방송): organizer of Seon Meditation Tour India-Nepal (Dec 2025-Jan 2026)
+INSTITUTIONS,I-0029,"Embassy of the Republic of Korea, New Delhi",NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,-,-,Diplomatic mission (ROK Embassy in India); host venue of the 2023 50th-anniversary exchange
+INSTITUTIONS,I-0030,International Buddhist Problems Research Institute,PRIMARY,KEEP,B5 1945-1990,INSTITUTIONAL,-,-,국제불교문제연구소: dispatched the 1981-82 Korean Buddhist delegation to India (PM Gandhi meeting; Tripitaka donation at Nalanda)
+INSTITUTIONS,I-0031,Nalanda University,PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Nalanda University (est. 2014): Dongguk University MOU 2023-02-24; modern revival of the ancient Nalanda channel
+RELS,R-0001,Heo Hwang-ok <-> Suro of Geumgwan Gaya (FAMILY),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),LEGENDARY,-,-,Legendary marriage of Heo Hwang-ok and King Suro (context row)
+RELS,R-0002,Gyeomik <-> Baedalta (MET_IN_PERSON),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PERSON_ENCOUNTER,-,-,Gyeomik-Baedalta in-person travel companionship (531)
+RELS,R-0003,Dhyānabhadra <-> Naong Hyegeun (TEACHER_STUDENT),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PERSON_ENCOUNTER,-,-,Dhyanabhadra-Naong teacher-student (precepts at 7; meeting at 38)
+RELS,R-0004,Rabindranath Tagore <-> Ch'oe Nam-sŏn (MET_IN_PERSON),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PERSON_ENCOUNTER,-,-,Tagore-Ch'oe Nam-son literary meeting (context row)
+RELS,R-0005,Rabindranath Tagore <-> Chin Hak-mun (MET_IN_PERSON),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PERSON_ENCOUNTER,-,-,Tagore-Chin Hak-mun literary meeting (context row)
+RELS,R-0006,Rabindranath Tagore <-> Kim Ŏk (TRANSLATOR_OF),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore-Kim Ok translation (context row)
+RELS,R-0007,Rabindranath Tagore <-> Jeong Ji-yong (TRANSLATOR_OF),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore-Jeong Ji-yong translation (context row)
+RELS,R-0008,Rabindranath Tagore <-> Chu Yo-han (TRANSLATOR_OF),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore-Chu Yo-han translation (context row)
+RELS,R-0009,Rabindranath Tagore <-> Han Yong-un (INFLUENCED),MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore influence on Buddhist monk Han Yong-un (with critical distance)
+RELS,R-0010,Rabindranath Tagore <-> Yi Kwang-su (INFLUENCED),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Tagore-Yi Kwang-su literary reception (context row)
+RELS,R-0011,Mohandas Karamchand Gandhi <-> Ham Sok-hon (INFLUENCED),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Gandhi-Ham Sok-hon (Quaker) (context row)
+RELS,R-0012,Mohandas Karamchand Gandhi <-> Pŏpchŏng (INFLUENCED),MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),INDIRECT_INFLUENCE,-,-,Gandhi's words -> Popchong's Muso-yu (textual influence on a Buddhist monk)
+RELS,R-0013,Pŏpchŏng <-> Vinoba Bhave (MET_IN_PERSON),MEDIATOR,ADAPT,B5 1945-1990,PERSON_ENCOUNTER,-,-,Popchong-Vinoba Bhave 1971 in-person meeting (Buddhist monk's documented Indian counterpart)
+RELS,R-0014,Jawaharlal Nehru <-> Vengalil Krishnan Krishna Menon (COLLEAGUE),NONE,EXCLUDE,B5 1945-1990,PERSON_ENCOUNTER,-,-,Nehru-Krishna Menon diplomacy
+RELS,R-0015,Kodandera Subayya Thimayya <-> S. P. P. Thorat (COLLEAGUE),NONE,EXCLUDE,B5 1945-1990,PERSON_ENCOUNTER,-,-,NNRC colleagues
+RELS,R-0016,Kodandera Subayya Thimayya <-> B. N. Chakravarty (COLLEAGUE),NONE,EXCLUDE,B5 1945-1990,PERSON_ENCOUNTER,-,-,NNRC colleagues
+RELS,R-0017,Vyjayanti Raghavan <-> Neerja Samajdar (COLLEAGUE),NONE,EXCLUDE,B6 1990-2026,PERSON_ENCOUNTER,-,-,JNU CKS colleagues
+RELS,R-0018,Marananta <-> Iryŏn (DOCUMENTED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Iryon documented Marananta (Samguk Yusa)
+RELS,R-0019,Dhyānabhadra <-> Muhak Chach'o (TEACHER_STUDENT),MEDIATOR,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,-,Jikong-Muhak teacher-student per tradition (Jahyeon 2017); lineage carried into Joseon
+RELS,R-0020,Dhyānabhadra <-> Baegun Gyeonghan (TEACHER_STUDENT),SECONDARY,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,-,Jikong-Baegun inka per tradition (Jahyeon 2017)
+RELS,R-0021,Sŏ Chŏng-ju <-> Sitanshu Yashaschandra (MET_IN_PERSON),SECONDARY,ADAPT,B5 1945-1990,PERSON_ENCOUNTER,-,-,Sŏ Chŏng-ju-Yashaschandra meeting at Dongguk (literary)
+RELS,R-0022,Dhyānabhadra <-> Ch'ukwŏn Chijŏn (TEACHER_STUDENT),SECONDARY,ADAPT,B2 Silla/Goryeo (900-1392),INDIRECT_INFLUENCE,-,-,Jikong-Ch'ukwŏn teacher-student per tradition (Jahyeon 2017; Hyunbul 2017; Atlas 2025)
+PPL,L-0001,Hyecho -> Korea (Silla) (BIRTH),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Hyecho born in Silla
+PPL,L-0002,Hyecho -> China (Guangzhou) (VISITED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,-,Hyecho departed Guangzhou by sea
+PPL,L-0003,Hyecho -> Central Asia (Kucha) (VISITED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,-,Hyecho's travelogue ends at Kucha
+PPL,L-0004,"Woncheuk -> China (Tang, Chang'an) (WORKED)",PRIMARY,KEEP,B1 Ancient/early-medieval (<900),INSTITUTIONAL,worked,-,"Woncheuk at Ximing Monastery, Chang'an"
+PPL,L-0005,Wŏnhyo -> Korea (Silla) (BIRTH),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),-,-,-,Wonhyo born in Silla
+PPL,L-0006,Marananta -> Korea (Baekje) (VISITED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,visited,-,Marananta arrival in Baekje (384)
+PPL,L-0007,Heo Hwang-ok -> India (Ayodhya) (LEGENDARY_ORIGIN),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),LEGENDARY,legendary,-,Heo Hwang-ok legendary origin (Ayuta/Ayodhya) (context row)
+PPL,L-0008,Heo Hwang-ok -> Korea (Gaya/Gimhae) (RESIDENCE),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,worked,-,Heo Hwang-ok legendary residence in Gaya (context row)
+PPL,L-0009,Suro of Geumgwan Gaya -> Korea (Gaya/Gimhae) (RESIDENCE),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,worked,-,Suro legendary residence (context row)
+PPL,L-0010,Gyeomik -> India (Central India / Sangana) (STUDIED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,-,Gyeomik studied at Sangana monastery
+PPL,L-0011,Ariyabalma -> India (Nalanda) (STUDIED),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),PHYSICAL_MOVEMENT,studied,-,Ariyabalma at Nalanda
+PPL,L-0012,Dhyānabhadra -> India (Nalanda) (STUDIED),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT,studied,-,Dhyanabhadra ordained at Nalanda
+PPL,L-0013,Dhyānabhadra -> Korea (Goryeo) (VISITED),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT,visited,-,Dhyanabhadra in Goryeo; founded Hoeamsa
+PPL,L-0014,Yi Su-gwang -> Korea (Joseon) (RESIDENCE),NONE,EXCLUDE,B3 Joseon (1392-1900),PHYSICAL_MOVEMENT,worked,-,Yi Su-gwang Joseon residence
+PPL,L-0015,Rabindranath Tagore -> Japan (Tokyo/Yokohama) (VISITED),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,visited,-,Tagore Japan visits (context row)
+PPL,L-0016,Rabindranath Tagore -> Korea (Seoul) (VISITED),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),PHYSICAL_MOVEMENT,visited,-,"Tagore Seoul (planned 1929, never visited) (context row)"
+PPL,L-0017,Kumara Padmanabha Sivasankara Menon -> Korea (Seoul) (VISITED),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,K.P.S. Menon UNTCOK sessions
+PPL,L-0018,Kodandera Subayya Thimayya -> Korea (Panmunjom/Imjingak) (VISITED),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,Thimayya NNRC chairmanship
+PPL,L-0019,S. P. P. Thorat -> Korea (Panmunjom/Imjingak) (VISITED),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,Thorat ICF command
+PPL,L-0020,A. G. Rangaraj -> Korea (Busan) (VISITED),NONE,EXCLUDE,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,Rangaraj arrival at Busan
+PPL,L-0021,Syed Muzaffar Aga -> Korea (Seoul) (WORKED),NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,worked,-,Aga ambassadorship in Seoul
+PPL,L-0022,Park Chan-hyun -> India (New Delhi) (WORKED),NONE,EXCLUDE,B5 1945-1990,INSTITUTIONAL,worked,-,Park Chan-hyun ambassadorship in New Delhi
+PPL,L-0023,Kim Woo-choong -> India (New Delhi) (VISITED),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,visited,-,Kim Woo-choong Racer launch visit
+PPL,L-0024,Pŏpchŏng -> India (New Delhi) (VISITED),PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,Popchong 1971 India visit (Vinoba Bhave ashram)
+PPL,L-0025,Lokesh Chandra -> Korea (Seoul) (VISITED),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,visited,-,Lokesh Chandra Seoul 2016 (Lotus Sutra exhibition)
+PPL,L-0026,U Myeong-ju -> India (Delhi) (STUDIED),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,U Myeong-ju Delhi University study
+PPL,L-0027,Pankaj Mohan -> Korea (Seoul) (WORKED),NONE,EXCLUDE,B6 1990-2026,INSTITUTIONAL,worked,-,Pankaj Mohan AKS professorship
+PPL,L-0028,Neerja Samajdar -> Korea (Seoul) (STUDIED),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,Neerja Samajdar SNU PhD
+PPL,L-0029,Vyjayanti Raghavan -> Korea (Seoul) (STUDIED),NONE,EXCLUDE,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,Vyjayanti Raghavan SNU MA
+PPL,L-0030,Buddhavara (Ven.) -> India (Bodh Gaya) (WORKED),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,worked,-,Buddhavara at Bodh Gaya (Bunhwangsa India)
+PPL,L-0031,Hyoseok (Ven.) -> India (Pune) (STUDIED),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,Hyoseok at Pune University
+PPL,L-0032,Wookwan (Ven.) -> India (Delhi) (STUDIED),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,Wookwan at Delhi University
+PPL,L-0033,Gakseong (Ven.) -> India (Delhi) (STUDIED),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,studied,-,Gakseong at Delhi University 1992-98
+PPL,L-0034,Rabindranath Tagore -> India (New Delhi) (BIRTH),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),-,-,-,Tagore born in Calcutta (context row)
+PPL,L-0035,Hwang Su-yŏng -> India (Nalanda) (VISITED),PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT,visited,-,Hwang Su-yŏng visited Nalanda (1962-63 survey)
+PTX,L-0101,Hyecho -> Wang ocheonchukguk jeon (AUTHOR),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Hyecho author of Wang ocheonchukguk jeon
+PTX,L-0102,Wŏnhyo -> Haedong-so commentaries (AUTHOR),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Wonhyo author of Haedong-so commentaries
+PTX,L-0103,Iryŏn -> Samguk Yusa (AUTHOR),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),TEXTUAL_TRANSMISSION,-,-,Iryon author of Samguk Yusa
+PTX,L-0104,Yi Su-gwang -> Jibong yuseol (AUTHOR),NONE,EXCLUDE,B3 Joseon (1392-1900),TEXTUAL_TRANSMISSION,-,-,Yi Su-gwang author (Jibong yuseol)
+PTX,L-0105,Yi Kyu-gyŏng -> Oju yŏnmun changjŏn san'go (AUTHOR),NONE,EXCLUDE,B3 Joseon (1392-1900),TEXTUAL_TRANSMISSION,-,-,Yi Kyu-gyong author (Oju)
+PTX,L-0106,Ch'oe Han-gi -> Jiguyŏn'gu (AUTHOR),NONE,EXCLUDE,B3 Joseon (1392-1900),TEXTUAL_TRANSMISSION,-,-,Ch'oe Han-gi author (Jiguyon'gu)
+PTX,L-0107,Yi Nŭng-hwa -> Chosŏn Pulgyo T'ongsa (AUTHOR),PRIMARY,KEEP,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Yi Nung-hwa author (Buddhist history)
+PTX,L-0108,Rabindranath Tagore -> Gitanjali (AUTHOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore author (Gitanjali) (context row)
+PTX,L-0109,Rabindranath Tagore -> The Gardener (AUTHOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore author (The Gardener) (context row)
+PTX,L-0110,Rabindranath Tagore -> The Lamp of the East (1929 message) (AUTHOR),MEDIATOR,ADAPT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore author (Lamp of the East message) - mediator channel
+PTX,L-0111,Rabindranath Tagore -> The Song of the Defeated (AUTHOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore author (Song of the Defeated) (context row)
+PTX,L-0112,Han Yong-un -> Nim-ŭi Ch'immuk (AUTHOR),PRIMARY,KEEP,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Han Yong-un author (Buddhist resistance poetry)
+PTX,L-0113,Kim Ŏk -> Gitanjali translation (Kim Ŏk) (TRANSLATOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Kim Ok translator (Gitanjali) (context row)
+PTX,L-0114,Jeong Ji-yong -> Hwimun Gitanjali translation (Jeong Ji-yong) (TRANSLATOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Jeong Ji-yong translator (Hwimun poems) (context row)
+PTX,L-0115,Chu Yo-han -> Chu Yo-han's 4-line translation (TRANSLATOR),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Chu Yo-han translator (4-line message) (context row)
+PTX,L-0116,Ch'oe Nam-sŏn -> Chosŏn Pulgyo (AUTHOR),PRIMARY,KEEP,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Ch'oe Nam-son author (Choson Pulgyo 1930)
+PTX,L-0117,Yi Kwang-su -> Mujŏng (AUTHOR),NONE,EXCLUDE,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Yi Kwang-su author (Mujong)
+PTX,L-0118,Pŏpchŏng -> Muso-yu (AUTHOR),PRIMARY,KEEP,B5 1945-1990,TEXTUAL_TRANSMISSION,-,-,Popchong author (Muso-yu)
+PTX,L-0119,Wookwan (Ven.) -> Wookwan's Korean Temple Food (AUTHOR),PRIMARY,KEEP,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Wookwan author (temple food)
+PTX,L-0120,Lokesh Chandra -> Morning Calm and The Pensive Beyond (AUTHOR),PRIMARY,KEEP,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Lokesh Chandra author (Morning Calm)
+PTX,L-0121,Vyjayanti Raghavan -> India and Korea Through the Ages (AUTHOR),SECONDARY,ADAPT,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Vyjayanti co-editor (India-Korea survey)
+PTX,L-0122,Divik Ramesh -> The day breaks O! India (TRANSLATOR),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Divik Ramesh translator (Korean poetry)
+PTX,L-0123,Divik Ramesh -> Korean Poetry - Journey (TRANSLATOR),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Divik Ramesh translator (Korean poetry)
+PTX,L-0124,Lee Jeong-ho -> Hindi-Korean Dictionary (AUTHOR),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Lee Jeong-ho author (Hindi-Korean dictionary)
+PTX,L-0125,Lee Jeong-ho -> Tamas (Korean translation) (TRANSLATOR),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Lee Jeong-ho translator (Tamas)
+PTX,L-0126,Lee Jeong-ho -> Mahatma Gandhi biography (Korean) (AUTHOR),NONE,EXCLUDE,B6 1990-2026,TEXTUAL_TRANSMISSION,-,-,Lee Jeong-ho author (Gandhi biography)
+PTX,L-0127,Marananta -> Samguk Sagi (SUBJECT),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Marananta subject of Samguk Sagi
+PTX,L-0128,Heo Hwang-ok -> Samguk Yusa (SUBJECT),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Heo Hwang-ok subject of Samguk Yusa (context row)
+PTX,L-0129,Suro of Geumgwan Gaya -> Samguk Yusa (SUBJECT),CONTEXTUAL,CONTEXT,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Suro subject of Samguk Yusa (context row)
+PTX,L-0130,Marananta -> Samguk Yusa (SUBJECT),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,Marananta subject of Samguk Yusa
+PTX,L-0131,T'aehyŏn -> Seong yusik non hakki (AUTHOR),PRIMARY,KEEP,B1 Ancient/early-medieval (<900),TEXTUAL_TRANSMISSION,-,-,T'aehyon author (Seong yusik non hakki)
+PTX,L-0132,Rabindranath Tagore -> The Song of the Defeated (SUBJECT),CONTEXTUAL,CONTEXT,B4 Modern/colonial (1900-1945),TEXTUAL_TRANSMISSION,-,-,Tagore subject (Song of the Defeated) (context row)
+EVENTS,EV-0001,Sangwol/Jogye walking pilgrimage India-Nepal (2023-02..2023-03),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,"Jogye/Sangwol 1,167-km walking pilgrimage India-Nepal 2023 (PIB-documented)"
+EVENTS,EV-0002,Bexpo 2026 Buddhist exchange (IBC - Jogye lay) (2026-04-04..2026-04-04),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bexpo 2026 IBC-Jogye lay exchange, Seoul (Buddha statue gift)"
+EVENTS,EV-0003,2nd Global Buddhist Summit (2026-01-24..2026-01-25),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"2nd Global Buddhist Summit 2026 New Delhi; Jogye participation confirmed (Munjong as representative, Jinwoo's message read)"
+EVENTS,EV-0004,Jungto Society annual India pilgrimage program (2027-01-14..2027-01-30),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,Jungto annual India pilgrimage program (36th: 2027-01-14~30)
+EVENTS,EV-0005,Delhi University - BGICBS academic MOU (2026-04-23..2026-04-23),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Delhi University - BGICBS academic MOU 2026-04-23
+EVENTS,EV-0006,Jogye delegation pilgrimage Sarnath -> Bodh Gaya (2022-05..2022-05),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,"Jogye delegation Sarnath -> Bodh Gaya, May 2022"
+EVENTS,EV-0007,Jogye pilgrimage to the 8 great sites + Nepal (2014-02-19..2014-03-04),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,2014 Jogye pilgrimage to 8 great sites + Nepal incl. Yeoraesunwon
+EVENTS,EV-0008,Bunhwangsa India groundbreaking (2020-03-28..2020-03-28),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Bunhwangsa India groundbreaking 2020-03-28 (Jogye's first India temple)
+EVENTS,EV-0009,Bunhwangsa India dedication (대웅보전 준공식) (2022-05..2022-05),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bunhwangsa India dedication 2022-05 (150-person Jogye delegation, Wonhaeng)"
+EVENTS,EV-0010,Global Buddhist Summit 2023 (2023-04-20..2023-04-21),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Global Buddhist Summit 2023 (20-21 Apr, Ashok Hotel); Jogye participation confirmed (Jeongbeom as representative)"
+EVENTS,EV-0011,ICYBS 2025 (3rd Int'l Conf. of Young Buddhist Scholars) (2025-08-22..2025-08-22),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,ICYBS 2025 Delhi; Korean participation not documented
+EVENTS,EV-0012,KBPF 2026 India pilgrimage (Dharamsala/Ajanta-Ellora/Sanchi) (2026-10-03..2026-10-11),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,"KBPF 2026 India pilgrimage (3-11 Oct, Dharamsala/Ajanta-Ellora/Sanchi)"
+EVENTS,EV-0013,BBS Seon Meditation Tour 4 India-Nepal (2025-12-26..2026-01-04),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,BBS Seon Meditation Tour 4 India-Nepal (26 Dec 2025 - 4 Jan 2026)
+EVENTS,EV-0014,Korea-India 50th anniversary cultural exchange (Jogye + ROK Embassy) (2023-03-21..2023-03-25),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Korea-India 50th anniversary cultural exchange 2023 (Jogye + ROK Embassy; NGMA exhibition)
+EVENTS,EV-0015,Korean Buddhist delegation to India (국제불교문제연구소) (1981-12..1982-01),PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,1981-82 Korean Buddhist delegation to India (국제불교문제연구소; PM Gandhi meeting; Tripitaka donation at Nalanda)
+EVENTS,EV-0016,Dongguk University - Nalanda University MOU (2023-02-24..2023-02-24),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Dongguk University - Nalanda University MOU 2023-02-24
+EVENTS,EV-0017,Enshrinement of Dhyānabhadra's relics at Hoeamsa (1370..1370),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,1370 relic stupa for Dhyānabhadra at Hoeamsa (Kongmin's order; Naong supervised)
+EVENTS,EV-0018,Return of Hoeamsa relics (Jikong/Naong + Buddha relics) from Boston MFA (2024-04..2024-05),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT,-,-,2024 return of Jikong/Naong + Buddha relics (India provenance) to Hoeamsa from Boston MFA
+EVENTS,EV-0019,Wang ocheonchukguk jeon first public display at National Museum of Korea (2010-12-18..2011-04-03),PRIMARY,KEEP,B6 1990-2026,TEXTUAL_TRANSMISSION; INSTITUTIONAL,-,-,World-first public display of the BnF Wang ocheonchukguk jeon manuscript at NMK (2010-11); second loan 2019-20
+PERSON_EVENT,P-0062@EV-0005,Buddhavara (Ven.) -> EV-0005 (REPRESENTATIVE),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Delhi University - BGICBS academic MOU 2026-04-23
+PERSON_EVENT,EP-0001@EV-0010,Jeongbeom sunim (정범 스님) -> EV-0010 (REPRESENTATIVE),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Global Buddhist Summit 2023 (20-21 Apr, Ashok Hotel); Jogye participation confirmed (Jeongbeom as representative)"
+PERSON_EVENT,EP-0002@EV-0003,Munjong sunim (문종 스님) -> EV-0003 (REPRESENTATIVE),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"2nd Global Buddhist Summit 2026 New Delhi; Jogye participation confirmed (Munjong as representative, Jinwoo's message read)"
+PERSON_EVENT,EP-0003@EV-0003,Jinwoo sunim (진우 스님) -> EV-0003 (SPEAKER),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"2nd Global Buddhist Summit 2026 New Delhi; Jogye participation confirmed (Munjong as representative, Jinwoo's message read)"
+PERSON_EVENT,EP-0004@EV-0009,Wonhaeng sunim (원행 스님) -> EV-0009 (DELEGATION_LEADER),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bunhwangsa India dedication 2022-05 (150-person Jogye delegation, Wonhaeng)"
+PERSON_EVENT,EP-0005@EV-0002,Jung Won-ju (정원주) -> EV-0002 (HOST),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bexpo 2026 IBC-Jogye lay exchange, Seoul (Buddha statue gift)"
+PERSON_EVENT,EP-0006@EV-0002,Abhijit Halder -> EV-0002 (REPRESENTATIVE),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,"Bexpo 2026 IBC-Jogye lay exchange, Seoul (Buddha statue gift)"
+PERSON_EVENT,EP-0006@EV-0011,Abhijit Halder -> EV-0011 (ORGANIZER),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,ICYBS 2025 Delhi; Korean participation not documented
+PERSON_EVENT,EP-0007@EV-0004,Pomnyun sunim (법륜 스님) -> EV-0004 (MONASTIC_LEADER),PRIMARY,KEEP,B6 1990-2026,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,Jungto annual India pilgrimage program (36th: 2027-01-14~30)
+PERSON_EVENT,EP-0008@EV-0014,Jugyeong sunim (주경 스님) -> EV-0014 (REPRESENTATIVE),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Korea-India 50th anniversary cultural exchange 2023 (Jogye + ROK Embassy; NGMA exhibition)
+PERSON_EVENT,EP-0009@EV-0014,Jang Jae-bok (장재복) -> EV-0014 (HOST),PRIMARY,KEEP,B6 1990-2026,INSTITUTIONAL,-,-,Korea-India 50th anniversary cultural exchange 2023 (Jogye + ROK Embassy; NGMA exhibition)
+PERSON_EVENT,EP-0010@EV-0015,"Korean Buddhist delegation (6 members, 국제불교문제연구소 파견) -> EV-0015 (PARTICIPANT)",PRIMARY,KEEP,B5 1945-1990,PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,1981-82 Korean Buddhist delegation to India (국제불교문제연구소; PM Gandhi meeting; Tripitaka donation at Nalanda)
+PERSON_EVENT,P-0024@EV-0017,Naong Hyegeun -> EV-0017 (ORGANIZER),PRIMARY,KEEP,B2 Silla/Goryeo (900-1392),PHYSICAL_MOVEMENT; INSTITUTIONAL,-,-,1370 relic stupa for Dhyānabhadra at Hoeamsa (Kongmin's order; Naong supervised)

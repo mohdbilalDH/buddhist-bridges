@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import people from '../../data/people.json';
+
+export function getStaticPaths() {
+  return people.people.map((p) => ({ params: { id: p.id }, props: { p } }));
+}
+const { p } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const bandLabel = {
+  B1: '300–900 · Silla pilgrims go west', B2: '900–1392 · The master from Magadha',
+  B4: '1900–1945 · Paper bridges', B5: '1945–1990 · Thin threads', B6: '1990–2026 · The institutional turn',
+}[p.band];
+const life = p.birth && p.death ? `${p.birth}–${p.death}` : p.birth ? `b. ${p.birth}` : p.floruit[0] ? `floruit c. ${p.floruit[0]}–${p.floruit[1]} (derived)` : 'no safe dates';
+const jsonld = JSON.stringify({
+  '@context': 'https://schema.org', '@type': 'Person',
+  name: p.name, alternateName: [p.hangul, p.hanja].filter(Boolean),
+  description: p.significance || p.role,
+});
+const DIR = { INDIA_TO_KOREA: 'India → Korea', KOREA_TO_INDIA: 'Korea → India', BIDIRECTIONAL: 'Bidirectional ⇄', UNCERTAIN: 'Uncertain' };
+---
+<Base title={p.name} current="people" description={p.significance || `${p.name} — documented mediator of India–Korea Buddhist exchange.`}>
+  <script type="application/ld+json" set:html={jsonld}></script>
+  <style>
+    .rec dt { font: 600 0.7rem/1.4 var(--sans); letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); margin-top: 1.1rem; }
+    .rec dd { margin: 0.15rem 0 0; }
+    .idline { font: 0.74rem var(--mono); color: var(--faint); }
+    .srcs li { margin-bottom: 0.5rem; font: 0.85rem/1.5 var(--sans); }
+    .srcs .rel { color: var(--faint); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  </style>
+  <div class="wrap" style="padding-top: 3rem;">
+    <p><a href={`${base}/people/`} class="small">← All mediators</a></p>
+    <p class="eyebrow" style={`color: var(--${p.band.toLowerCase()});`}>{p.band} · {bandLabel}</p>
+    <h1>{p.name} {p.hangul && <span style="font-weight: 400; color: var(--muted);">{p.hangul}</span>}</h1>
+    <p class="lede">{p.significance || p.role}</p>
+    <p>
+      <span class={`badge ${p.confidence.toLowerCase()}`}>{p.confidence} confidence</span>
+      <span class="badge">{p.status}</span>
+      {p.single_source && <span class="badge" style="color: var(--negative);">single source</span>}
+      <span class="idline" style="margin-left: 0.6rem;">{p.id} · frozen V3.0</span>
+    </p>
+
+    <dl class="rec">
+      <dt>Dates</dt><dd>{life}{p.birth_precision && p.birth_precision !== 'YEAR' && p.birth ? ` (${p.birth_precision.toLowerCase()})` : ''}</dd>
+      {p.hanja && <><dt>Hanja</dt><dd>{p.hanja}</dd></>}
+      {p.variants && <><dt>Name variants</dt><dd>{p.variants}</dd></>}
+      <dt>Origin / region</dt><dd>{p.nationality}</dd>
+      <dt>Role</dt><dd>{p.role}</dd>
+      {p.tradition.length > 0 && <><dt>Tradition</dt><dd>{p.tradition.join(' · ')}</dd></>}
+      <dt>Mediation type</dt><dd>{p.typology.replace(/_/g, ' ').toLowerCase()} · movement: {p.movement === '-' ? 'none documented' : p.movement} · direction: {DIR[p.direction] ?? p.direction}</dd>
+      <dt>India connection</dt><dd>{p.india_connection}</dd>
+      <dt>Korea connection</dt><dd>{p.korea_connection}</dd>
+      <dt>Evidence of influence</dt><dd>{p.evidence}</dd>
+    </dl>
+
+    <h2 style="font-size: 1.15rem;">Sources ({p.sources.length})</h2>
+    <ul class="srcs">
+      {p.sources.map((s) => (
+        <li>
+          {s.url ? <a href={s.url} rel="noopener">{s.citation}</a> : s.citation}
+          <div class="rel">{s.type} · {s.reliability} · {s.id}</div>
+        </li>
+      ))}
+    </ul>
+    <p class="small">
+      Confidence grades the source basis, not historical importance. Every field above is taken
+      verbatim or minimally formatted from the frozen V3.0 record; nothing is inferred at the
+      site layer. <a href={`${base}/data/`}>How this record was built →</a>
+    </p>
+  </div>
+</Base>

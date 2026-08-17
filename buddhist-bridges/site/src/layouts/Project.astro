@@ -1,0 +1,56 @@
+---
+// Minimal chrome: this page is designed to sit inside a personal academic
+// website, so it carries no site navigation of its own — just a breadcrumb line.
+import '../styles/global.css';
+const {
+  title,
+  description = 'Sixteen centuries of documented Buddhist exchange between India and Korea: 43 mediators, five generations, one five-hundred-year silence.',
+  citation = false,
+} = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  {citation && (
+    <>
+      <meta name="citation_title" content="Buddhist Bridges: Five Bridges, One Silence — India–Korea Buddhist Exchange, 300–2026" />
+      <meta name="citation_author" content="Khan, Mohd Bilal" />
+      <meta name="citation_publication_date" content="2026" />
+    </>
+  )}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header style="border-bottom: 1px solid var(--rule);">
+    <div class="wrap" style="padding-top: 0.8rem; padding-bottom: 0.8rem; display: flex; gap: 0.55rem; align-items: baseline; flex-wrap: wrap; font-family: var(--sans);">
+      <span style="font-size: 0.82rem; font-weight: 600; letter-spacing: 0.01em;">Mohd Bilal Khan</span>
+      <span style="font-size: 0.76rem; color: var(--faint);">· research · Buddhist Bridges</span>
+    </div>
+  </header>
+  <script>
+    import Lenis from 'lenis';
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      new Lenis({ autoRaf: true, lerp: 0.16 });
+    }
+  </script>
+  <main id="main">
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <div class="wrap" style="padding-top: 1.2rem; padding-bottom: 2.2rem;">
+      <p style="margin: 0;">
+        Buddhist Bridges · dataset V3.0, frozen 2026-08-17 · data CC-BY-4.0 · code MIT ·
+        <a href={`${base}/projects/buddhist-bridges/#cite`}>cite this project</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

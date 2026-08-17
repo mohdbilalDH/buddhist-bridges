@@ -1,0 +1,14 @@
+﻿person_id,event_id,role,evidence,confidence,notes
+P-0062,EV-0005,REPRESENTATIVE,BGICBS Chancellor (signatory institution's monastic head) per BTN (btn_buddhavara),MEDIUM,"Chancellor of BGICBS, second signatory of the DU-BGICBS MOU; presence at signing inferred from role, not directly photographed/documented"
+EP-0001,EV-0010,REPRESENTATIVE,Jogye 해외특별교구 교구장 직무대행; attended GBS 2023 as official representative on behalf of 총무원장 (hyunbulnews_gbs2023),HIGH,Official Jogye representative at the 1st Global Buddhist Summit
+EP-0002,EV-0003,REPRESENTATIVE,Jogye 국제교류위원/제전법단장; attended 2nd GBS 2026 as representative of 총무원장 Jinwoo (tongbulgyo_gbs2026),HIGH,Official Jogye representative at the 2nd Global Buddhist Summit
+EP-0003,EV-0003,SPEAKER,Congratulatory message read aloud by Munjong on behalf of 총무원장 Jinwoo (tongbulgyo_gbs2026),HIGH,Not physically present; message delivered via proxy
+EP-0004,EV-0009,DELEGATION_LEADER,Led the 150-person Jogye official delegation to the Bunhwangsa India dedication (hyunbulnews_bunhwangsa_2022),HIGH,총무원장 Wonhaeng led the 'official first pilgrimage' delegation
+EP-0005,EV-0002,HOST,Received the IBC Buddha statue as president of the Lay Buddhist Association of the Jogye Order (koreaherald_bexpo2026),HIGH,Host-side recipient at Bexpo 2026
+EP-0006,EV-0002,REPRESENTATIVE,Presented the Buddha statue as IBC Director General at Bexpo 2026 (koreaherald_bexpo2026),HIGH,Represented IBC at the Seoul exchange
+EP-0006,EV-0011,ORGANIZER,IBC Director General; spoke at ICYBS 2025 and announced broadening the conference to neighboring countries (ibcworld_icybs2025),HIGH,Organizer-side role at the 3rd ICYBS
+EP-0007,EV-0004,MONASTIC_LEADER,Jungto Society founder; leads the annual India pilgrimage program (jungto_india),HIGH,Spiritual leader of the Jungto pilgrimage program
+EP-0008,EV-0014,REPRESENTATIVE,Jogye 중앙종회의장; represented the order at the 50th-anniversary exchange (ibulgyo_jogye50th_2023),HIGH,Official Jogye representative at the Korea-India 50th anniversary cultural exchange
+EP-0009,EV-0014,HOST,ROK Ambassador to India; hosted the temple-food dinner at the ambassador's residence (ibulgyo_jogye50th_2023),HIGH,Host-side principal of the 50th-anniversary exchange
+EP-0010,EV-0015,PARTICIPANT,"6-member delegation dispatched by 국제불교문제연구소; toured Indian sacred sites, met PM Gandhi, donated the Tripitaka facsimile at Nalanda (donga_delegation_1982)",HIGH,Individual members unnamed in the Dong-A report; institute director Kim Gwang-tae (김광태) reported the activities
+P-0024,EV-0017,ORGANIZER,Naong supervised construction of the 1370 relic stupa on King Kongmin's order (buddhaland_hoeamsa_1370),MEDIUM,Per Dongguk Buddhist Culture Portal; the act publicly declared Naong's succession of Jikong's lineage

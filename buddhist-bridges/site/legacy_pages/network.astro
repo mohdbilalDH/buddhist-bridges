@@ -1,0 +1,194 @@
+---
+import Base from '../layouts/Base.astro';
+import JikongCircle from '../components/JikongCircle.astro';
+import net from '../data/network.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+// build-time layout for the modern institutional web (B5+B6 slice):
+// three typed columns, edges curve left→right; interaction = ego highlighting.
+const slice = net.slices.b6_web;
+const nodes = slice.nodes;
+const edges = slice.edges;
+const deg = new Map();
+for (const e of edges) {
+  deg.set(e.source, (deg.get(e.source) || 0) + 1);
+  deg.set(e.target, (deg.get(e.target) || 0) + 1);
+}
+const cols = { PEOPLE: 150, TEXTS: 355, INSTITUTIONS: 540, EVENTS: 985 };
+const byType = (t) => nodes.filter((n) => n.type === t).sort((a, b) => (deg.get(b.id) || 0) - (deg.get(a.id) || 0) || a.label.localeCompare(b.label));
+const layout = new Map();
+const colHeights = {};
+for (const t of Object.keys(cols)) {
+  const list = byType(t);
+  list.forEach((n, i) => layout.set(n.id, { x: cols[t], y: 84 + i * 27, type: t }));
+  colHeights[t] = 84 + list.length * 27;
+}
+const H = Math.max(...Object.values(colHeights)) + 20;
+const trim = (s, n = 44) => (s.length > n ? s.slice(0, n - 1) + '…' : s);
+
+// prepared edge geometry (kept out of the template: Astro's compiler
+// misreads comparison operators inside markup expressions)
+const edgePaths = edges.flatMap((e) => {
+  const a = layout.get(e.source), b = layout.get(e.target);
+  if (!a || !b) return [];
+  const [p1, p2] = a.x <= b.x ? [a, b] : [b, a];
+  const midx = (p1.x + p2.x) / 2;
+  const bow = p2.x - p1.x > 500 ? 26 : 0;
+  const srcBand = (nodes.find((n) => n.id === e.source)?.band || 'B6').toLowerCase();
+  return [{
+    a: e.source, b: e.target,
+    d: `M ${p1.x + 8} ${p1.y} C ${midx} ${p1.y + bow}, ${midx} ${p2.y + bow}, ${p2.x - 8} ${p2.y}`,
+    stroke: `var(--${srcBand})`,
+    dash: e.confidence === 'HIGH' ? 'none' : '4 4',
+    title: `${e.kind}${e.subtype ? ` · ${e.subtype}` : ''} · ${e.confidence}`,
+  }];
+});
+---
+<Base title="Network" current="network" description="Period views of the India–Korea Buddhist mediation network: the Goryeo circle and the modern institutional web.">
+  <style>
+    .netwrap svg { display: block; width: 100%; height: auto; }
+    .net-tools { font-family: var(--sans); display: flex; gap: 0.8rem; align-items: center; margin: 0.8rem 0; flex-wrap: wrap; }
+    .net-tools input { font: 0.85rem var(--sans); padding: 0.35rem 0.6rem; border: 1px solid var(--rule); border-radius: 6px; background: var(--paper); color: var(--ink); width: 240px; }
+    .net-tools button { font: 0.78rem var(--sans); border: 1px solid var(--rule); background: var(--card); color: var(--ink); border-radius: 6px; padding: 0.3rem 0.7rem; cursor: pointer; }
+    #net-status { font: 0.78rem var(--sans); color: var(--muted); }
+    .nlabel { cursor: pointer; }
+  </style>
+  <div class="wrap-wide" style="padding-top: 3rem;">
+    <p class="eyebrow">Explore the evidence</p>
+    <h1>Two networks, six centuries apart</h1>
+    <p class="lede" style="max-width: 46rem;">
+      The dataset does not contain one grand network — it contains a sparse medieval circle and a
+      modern institutional web, and showing them separately is the honest choice. The all-periods
+      hairball is deliberately absent.
+    </p>
+
+    <h2>The Goryeo circle, 1326–1392</h2>
+    <p style="max-width: 46rem;">
+      Small enough to read whole: one Indian master, four disciples, one temple — the entire
+      documented person-to-person core of the medieval bridge, drawn with its relic afterlife.
+    </p>
+    <JikongCircle />
+
+    <h2 style="margin-top: 3.5rem;">The institutional web, 1945–2026</h2>
+    <p style="max-width: 46rem;">
+      {nodes.length} nodes and {edges.length} documented relationships connect modern people,
+      institutions, and events. <strong>Hover or click any node</strong> to isolate its
+      relationships; everything else recedes. Node order in each column is by number of
+      documented connections.
+    </p>
+    <div class="net-tools">
+      <input type="search" id="net-search" placeholder="Find a person, institution, event…" aria-label="Search nodes" />
+      <button id="net-reset">Reset</button>
+      <span id="net-status"></span>
+    </div>
+    <div class="netwrap" id="netroot">
+      <svg viewBox={`0 0 1000 ${H}`} role="img" aria-label="Modern institutional network in three columns: people, institutions, events. Use the table below for a text alternative.">
+        <style>
+          .col-head { font: 600 11px var(--sans); letter-spacing: 0.08em; text-transform: uppercase; fill: var(--muted); }
+          .edge { fill: none; stroke-width: 1.6; }
+          .nlabel { font: 12px var(--sans); fill: var(--ink); }
+          .ndeg { font: 10px var(--sans); fill: var(--faint); }
+        </style>
+        <text class="col-head" x={cols.PEOPLE} y="46" text-anchor="middle">People</text>
+        <text class="col-head" x={cols.TEXTS} y="46" text-anchor="middle">Texts</text>
+        <text class="col-head" x={cols.INSTITUTIONS} y="46" text-anchor="middle">Institutions</text>
+        <text class="col-head" x={cols.EVENTS} y="46" text-anchor="end">Events</text>
+        {edgePaths.map((e) => (
+          <path class="edge" data-a={e.a} data-b={e.b} d={e.d} stroke={e.stroke} stroke-dasharray={e.dash} opacity="0.28">
+            <title>{e.title}</title>
+          </path>
+        ))}
+        {nodes.map((n) => {
+          const l = layout.get(n.id);
+          if (!l) return null;
+          const d = deg.get(n.id) || 0;
+          const band = (n.band || 'B6').toLowerCase();
+          const flip = n.type === 'PEOPLE' || n.type === 'EVENTS';
+          const anchor = flip ? 'end' : 'start';
+          const lx = flip ? l.x - 14 : l.x + 14;
+          return (
+            <g class="nnode" data-id={n.id} tabindex="0">
+              {n.type === 'INSTITUTIONS'
+                ? <rect x={l.x - 6} y={l.y - 6} width="12" height="12" rx="2.5" fill={`var(--${band})`} />
+                : n.type === 'EVENTS'
+                ? <path d={`M ${l.x} ${l.y - 7} L ${l.x + 7} ${l.y} L ${l.x} ${l.y + 7} L ${l.x - 7} ${l.y} Z`} fill={`var(--${band})`} />
+                : n.type === 'TEXTS'
+                ? <path d={`M ${l.x - 6} ${l.y + 5} L ${l.x} ${l.y - 6} L ${l.x + 6} ${l.y + 5} Z`} fill={`var(--${band})`} />
+                : <circle cx={l.x} cy={l.y} r="6.5" fill={`var(--${band})`} />}
+              <text class="nlabel" x={lx} y={l.y + 4} text-anchor={anchor}>{trim(n.label, n.type === 'PEOPLE' ? 20 : n.type === 'EVENTS' ? 36 : 24)}</text>
+              {d > 2 && <text class="ndeg" x={lx} y={l.y + 16} text-anchor={anchor}>{d} ties</text>}
+              <title>{n.label} · {n.type.toLowerCase()} · {d} documented ties</title>
+            </g>
+          );
+        })}
+      </svg>
+    </div>
+    <p class="small" style="max-width: 46rem;">
+      Dashed edges are relationships recorded below HIGH confidence. Edge color follows the source
+      node's cohort. Isolated nodes of the period (no documented edge in this architecture) are
+      not shown here; isolation in the graph is not historical irrelevance.
+    </p>
+    <details class="chart-table">
+      <summary>All {edges.length} relationships as a table</summary>
+      <div class="tablewrap"><table>
+        <thead><tr><th>From</th><th>To</th><th>Kind</th><th>Confidence</th></tr></thead>
+        <tbody>
+          {edges.map((e) => (
+            <tr>
+              <td>{nodes.find((n) => n.id === e.source)?.label ?? e.source}</td>
+              <td>{nodes.find((n) => n.id === e.target)?.label ?? e.target}</td>
+              <td>{e.kind}{e.subtype ? ` · ${e.subtype}` : ''}</td>
+              <td>{e.confidence}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table></div>
+    </details>
+  </div>
+
+  <script>
+    const rootEl = document.getElementById('netroot');
+    const svg = rootEl.querySelector('svg');
+    const edgesEls = [...svg.querySelectorAll('.edge')];
+    const nodeEls = [...svg.querySelectorAll('.nnode')];
+    const status = document.getElementById('net-status');
+    let pinned = null;
+
+    function focus(id) {
+      const connected = new Set([id]);
+      let ties = 0;
+      for (const e of edgesEls) {
+        const hit = e.dataset.a === id || e.dataset.b === id;
+        e.style.opacity = hit ? '0.95' : '0.05';
+        e.style.strokeWidth = hit ? '2.4' : '1.6';
+        if (hit) { connected.add(e.dataset.a); connected.add(e.dataset.b); ties++; }
+      }
+      for (const n of nodeEls) n.style.opacity = connected.has(n.dataset.id) ? '1' : '0.18';
+      const label = nodeEls.find((n) => n.dataset.id === id)?.querySelector('.nlabel')?.textContent ?? id;
+      status.textContent = `${label}: ${ties} documented ${ties === 1 ? 'tie' : 'ties'}`;
+    }
+    function reset() {
+      pinned = null;
+      for (const e of edgesEls) { e.style.opacity = '0.28'; e.style.strokeWidth = '1.6'; }
+      for (const n of nodeEls) n.style.opacity = '1';
+      status.textContent = '';
+    }
+    for (const n of nodeEls) {
+      n.addEventListener('mouseenter', () => { if (!pinned) focus(n.dataset.id); });
+      n.addEventListener('mouseleave', () => { if (!pinned) reset(); });
+      n.addEventListener('focus', () => focus(n.dataset.id));
+      n.addEventListener('click', () => { pinned = n.dataset.id; focus(pinned); });
+    }
+    document.getElementById('net-reset').addEventListener('click', reset);
+    document.getElementById('net-search').addEventListener('input', (ev) => {
+      const q = ev.target.value.trim().toLowerCase();
+      if (!q) return reset();
+      pinned = null;
+      const match = nodeEls.filter((n) => n.querySelector('.nlabel').textContent.toLowerCase().includes(q));
+      for (const n of nodeEls) n.style.opacity = match.includes(n) ? '1' : '0.15';
+      for (const e of edgesEls) e.style.opacity = '0.05';
+      status.textContent = `${match.length} match${match.length === 1 ? '' : 'es'}`;
+      if (match.length === 1) { pinned = match[0].dataset.id; focus(pinned); }
+    });
+  </script>
+</Base>
