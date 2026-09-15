@@ -61,7 +61,38 @@ a date-precision field. Rejected candidates are preserved as documented negative
 material is labelled and excluded from analysis by default. Full statement:
 `docs/methodology.md` and the site's Data and method section.
 
-## Licensing and citation
+## Licensing
 
-Code is MIT (`LICENSE`); data is CC-BY-4.0 (`LICENSE-DATA`). Citation metadata is in
-`CITATION.cff`; a Zenodo DOI will be minted from the first tagged release.
+| What | Licence |
+|---|---|
+| The dataset — every CSV in `data/` and `buddhist-bridges/v3.0_frozen/`, and the JSON in `buddhist-bridges/outputs/web/` | **CC BY 4.0** (`LICENSE-DATA`) |
+| The code — `build_dataset.py`, the `data_*.py` source modules, and everything under `buddhist-bridges/analysis/` and `buddhist-bridges/site/` | **MIT** (`LICENSE`) |
+| Third-party source texts quoted inside `evidence` and `citation` fields | Remain with their rights holders. They are quoted at reference length for verification and are not relicensed. |
+
+## How to cite
+
+```
+Bilal, Mohd. Five Bridges, One Silence: Documented Mediators of India–Korea
+Buddhist Exchange, 300–2026. Dataset v3.0.0, frozen 17 August 2026.
+https://github.com/mohdbilalDH/buddhist-bridges
+```
+
+Cite the component you used rather than the repository as a whole: a single record (`P-0001`), a
+figure's dataset, or the release. Every record is versioned, and a citation naming its version and
+its consulted date stays checkable after the next release. `CITATION.cff` carries the
+machine-readable form. A Zenodo DOI will be minted from the first tagged release and added here.
+
+## What this dataset does and does not support
+
+- **The rule of collection.** No relationship is recorded as influential without documentary
+  evidence; association with both countries is not influence.
+- **Every record carries a confidence grade, a completeness status and a date-precision field.**
+  Records without a safe date are listed in the register and never placed on a time axis.
+- **Documented negatives stay in.** Candidates examined and excluded are retained so the boundary
+  of a claim can be inspected. The five-century Chosŏn zero is a finding under stated inclusion
+  criteria, not a claim that no contact ever occurred.
+- **Limits.** All analysis is descriptive (n = 43). The modern era is documented mainly through
+  the press, a different evidentiary regime from the premodern chapters. Korean-language sources
+  dominate, and no Indian-source corroboration round has been carried out. No woman appears in the
+  record before 1990; the register records that absence and cannot by itself explain it. Only 8 of
+  41 travels have a recoverable route, which is why the project publishes no map.
