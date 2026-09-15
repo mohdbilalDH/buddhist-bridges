@@ -1,5 +1,7 @@
 # India–Korea Mediators / Buddhist Bridges
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22770859.svg)](https://doi.org/10.5281/zenodo.22770859)
+
 A Digital Humanities research project on documented mediators between India and Korea,
 4th century CE to 2026. The repository holds two layers:
 
@@ -74,13 +76,18 @@ material is labelled and excluded from analysis by default. Full statement:
 ```
 Bilal, Mohd. Five Bridges, One Silence: Documented Mediators of India–Korea
 Buddhist Exchange, 300–2026. Dataset v3.0.0, frozen 17 August 2026.
-https://github.com/mohdbilalDH/buddhist-bridges
+doi:10.5281/zenodo.22770860
 ```
+
+`10.5281/zenodo.22770860` is the **version DOI**: it cites this exact frozen release.
+`10.5281/zenodo.22770859` is the **concept DOI**: it always resolves to the latest version, and
+is the one the badge above points at. Cite the version DOI in a paper that depends on a specific
+state of the data.
 
 Cite the component you used rather than the repository as a whole: a single record (`P-0001`), a
 figure's dataset, or the release. Every record is versioned, and a citation naming its version and
 its consulted date stays checkable after the next release. `CITATION.cff` carries the
-machine-readable form. A Zenodo DOI will be minted from the first tagged release and added here.
+machine-readable form. The Zenodo deposit carries the SHA-256 manifest, so a reader can verify that the files they downloaded are the files the published figures were drawn from.
 
 ## What this dataset does and does not support
 

@@ -1,0 +1,31 @@
+{
+  "upload_type": "dataset",
+  "title": "Buddhist Bridges: Documented Mediators of India–Korea Buddhist Exchange, 300–2026",
+  "description": "<p>A source-graded prosopography of documented mediators of India–Korea Buddhist exchange, 300–2026 CE. 76 people examined, 43 carried after Buddhist-relevance classification, 41 travels, 30 texts, 31 institutions and 19 events, resting on 187 graded sources.</p><p>The rule of collection: no relationship is recorded as influential without documentary evidence; association with both countries is not influence. Every record carries a confidence grade, a completeness status and a date-precision field, and records without a safe date are never placed on a time axis. Candidates examined and excluded are retained as documented negatives, so the boundary of a claim can be inspected.</p><p>The release is frozen: 13 CSVs under a SHA-256 manifest. Limits are stated in the README.</p>",
+  "creators": [
+    {
+      "name": "Bilal, Mohd",
+      "orcid": "0009-0007-8367-4690",
+      "affiliation": "The Academy of Korean Studies, Seongnam, Republic of Korea"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "digital humanities",
+    "Korean Buddhism",
+    "India-Korea relations",
+    "Buddhist transmission",
+    "prosopography",
+    "source criticism",
+    "uncertainty visualisation"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://mohdbilaldh.github.io/projects/buddhist-bridges/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ]
+}
